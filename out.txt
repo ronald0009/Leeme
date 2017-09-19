@@ -1,0 +1,10 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: BC93-B94B
+
+ Directorio de C:\Users\Ronald09\Desktop\MyRemote2
+
+19/09/2017  17:02    <DIR>          .
+19/09/2017  17:02    <DIR>          ..
+19/09/2017  17:02                 0 out.txt
+               1 archivos              0 bytes
+               2 dirs  212,455,792,640 bytes libres
