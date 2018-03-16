@@ -1,0 +1,34 @@
+matar el proceso 
+
+# kill -9 23172
+
+lista de comandos y mandarlo a un archivo temporal
+
+# history >/comandos.txt
+
+ver el uso de espacio en disco
+
+# df -h
+
+listar el tamaño que ocupa en disco cada directorio
+
+# du -sch /*
+
+listar el tamaño que ocupa en disco cada directorio, solo mostrar los que superan el GIGA
+
+# du -sch /* | grep "G"
+
+listar los comandos marcados como eliminados pero que aun siguen ocupando espacio en disco
+
+# lsof +L1
+
+Buena web para administracion de disco linux: https://www.rdadmin.com/
+
+listar el archivo que fue marcado para ser eliminado. PID_NUMBER y FD_NUMBER se obtienen de la ejecucion del comando lsof
+
+# ls -l /proc/PID_NUMBER/fd/FD_NUMBER
+
+sobrescribir el espacio ocupado por el archivo
+
+# cat /dev/null > /proc/25776/fd/22
+
