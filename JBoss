@@ -1,11 +1,11 @@
-Copy war file:
+Desplegar una aplicacion web desde la terminal de Linux
+=======================================================
 
-/home/jboss-eap-7.0/WEB_APP_NAME/deployments
+Copiar el archivo war en el directorio:
 
-Go to directory:
+# /home/jboss-eap-7.0/WEB_APP_NAME/deployments
 
-cd /home/jboss-eap-7.0/bin
+En la terminal ejecutar los comandos en el orden indicado:
 
-Run command:
-
-nohup ./standalone.sh -Djboss.bind.address=JBOSS_IP_ADDRESS -Djboss.bind.address.management=JBOSS_IP_ADDRESS -Djboss.server.base.dir=../WEB_APP_NAME -Djboss.boot.log.file=../log/boot.log -Dlogging.configuration=../WEB_APP_NAME/configuration/logging.properties &
+# cd /home/jboss-eap-7.0/bin
+# nohup ./standalone.sh -Djboss.bind.address=JBOSS_IP_ADDRESS -Djboss.bind.address.management=JBOSS_IP_ADDRESS -Djboss.server.base.dir=../WEB_APP_NAME -Djboss.boot.log.file=../log/boot.log -Dlogging.configuration=../WEB_APP_NAME/configuration/logging.properties &
