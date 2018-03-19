@@ -1,3 +1,26 @@
+OTROS POR ORDENAR
+=================
+
+Find file by name
+
+# find . -name "filename"
+
+List java process
+
+# ps aux | grep java
+
+Find strings
+
+# grep -rnw . -e 'fit.bpm.repository'
+
+List running process
+
+# top
+
+Remove directory
+
+# rm -rf target
+
 matar el proceso 
 
 # kill -9 23172
@@ -31,4 +54,3 @@ listar el archivo que fue marcado para ser eliminado. PID_NUMBER y FD_NUMBER se 
 sobrescribir el espacio ocupado por el archivo
 
 # cat /dev/null > /proc/25776/fd/22
-
