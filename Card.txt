@@ -4,3 +4,5 @@ Glosary
 BIN o el número de tarjeta bancaria, es el que se encuentra en las tarjetas de pago.
 
 PAN is an acronym for primary account number, i.e., the "card number" on either a debit or a credit card.
+
+PINPAD: A PIN pad or PIN entry device is an electronic device used in a debit, credit or smart card-based transaction to accept and encrypt the cardholder's personal identification number (PIN).
