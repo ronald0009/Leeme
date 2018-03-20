@@ -1,6 +1,10 @@
+Change file permises
+
+# chmod 777 FILE_NAME
+
 Find file by name
 
-# find . -name "filename"
+# find . -name FILE_NAME
 
 List java process
 
