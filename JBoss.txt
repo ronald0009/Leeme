@@ -1,5 +1,5 @@
-Desplegar una aplicacion web desde la terminal de Linux
-=======================================================
+Desplegar una aplicacion web en una instancia del servidor desde la terminal de Linux
+=====================================================================================
 
 Copiar el archivo war en el directorio:
 
