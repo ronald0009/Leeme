@@ -1,6 +1,5 @@
-desactivar auto-commit en DbVisualizer y DB2
+Desactivar auto-commit en DbVisualizer para DB2
 
 set schema SCHEMA_NAME;
 @set autocommit off;
 INSERT_SQL_STATEMENT;
-
