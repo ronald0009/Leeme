@@ -1,0 +1,55 @@
+Find file by name
+
+# find . -name "filename"
+
+List java process
+
+# ps aux | grep java
+
+Find strings
+
+# grep -rnw . -e 'fit.bpm.repository'
+
+List running process
+
+# top
+
+Remove directory
+
+# rm -rf target
+
+Kill process
+
+# kill -9 23172
+
+List commands to a file
+
+# history >/comandos.txt
+
+====================================================
+Free disk space (more info https://www.rdadmin.com/)
+====================================================
+
+Show disk use
+
+# df -h
+
+List GB/MB/KB by directory
+
+# du -sch /*
+
+List GB by directory
+
+# du -sch /* | grep "G"
+
+List logically deleted files
+
+# lsof +L1
+
+List logically deleted files. Run lsof command to get PID_NUMBER and FD_NUMBER values.
+
+# ls -l /proc/PID_NUMBER/fd/FD_NUMBER
+
+Overwrite file to get free disk space
+
+# cat /dev/null > /proc/25776/fd/22
