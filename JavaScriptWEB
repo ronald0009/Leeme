@@ -1,0 +1,59 @@
+Tipos de datos
+==============
+<tip>CheckBox</tip>
+
+Setear el foco
+==============
+qdf.HTML_FIELD.focus();
+
+Setear the meta-data-value
+==========================
+qdf.HTML_FIELD.value = '$NNN';
+
+Disable/enable
+==============
+qdf.HTML_FIELD.disabled = true;
+
+Substring
+=========
+qdf.HTML_FIELD.value.substring(0, 6);
+
+Create array with split
+=======================
+var matrix = qdf.HTML_FIELD.value.split("/");
+qdf.HTML_FIELD_0.value = matrix[0];
+qdf.HTML_FIELD_1.value = matrix[1];
+
+CheckBox send data to server (1)
+================================
+if(this.checked == true) {
+  qdf.HTML_FIELD.value = '1';
+} else {
+  qdf.HTML_FIELD.value = '0';
+}
+
+CheckBox send data to server (2)
+================================
+if(qdf.HTML_CHECKchx.checked){
+  qdf.HTML_FIELD.value = 1;
+}else{
+  qdf.HTML_FIELD.value = 0;
+}
+
+CheckBox get data from server
+=============================
+if(qdf.HTML_FIELD.value == '1') {
+  qdf.HTML_CHECKchx.checked=true;
+} else {
+  qdf.HTML_CHECKchx.checked=false;
+}
+
+Special flags
+=============
+flag['onload']
+flag['PostF7']
+flag['LVWidth']
+
+Set read only
+=============
+qdf.HTML_FIELD.readOnly='readOnly';
