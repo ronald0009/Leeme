@@ -1,3 +1,23 @@
+Change file's user, group
+
+# sudo chown -R USER_NAME:GROUP_NAME DIR_NAME
+
+Unzip a file
+
+# unzip FILE_NAME.zip
+
+Delete a file
+
+# rm FILE_NAME
+
+Copy a directory
+
+# cp -r SRC_DIR DEST_DIR
+
+Copy a file
+
+# cp FILE_NAME DEST_DIR
+
 Change file permises
 
 # chmod 777 FILE_NAME
