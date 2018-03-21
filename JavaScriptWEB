@@ -26,13 +26,17 @@ qdf.HTML_FIELD_1.value = matrix[1];
 
 CheckBox send data to server (1)
 ================================
+sendCheckToServer(qdf.HTML_FIELD, qdf.HTML_CHECKchx);
+
+CheckBox send data to server (2)
+================================
 if(this.checked == true) {
   qdf.HTML_FIELD.value = '1';
 } else {
   qdf.HTML_FIELD.value = '0';
 }
 
-CheckBox send data to server (2)
+CheckBox send data to server (3)
 ================================
 if(qdf.HTML_CHECKchx.checked){
   qdf.HTML_FIELD.value = 1;
@@ -40,8 +44,12 @@ if(qdf.HTML_CHECKchx.checked){
   qdf.HTML_FIELD.value = 0;
 }
 
-CheckBox get data from server
-=============================
+CheckBox get data from server (1)
+=================================
+readCheckFromServer(qdf.HTML_FIELD, qdf.HTML_CHECKchx);
+
+CheckBox get data from server (2)
+=================================
 if(qdf.HTML_FIELD.value == '1') {
   qdf.HTML_CHECKchx.checked=true;
 } else {
