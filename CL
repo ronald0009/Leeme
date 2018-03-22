@@ -4,6 +4,12 @@
 04. Log in to system i server
 05. Start PDM
 06. Run command WRKMQM
+
+------------------------------------------------------------------------------
+Parámetros o mandato                                                          
+===> WRKMQM MQMNAME(QUEUE_NAM*)                                               
+------------------------------------------------------------------------------
+
 07. Write 15 and press F4
 08. Write *IMMED and *YES
 09. ENTER and write a timeout off 1
