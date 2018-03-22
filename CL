@@ -1,0 +1,61 @@
+01. Log in to windows server
+02. Open the "WebSphere MQ Explorer"
+03. Stop the queue manager with option immediate
+04. Log in to system i server
+05. Start PDM
+06. Run command WRKMQM
+07. Write 15 and press F4
+08. Write *IMMED and *YES
+09. ENTER and write a timeout off 1
+10. ENTER
+
+------------------------------------------------------------------------------
+ Teclee elecciones, pulse Intro.                                               
+                                                                               
+ Nombre de gestor de MQ . . . . . > 'QUEUE_NAME'                               
+                                                                               
+ Opción . . . . . . . . . . . . . > *IMMED        *CNTRLD, *IMMED, *WAIT...    
+ Instancia que debe finalizar . .   *ALL          *ALL, *STANDBY               
+ Permitir conmutación . . . . . .   *NO           *NO, *YES                    
+ Reconectar . . . . . . . . . . .   *NO           *NO, *YES                    
+ Finalizar trabajos conectados  . > *YES          *NO, *YES                    
+ Registrar imagen de objeto MQ  .   *YES          *NO, *YES                    
+ Intervalo de tiempo de espera  .   1             0-3600                       
+------------------------------------------------------------------------------
+
+11. F5
+
+------------------------------------------------------------------------------
+Teclee opciones, pulse Intro.                                                 
+  2=Cambiar   4=Suprimir   5=Visualizar   8=Estado   14=Iniciar   15=Fin      
+  18=Trab. con colas       19=Trab. con procesos     20=Trab. con canales...  
+                                                                              
+Opc  Nombre                                                 Estado  Predeterm.
+     QUEUE_NAME                                           INACTIVE       NO   
+                                                                        Más...
+Parámetros o mandato                                                          
+===>                                                                          
+F3=Salir   F4=Solicitud   F5=Renovar   F6=Crear   F9=Recuperar   F12=Cancelar 
+F16=Repetir buscar   F17=Buscar   F20=Derecha   F21=Imprimir   F24=Más teclas 
+------------------------------------------------------------------------------
+
+12. Write 23 to clear queue messages. ENTER.
+
+------------------------------------------------------------------------------
+Teclee opciones, pulse Intro.                                                 
+  2=Cambiar   4=Suprimir   5=Visualizar   8=Estado   14=Iniciar   15=Fin      
+  18=Trab. con colas       19=Trab. con procesos     20=Trab. con canales...  
+                                                                              
+Opc  Nombre                                                 Estado  Predeterm.
+23   QUEUE_NAME                                           INACTIVE       NO   
+                                                                        Más...
+Parámetros o mandato                                                          
+===>                                                                          
+F3=Salir   F4=Solicitud   F5=Renovar   F6=Crear   F9=Recuperar   F12=Cancelar 
+F16=Repetir buscar   F17=Buscar   F20=Derecha   F21=Imprimir   F24=Más teclas 
+------------------------------------------------------------------------------
+
+13. Write option 4 to delete messages + ENTER, ENTER another time
+14. Start the system i queue calling to the CL program
+15. Start the windows queue
+16. Restar the web application
