@@ -26,7 +26,7 @@ qdf.HTML_FIELD_1.value = matrix[1];
 
 CheckBox send data to server (1)
 ================================
-sendCheckToServer(qdf.HTML_FIELD, qdf.HTML_CHECKchx);
+sendCheckToServer(qdf.HTML_FIELD, qdf.HTML_CHECKchx, value);
 
 CheckBox send data to server (2)
 ================================
@@ -46,7 +46,7 @@ if(qdf.HTML_CHECKchx.checked){
 
 CheckBox get data from server (1)
 =================================
-readCheckFromServer(qdf.HTML_FIELD, qdf.HTML_CHECKchx);
+readCheckFromServer(qdf.HTML_FIELD, qdf.HTML_CHECKchx, value);
 
 CheckBox get data from server (2)
 =================================
