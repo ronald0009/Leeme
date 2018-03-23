@@ -65,3 +65,7 @@ flag['LVWidth']
 Set read only
 =============
 qdf.HTML_FIELD.readOnly='readOnly';
+
+Set read only checkbox
+======================
+qdf.HTML_CHECKchx.readOnly='readOnly';
