@@ -1,0 +1,34 @@
+01. Editar la descripcion del programa con la opcion 13
+
+--------------------------------------------------------------------------------
+                      Trabajar con Miembros utilizando PDM            SERVER
+Archivo . . . . .   QDDSSRC                                                   
+  Biblioteca  . .     MY_LIBRARY           Situar en  . . . . . .             
+                                                                              
+Opc  Miembro     Tipo        Texto                                            
+13   PXXXXXXX    DSPF        Descripcion              
+--------------------------------------------------------------------------------
+
+02. Trabajar con dos sesiones al mismo tiempo
+
+* clic derecho
+* PetSis
+* escribir 1 y ENTER
+* si lo requiere ingresar la cuenta de usuario y la clave
+
+03. Trabajar con interfaz grafica de usuario
+
+RXXXXXXX codigo fuente
+PXXXXXXX diseño de la pantalla
+
+04. Configurar la libreria del usuario
+
+===> EDTLIBL
+===> CHGCURLIB CURLIB(MYLIBRARY)
+===> DSPLIBL
+
+05. Editar interfaz de usuario desde PDM
+
+* 17 para editar el archivo PXXXXXXX
+* 12 para editar una ventana
+
