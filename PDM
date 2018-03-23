@@ -32,3 +32,52 @@ PXXXXXXX diseño de la pantalla
 * 17 para editar el archivo PXXXXXXX
 * 12 para editar una ventana
 
+==================================
+Modificar el diseño de la pantalla
+==================================
+
+01. Modificar el diseño de la pantalla
+
+------------------------------------------------------------------------------
+Compras Internet..: B BBBBBBBBBBBBBBB                                         
+Compras Extranjero: B BBBBBBBBBBBBBBB                                         
+                                                                              
+F3=Salir                        F4=Solicitud                   Intro=Continuar
+------------------------------------------------------------------------------
+
+02. Para mover el campo de datos, agregar > y ENTER
+
+------------------------------------------------------------------------------
+Compras Internet..: B BBBBBBBBBBBBBBB>                                        
+Compras Extranjero: B BBBBBBBBBBBBBBB                                         
+                                                                              
+F3=Salir                        F4=Solicitud                   Intro=Continuar
+------------------------------------------------------------------------------
+
+03. Para aumentar el tamaño del campo de datos ? y ENTER
+
+------------------------------------------------------------------------------
+Compras Internet..:?B  BBBBBBBBBBBBBBB                                        
+Compras Extranjero: B BBBBBBBBBBBBBBB                                         
+                                                                              
+F3=Salir                        F4=Solicitud                   Intro=Continuar
+------------------------------------------------------------------------------
+
+04. Editar la longitud de 1 a 2 y ENTER
+
+------------------------------------------------------------------------------
+Compras Internet..: B  BBBBBBBBBBBBBBB                                        
+Compras Extranjero: B BBBBBBBBBBBBBBB                                         
+                                                                              
+F3=Salir                        F4=Solicitud                   Intro=Continuar
+FIELD1     Long.:  00001 TEXT:                                                
+------------------------------------------------------------------------------
+
+05. Resultado final
+
+------------------------------------------------------------------------------
+Compras Internet..: BB BBBBBBBBBBBBBBB                                        
+Compras Extranjero: B BBBBBBBBBBBBBBB                                         
+                                                                              
+F3=Salir                        F4=Solicitud                   Intro=Continuar
+------------------------------------------------------------------------------
