@@ -81,3 +81,60 @@ Compras Extranjero: B BBBBBBBBBBBBBBB
                                                                               
 F3=Salir                        F4=Solicitud                   Intro=Continuar
 ------------------------------------------------------------------------------
+
+==========================================================
+Agregar una etiqueta y un campo de entrada a un formulario
+==========================================================
+01. Ubicar el programa P*.DSPF
+02. Escribir la opcion 17 para editar
+
+------------------------------------------------------------------------------
+Archivo . . . . .   QDDSSRC                                                   
+  Biblioteca  . .     MY_LIBRARY           Situar en  . . . . . .             
+                                                                              
+Opc  Miembro     Tipo        Texto                                            
+17   PXXXXXXX    DSPF        Program description              
+------------------------------------------------------------------------------
+
+03. Escribir la opcion 12 para editar la pantalla seleccionada
+
+------------------------------------------------------------------------------
+Archivo . . . . . :   QDDSSRC                Miembro . . . . . . :  PXXXXXXX 
+  Biblioteca  . .     MY_LIBRARY           Situar en  . . . . . .             
+                                                                             
+Teclee opciones, pulse Intro.                                                
+  1=Añadir          2=Editar comentarios     3=Copiar        4=Suprimir      
+  7=Redenominar     8=Seleccionar palabras clave      12=Diseñar imagen      
+                                                                             
+Opc  Orden    Registro      Tipo      Subarch Rel       Fecha       Error DDS
+12      40    F01           RECORD                      DD/MM/AA             
+------------------------------------------------------------------------------
+
+04. Agregar la etiqueta encerrada entre comillas simple y ENTER
+
+------------------------------------------------------------------------------
+'Compras Internet..:'                                                          
+------------------------------------------------------------------------------
+
+05. Para agregar un campo que acepta caracteres alfa-numericos agregar ? seguido de B, el numero de caracteres y ENTER
+
+------------------------------------------------------------------------------
+Compras Internet..:+B(2)                                                      
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Compras Internet..: BB                                                         
+------------------------------------------------------------------------------
+
+06. Para editar el nombre de la variable anteceder con ? y ENTER
+
+------------------------------------------------------------------------------
+Compras Internet..:?BB                                                        
+------------------------------------------------------------------------------
+
+07. Si se requiere editar el nombre de la variable y/o la longitud y ENTER
+
+------------------------------------------------------------------------------
+F3=Salir                        F4=Solicitud                   Intro=Continuar
+FLD001     Long.:  00002 TEXT:                                                 
+------------------------------------------------------------------------------
