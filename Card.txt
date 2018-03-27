@@ -6,3 +6,76 @@ BIN o el número de tarjeta bancaria, es el que se encuentra en las tarjetas de 
 PAN is an acronym for primary account number, i.e., the "card number" on either a debit or a credit card.
 
 PINPAD: A PIN pad or PIN entry device is an electronic device used in a debit, credit or smart card-based transaction to accept and encrypt the cardholder's personal identification number (PIN).
+
+===
+PIN
+===
+
+Someone's PIN or PIN number is a secret number which they can use, for example, with a bank card to withdraw money from a cash machine or ATM. PIN is an abbreviation for 'personal identification number'.
+
+======================
+PIN Verification Value
+======================
+
+The PVV is the PIN number associated with check and debit cards. The ATM or credit card reader will read the PVV before the payment is authorized. The PVV is the number encoded in the magnetic strip on the back of some types of debit or credit card, which allows the cardholder's PIN to be checked by ATMs and retail card readers.
+
+=======
+Track 1
+=======
+There are up to three tracks on magnetic cards known as tracks 1, 2, and 3.
+
+Point-of-sale card readers almost always read track 1, or track 2, and sometimes both, in case one track is unreadable.
+
+The information on track 1 on financial cards is contained in several formats: A, B, C-M, N-Z.
+
+Track 1, Format B:
+# Start sentinel — one character (generally '%')
+# Format code="B"
+# Primary account number (PAN) — up to 19 characters. Usually, but not always, matches the credit card number printed on the front of the card.
+# Field Separator — one character (generally '^')
+# Name — 2 to 26 characters
+# Field Separator — one character (generally '^')
+# Expiration date — four characters in the form YYMM.
+# Service code — three characters
+# Discretionary data — may include Pin Verification Key Indicator (PVKI, 1 character), PIN Verification Value (PVV, 4 characters), Card Verification Value or Card Verification Code (CVV or CVC, 3 characters)
+# End sentinel — one character (generally '?')
+# Longitudinal redundancy check (LRC) — it is one character and a validity character calculated from other data on the track.
+
+=======
+ISO8583
+=======
+
+Standard for systems that exchange electronic transactions initiated by cardholders using payment cards.
+
+===========
+Card issuer
+===========
+
+El banco emisor.
+
+========
+Acquirer
+========
+
+Cualquiera que manda un request 0200 al switch.
+
+=======
+Request
+=======
+
+Es una peticion iso8583 con encoding ascii.
+
+<tipo mensaje><bitmaps><datos>
+
+tipo mensaje: xxxx
+
+bitmaps: [64bits]+
+
+0[63bits] = primary bitmap
+1[63bits][64bits] = primary bitmap, secondary bitmap
+
+======
+Header
+======
+
+16 bits que sirven como delimitador.
