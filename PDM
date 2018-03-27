@@ -138,3 +138,86 @@ Compras Internet..:?BB
 F3=Salir                        F4=Solicitud                   Intro=Continuar
 FLD001     Long.:  00002 TEXT:                                                 
 ------------------------------------------------------------------------------
+
+=============================================
+Validar si un proceso batch esta ejecutandose
+=============================================
+
+01. Opcion SHIFT + F6
+02. Opcion WA
+
+------------------------------------------------------------------------------
+                   Trabajar con todos los archivos en spool                   
+                                                                              
+Teclee las opciones y pulse Intro.                                            
+  1=Enviar     2=Cambiar   3=Retener   4=Suprimir   5=Visualizar   6=Liberar  
+  7=Mensajes   8=Atributos   9=Trabajar con estado impresión                  
+                                                                              
+                                                                              
+                             Disposit.   Datos de          Total    Pág.      
+Opc  Archivo     Usuario     o cola      usuario     Est.  págs.    act.  Cop.
+     xxxxxxxx    xxxxxxx     xxxxxx                  RDY      38             1
+                                                                        Más...
+Parámetros para opciones 1, 2, 3 o mandato                                    
+===> wa                                                                       
+F3=Salir   F10=Vista 4   F11=Vista 2   F12=Cancelar   F22=Impresoras          
+F24=Más teclas                                                                
+------------------------------------------------------------------------------
+
+03. Opcion 7 para ver detalle
+
+------------------------------------------------------------------------------
+                        Trabajar con trabajos activos                 xxxxxxxx
+                                                            27/03/18  09:48:23
+% CPU:      .0     Tiempo transcurrido:   00:00:00     Trab activos:   1095   
+     Subsistema    Usuario                                                    
+Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado            
+     QBATCH        QSYS        SBS      .0                   DEQW             
+7      xxxxxxxxxx  xxxxxxx     BCH      .0  PGM-xxxxxxxxxx   MSGW             
+                                                                        Más...
+===>                                                                          
+F21=Ver instrucciones/teclas                                                  
+------------------------------------------------------------------------------
+
+04. C para cancelar
+
+------------------------------------------------------------------------------
+                       Información Adicional de Mensaje                       
+                                                                              
+ID de mensaje  . . . . :   CPA0701       Gravedad . . . . . . . :   99        
+Tipo de mensaje  . . . :   Consulta                                           
+Fecha envío  . . . . . :   27/03/18      Hora envío . . . . . . :   09:47:56  
+                                                                              
+Mensaje . . . . :   xxxxxxxxxx ha recibido CPF2817 en la sentencia 4000. (C D 
+  I R)                                                                        
+Causa . . . . . :   El programa de lenguaje de control (CL) xxxxxxxxxx de la  
+  biblioteca XXXXX ha detectado un error en la sentencia número 4000. El texto
+  del mensaje de CPF2817 es: El mandato de copiar ha finalizado debido a un   
+  error.                                                                      
+Recuperación  . :   Este mensaje de consulta se puede evitar cambiando el     
+  programa. Supervise en busca de un error (mandato MONMSG) y lleve a cabo la 
+  recuperación de errores en el programa. Para continuar, elija un valor de   
+  respuesta.                                                                  
+Elecciones posibles de respuesta al mensaje . . . :                           
+                                                                        Más...
+Escriba respuesta a continuación y pulse Intro.                               
+Respuesta  . .   C                                                            
+                                                                              
+F3=Salir   F10=Visualizar mensajes de anotaciones trabajo   F12=Cancelar      
+F24=Más teclas                                                                
+------------------------------------------------------------------------------
+
+05. Opcion F5
+
+------------------------------------------------------------------------------
+                        Trabajar con trabajos activos                 xxxxxxxx
+                                                            27/03/18  09:55:54
+% CPU:     6.7     Tiempo transcurrido:   00:07:30     Trab activos:   1100   
+     Subsistema    Usuario                                                    
+Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado            
+     QBATCH        QSYS        SBS      .0                   DEQW             
+     QCMN          QSYS        SBS      .0                   DEQW             
+                                                                        Más...
+===>                                                                          
+F21=Ver instrucciones/teclas                                                  
+------------------------------------------------------------------------------
