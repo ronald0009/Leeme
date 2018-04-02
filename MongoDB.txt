@@ -1,0 +1,70 @@
+Installing MongoDB on Windows
+-----------------------------
+
+1.	Install the executable file “mongodb-win32-x86_64-enterprise-windows-64-3.4.7-signed”
+1.1.	Mongo is the Shell
+1.2.	MongoD is the Server
+
+2.	Add the Mongo’s bin directory to system variables
+
+3.	Create the Mongo’s data directory
+
+C:\Users\ronald0>md \data\db
+C:\Users\ronald0>mongod
+
+4.	Open command prompt and run mongo shell
+
+C:\Users\ronald0>mongo
+
+Intro to Creating and Reading Documents
+---------------------------------------
+
+MongoDB Enterprise > help
+MongoDB Enterprise > show dbs
+MongoDB Enterprise > use video
+
+1.	Create video database:
+
+MongoDB Enterprise > db.movies.insertOne({});
+MongoDB Enterprise > db.movies.find()
+MongoDB Enterprise > db.movies.find().pretty()
+MongoDB Enterprise > db.movies.find({year:1981}).pretty()
+MongoDB Enterprise > exit
+
+Installing and Using Maven
+--------------------------
+
+1.	Run the commands:
+
+>cd C:\ronald0\MongoDB\M101J
+>mvn archetype:generate
+Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 1162: 6
+Choose a number: 4: 4
+Define value for property 'groupId': com.mongodb
+Define value for property 'artifactId': M101J
+Define value for property 'version' 1.0-SNAPSHOT: : 1.0-SNAPSHOT
+Define value for property 'package' com.mongodb: : com.mongodb
+Y: : y
+>cd M101J
+
+2.	Edit the App class:
+
+package com.mongodb;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
+
+3.	Run the command:
+
+>mvn clean compile exec:java -Dexec.mainClass=com.mongodb.App
+
+4.	Import the project into eclipse IDE
