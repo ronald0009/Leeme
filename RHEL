@@ -77,3 +77,13 @@ List logically deleted files. Run lsof command to get PID_NUMBER and FD_NUMBER v
 Overwrite file to get free disk space
 
 # cat /dev/null > /proc/25776/fd/22
+
+===================
+Apache Maven Config
+===================
+
+$ export M2_HOME=/opt/apache-maven-3.5.2
+
+$ export PATH=$M2_HOME/bin:$PATH
+
+$ mvn -version
