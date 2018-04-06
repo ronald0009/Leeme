@@ -222,3 +222,84 @@ Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado
 ===> WRKOBJLCK OBJ(SCHEMAN/FIL_DB) OBJTYPE(*FILE)                             
 F21=Ver instrucciones/teclas                                                  
 ------------------------------------------------------------------------------
+
+==============================
+Encontrar error en programa CL
+==============================
+
+ejecutar el programa en modo interactivo
+
+------------------------------------------------------------------------------
+                      Trabajar con Miembros utilizando PDM            SERVERNAM
+Archivo . . . . .   QRPGSRC                                                   
+  Biblioteca  . .     MYLIBRARYNA           Situar en  . . . . . .             
+                                                                              
+Opc  Miembro     Tipo        Texto                                            
+     RPG_PROG    RPGLE       PROGRAM_DESCRIPTION     
+                                                                              
+                                                                              
+                                                                         Final
+===> CALL PGM(MYLIBRARYNA/CL_PROG_NAME) PARM('PARAM1' 'PARAM2')     
+------------------------------------------------------------------------------
+
+ubicarse en el mensaje de error y F1
+
+------------------------------------------------------------------------------
+                         Visualizar Mensajes de Programa                        
+                                                                                
+ C                                                                              
+ CL_PROG_NAME ha recibido CPF2972 en la sentencia 4900. (C D I R)                 
+ C                                                                              
+ CL_PROG_NAME ha recibido CPF2972 en la sentencia 4900. (C D I R)                 
+                                                                                
+ Teclee respuesta, pulse Intro.                                                 
+   Respuesta .                                                                  
+                                                                                
+                                                                                
+ F3=Salir  F12=Cancelar                                                         
+------------------------------------------------------------------------------
+
+ubicarse sobre el motivo de error y F10
+
+------------------------------------------------------------------------------
+                        Información Adicional de Mensaje                       
+                                                                               
+ ID de mensaje  . . . . :   CPA0701                                            
+ Fecha de envío . . . . :   06/04/18      Hora de envío  . . . . :   11:39:35  
+                                                                               
+ Mensaje . . . . :   CL_PROG_NAME ha recibido CPF2972 en la sentencia 4900. (C D 
+   I R)                                                                        
+                                                                               
+ Causa . . . . . :   El programa de lenguaje de control (CL) CL_PROG_NAME de la  
+   biblioteca MYLIBRARYNA ha detectado un error en la sentencia número 4900. El 
+   texto del mensaje de CPF2972 es: Error al grabar en el miembro H_TABLE en el 
+   archivo H_TABLE.                                                             
+ Recuperación  . :   Este mensaje de consulta se puede evitar cambiando el     
+   programa. Supervise en busca de un error (mandato MONMSG) y lleve a cabo la 
+   recuperación de errores en el programa. Para continuar, elija un valor de   
+   respuesta.                                                                  
+ Elecciones posibles de respuesta al mensaje . . . :                           
+   C -- Cancelar el programa CL.                                               
+                                                                         Más...
+ Pulse Intro para continuar.                                                   
+                                                                               
+ F1=Ayuda       F3=Salir   F10=Visualizar mensajes de anotaciones trabajo      
+ F12=Cancelar   F24=Más teclas                                                 
+------------------------------------------------------------------------------
+
+identificar el mensaje de error
+
+------------------------------------------------------------------------------
+                        Visualizar Todos los Mensajes                         
+                                                           Sistema:   SERVERNAM
+Trabajo :   PC0007        Usuario  :   USR_EXE       Número . . . :   006378  
+                                                                              
+    Clave de registro duplicada en el miembro H_TABLE.                         
+    No se permite clave duplicada para el miembro H_TABLE.                     
+  ? C                                                                         
+    Se ha recibido una respuesta de cancelación para el mensaje CPF5026.      
+                                                                       Más... 
+Pulse Intro para continuar.                                                   
+                                                                              
+F3=Salir  F5=Renovar   F12=Cancelar   F17=Inicio   F18=Final                  
+------------------------------------------------------------------------------
