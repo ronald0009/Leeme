@@ -1,3 +1,7 @@
+===============
+Reboot MQ QUEUE
+===============
+
 01. Log in to windows server
 02. Open the "WebSphere MQ Explorer"
 03. Stop the queue manager with option immediate
@@ -65,3 +69,156 @@ F16=Repetir buscar   F17=Buscar   F20=Derecha   F21=Imprimir   F24=Más teclas
 14. Start the system i queue calling to the CL program
 15. Start the windows queue
 16. Restar the web application
+
+========================================
+Revisar el estado de un proceso sometido
+========================================
+
+lanzar el proceso sometido desde la opcion de menu
+para validar el estado de ejecucion SHIFT + F6
+escribir WA
+
+------------------------------------------------------------------------------
+                        Trabajar con trabajos activos                 SER_NAM 
+                                                            05/04/18  17:47:16
+% CPU:      .0     Tiempo transcurrido:   00:00:00     Trab activos:   736    
+                                                                              
+Teclee opciones, pulse Intro.                                                 
+  2=Cambiar       3=Retener   4=Finalizar   5=Trabajar con   6=Liberar        
+  7=Ver mensaje   8=Trabajar con archivos en spool   13=Desconectar...        
+     Subsistema    Usuario                                                    
+Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado            
+     QBATCH        QSYS        SBS      .0                   DEQW             
+       CL_PROGRAM  USR_EXE     BCH      .0  PGM-CL_PROGRAM   MSGW             
+                                                                        Más...
+Parámetros o mandato                                                          
+===> WA                                                                       
+F3=Salir   F5=Renovar        F7=Buscar      F10=Reiniciar estadísticas        
+F11=Ver datos transcurrido   F12=Cancelar   F23=Más opciones   F24=Más teclas 
+------------------------------------------------------------------------------
+
+buscar el proceso sometido, en este caso CL_PROGRAM
+
+------------------------------------------------------------------------------
+                        Trabajar con trabajos activos                 SER_NAM 
+                                                            05/04/18  17:50:04
+% CPU:      .0     Tiempo transcurrido:   00:00:00     Trab activos:   736    
+     Subsistema    Usuario                                                    
+Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado            
+     QBATCH        QSYS        SBS      .0                   DEQW             
+       CL_PROGRAM  USR_EXE     BCH      .0  PGM-CL_PROGRAM   MSGW             
+     QCALIBATCH    QSYS        SBS      .0                   DEQW             
+     QCMN          QSYS        SBS      .0                   DEQW             
+                                                                        Más...
+===>                                                                          
+F21=Ver instrucciones/teclas                                                  
+------------------------------------------------------------------------------
+
+ubicar el programa y escribir la opcion 7
+
+------------------------------------------------------------------------------
+                        Trabajar con trabajos activos                 SER_NAM 
+                                                            05/04/18  17:50:04
+% CPU:      .0     Tiempo transcurrido:   00:00:00     Trab activos:   736    
+     Subsistema    Usuario                                                    
+Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado            
+     QBATCH        QSYS        SBS      .0                   DEQW             
+7      CL_PROGRAM  USR_EXE     BCH      .0  PGM-CL_PROGRAM   MSGW             
+     QCALIBATCH    QSYS        SBS      .0                   DEQW             
+     QCMN          QSYS        SBS      .0                   DEQW             
+                                                                        Más...
+===>                                                                          
+F21=Ver instrucciones/teclas                                                  
+------------------------------------------------------------------------------
+
+revisar el detalle del error
+
+------------------------------------------------------------------------------
+                       Información Adicional de Mensaje                       
+                                                                              
+ID de mensaje  . . . . :   CPA0701       Gravedad . . . . . . . :   99        
+Tipo de mensaje  . . . :   Consulta                                           
+Fecha envío  . . . . . :   05/04/18      Hora envío . . . . . . :   17:39:19  
+                                                                              
+Mensaje . . . . :   CL_PROGRAM ha recibido MSG_COD en la sentencia 5800. (C D 
+  I R)                                                                        
+Causa . . . . . :   El programa de lenguaje de control (CL) CL_PROGRAM de la  
+  biblioteca LIBRA ha detectado un error en la sentencia número 5800. El texto
+  del mensaje de MSG_COD es: Documento PC FILE__NAME no copiado.              
+Recuperación  . :   Este mensaje de consulta se puede evitar cambiando el     
+  programa. Supervise en busca de un error (mandato MONMSG) y lleve a cabo la 
+  recuperación de errores en el programa. Para continuar, elija un valor de   
+  respuesta.                                                                  
+Elecciones posibles de respuesta al mensaje . . . :                           
+  C -- Cancelar el programa CL.                                               
+                                                                        Más...
+Escriba respuesta a continuación y pulse Intro.                               
+Respuesta  . .                                                                
+                                                                              
+F3=Salir   F10=Visualizar mensajes de anotaciones trabajo   F12=Cancelar      
+F24=Más teclas                                                                
+------------------------------------------------------------------------------
+
+=======================================
+Revisar quien esta bloqueando un objeto
+=======================================
+
+------------------------------------------------------------------------------
+                        Trabajar con trabajos activos                 SER_NAM 
+                                                            05/04/18  17:39:22
+% CPU:     3.4     Tiempo transcurrido:   00:03:12     Trab activos:   739    
+     Subsistema    Usuario                                                    
+Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado            
+     QBATCH        QSYS        SBS      .0                   DEQW             
+       CL_PROGRAM  SI46865     BCH      .0  PGM-CL_PROGRAM   MSGW             
+                                                                        Más...
+===> WRKOBJLCK                                                                
+F21=Ver instrucciones/teclas                                                  
+------------------------------------------------------------------------------
+
+Al revisar los mensajes del programa CL_PROGRAM se ve que tiene errores porque el objeto FIL_DB esta bloqueando. Para liberar el bloqueo buscar quien esta bloqueando de la siguiente manera:
+WRKOBJLCK + F4
+
+------------------------------------------------------------------------------
+Teclee elecciones, pulse Intro.                                             
+                                                                            
+Objeto . . . . . . . . . . . . .   FIL_DB        Nombre                     
+  Biblioteca . . . . . . . . . .     SCHEMAN     Nombre, *LIBL, *CURLIB     
+Tipo de objeto . . . . . . . . .   *FILE         *ALRTBL, *AUTL, *BNDDIR... 
+Miembro  . . . . . . . . . . . .   *NONE         Nombre, *NONE, *FIRST, *ALL
+Dispositivo de ASP . . . . . . .   *             Nombre, *, *SYSBAS         
+Salida . . . . . . . . . . . . .   *             *, *PRINT                  
+------------------------------------------------------------------------------
+
+ENTER
+
+------------------------------------------------------------------------------
+                            Trab con Bloqueos Objeto                          
+                                                            Sistema:   SER_NAM
+ Objeto . . . . :   FIL_DB                Tipo . . . . . :   *FILE-PHY        
+   Biblioteca . :     SCHEMAN             Dispositivo de                      
+                                            ASP  . . . . :   *SYSBAS          
+ Teclee opciones, pulse Intro.                                                
+   4=Finalizar trabajo   5=Trabajar con trabajo                               
+   8=Trabajar con bloqueos de trabajo                                         
+                                                                              
+ Opc   Trabajo      Usuario      Bloqueo   Estado          Ámbito    Hebra    
+                                                                              
+   (No hay bloqueos para el objeto especificado)                              
+------------------------------------------------------------------------------
+
+Si hay bloqueo se muestra el nombre del usuario que esta bloqueando el objeto.
+La forma abreviada de ver quien bloquea el objeto es de la siguiente manera:
+
+------------------------------------------------------------------------------
+                        Trabajar con trabajos activos                 SER_NAM 
+                                                            05/04/18  17:39:22
+% CPU:     3.4     Tiempo transcurrido:   00:03:12     Trab activos:   739    
+     Subsistema    Usuario                                                    
+Opc  /Trabajo      actual      Tipo  % CPU  Función         Estado            
+     QBATCH        QSYS        SBS      .0                   DEQW             
+       CL_PROGRAM  SI46865     BCH      .0  PGM-CL_PROGRAM   MSGW             
+                                                                        Más...
+===> WRKOBJLCK OBJ(SCHEMAN/FIL_DB) OBJTYPE(*FILE)                             
+F21=Ver instrucciones/teclas                                                  
+------------------------------------------------------------------------------
