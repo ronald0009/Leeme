@@ -1,0 +1,23 @@
+================
+corte por moneda
+================
+Esta agrupado por moneda y muestra un total
+Buscar la cadena:
+<group name="
+
+==========================
+formato de moneda 1,000.35
+==========================
+$F{IMPORTE}.compareTo(BigDecimal.ZERO) != 0 ? String.format(java.util.Locale.ENGLISH, "%1$,.2f", $F{IMPORTE}) : "0.00"
+
+==================================================================================
+pasar un parametro fecha de tipo cadena y compararlo con una columna de tipo fecha
+==================================================================================
+
+<parameter name="FECHAINI" class="java.lang.String">
+	<defaultValueExpression><![CDATA["2015-05-06"]]></defaultValueExpression>
+</parameter>
+
+SELECT ?
+FROM ?
+WHERE CAST(COLUMNA_FECHA AS DATE) >= CAST('$P!{FECHAINI}' AS DATE)
