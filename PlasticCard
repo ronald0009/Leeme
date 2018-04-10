@@ -1,7 +1,23 @@
 Glosary
 =======
 
-BIN o el número de tarjeta bancaria, es el que se encuentra en las tarjetas de pago.
+llave UDK (unique derivation key)
+
+llave MDK (master derivation key)
+
+CAM online (card authentication method)
+
+adquiriente
+
+tarjeta habiente
+
+transacciones tipo AFT
+
+BIN de la institucion bancaria
+
+BIN
+---
+o el número de tarjeta bancaria, es el que se encuentra en las tarjetas de pago.
 
 PAN is an acronym for primary account number, i.e., the "card number" on either a debit or a credit card.
 
