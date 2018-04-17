@@ -14,3 +14,17 @@ Perspectiva "Elementos de trabajo"
 Vista “Cambios pendientes”
 Clic derecho “Aceptar”
 Clic derecho “Cargar”
+
+=================================
+Descargar fuentes del repositorio
+=================================
+Perspectiva "Elementos de trabajo"
+Vista "Artefactos de equipo"
+Opción "Gestionar áreas de proyecto conectadas"
+Crear conexión a repositorio -> Siguiente
+Llenar: "URI", "Nombre", "ID de usuario", "Contraseña" -> Siguiente
+"Aceptar este certificado temporalmente para el resto de la sesión" -> Aceptar
+"Aceptar este certificado temporalmente para el resto de la sesión" -> Aceptar
+"Aceptar este certificado temporalmente para el resto de la sesión" -> Aceptar
+"Seleccionar todo" -> Finalizar
+TO BE CONTINUED …
