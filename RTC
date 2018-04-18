@@ -21,13 +21,22 @@ Clic derecho “Cargar”
 =================================
 Descargar fuentes del repositorio
 =================================
+
+Abrir "IBM Rational Team Concert"
+Seleccionar el espacio de trabajo
 Perspectiva "Elementos de trabajo"
 Vista "Artefactos de equipo"
 Opción "Gestionar áreas de proyecto conectadas"
-Crear conexión a repositorio -> Siguiente
+Opción "Crear conexión a repositorio" -> Siguiente
 Llenar: "URI", "Nombre", "ID de usuario", "Contraseña" -> Siguiente
 "Aceptar este certificado temporalmente para el resto de la sesión" -> Aceptar
 "Aceptar este certificado temporalmente para el resto de la sesión" -> Aceptar
 "Aceptar este certificado temporalmente para el resto de la sesión" -> Aceptar
 "Seleccionar todo" -> Finalizar
+
+Vista "Artefactos de equipo"
+"CONN_NAME [repo.url]" -> Control de codigo fuente
+Clic derecho -> Buscar -> Corrientes...
+Llenar "Nombre o patron (*,?):" y Buscar
+
 TO BE CONTINUED …
