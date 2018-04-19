@@ -175,3 +175,42 @@ Trabajar con ramas desarrollo/integración
 40.1.	Aceptar los cambios de la corriente de integración
 40.2.	Homologar en el espacio de trabajo desarrollo
 40.3.	Al entregar los cambios sobre la corriente desarrollo, validar si salen conflictos
+
+=====================================================================
+Descargar las fuentes de un espacio de trabajo en un directorio nuevo
+=====================================================================
+1.	Perspectiva “Elementos de trabajo”
+2.	Vista “Artefactos de equipo”
+3.	Expandir “Mis espacios de trabajo de repositorio”
+4.	Seleccionar el espacio de trabajo
+4.1.	Clic derecho
+4.2.	Cargar
+4.3.	Siguiente
+4.4.	Finalizar
+5.	Desde este punto repetir el proceso de control de conflictos entre las corrientes desarrollo/integración
+
+=======================================================
+Control de conflictos corrientes desarrollo/Integración
+=======================================================
+1.	Perspectiva “Elementos de trabajo”
+2.	Vista “Artefactos de equipo”
+3.	Expandir el repositorio “*** [rational02si.***.local]”
+4.	Seleccionar “Control de código fuente”
+5.	Clic derecho
+6.	Buscar
+7.	Corrientes…
+8.	Llenar “Nombre o patrón (*,?)”
+9.	Buscar
+10.	Vista “Buscar”
+11.	Seleccionar la corriente
+12.	Clic derecho
+13.	Mostrar
+14.	Cambios pendientes
+15.	Vista “Cambios pendientes”
+16.	Se muestran dos elementos
+16.1.	Corriente de integración
+16.2.	Espacio de trabajo creado sobre la corriente desarrollo
+17.	Para homologar los cambios el proceso debe ser:
+17.1.	Aceptar los cambios de la corriente de integración
+17.2.	Homologar en el espacio de trabajo desarrollo
+17.3.	Al entregar los cambios sobre la corriente desarrollo, validar si salen conflictos
