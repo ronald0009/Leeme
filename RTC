@@ -120,3 +120,58 @@ Clic derecho -> Buscar -> Corrientes...
 Llenar "Nombre o patron (*,?):" y Buscar
 
 TO BE CONTINUED …
+
+=========================================
+Trabajar con ramas desarrollo/integración
+=========================================
+
+1.	Abrir “IBM Rational Team Concert” en el espacio de trabajo “C:\...”
+2.	Perspectiva “Elementos de trabajo”
+3.	Vista “Artefactos de equipo”
+4.	Gestionar areas de proyecto conectadas
+5.	Siguiente
+6.	Completar los datos
+6.1.	URI:
+6.2.	ID de usuario:
+6.3.	Contraseña:
+7.	Siguiente
+8.	Repetir 3 veces:
+8.1.	Aceptar este certificado temporalmente para el resto de la sesión
+8.2.	Aceptar
+9.	Seleccionar todo
+10.	Finalizar
+11.	Vista “Artefactos de equipo”
+12.	Expandir el repositorio “*** [rational02si.***.local]”
+13.	Expandir “Control de código fuente”
+14.	Clic derecho
+15.	Buscar
+16.	Corrientes
+17.	Llenar “Nombre o patrón (*, ?):”
+18.	Buscar
+19.	Vista “Buscar”
+20.	Seleccionar la corriente
+21.	Clic derecho
+22.	Nuevo
+23.	Espacio de trabajo de repositorio…
+24.	Siguiente
+25.	Siguiente
+26.	Siguiente
+27.	Anular selecciones
+28.	Seleccionar los elementos que se requieran
+29.	Finalizar
+30.	Buscar y cargar proyectos de Eclipse
+31.	Siguiente
+32.	Finalizar
+33.	Vista “Buscar”
+34.	Seleccionar la rama
+35.	Clic derecho
+36.	Mostrar
+37.	Cambios pendientes
+38.	Vista “Cambios pendientes”
+39.	Se muestran dos elementos
+39.1.	Corriente de integración
+39.2.	Espacio de trabajo creado sobre la corriente desarrollo
+40.	Para homologar los cambios el proceso debe ser:
+40.1.	Aceptar los cambios de la corriente de integración
+40.2.	Homologar en el espacio de trabajo desarrollo
+40.3.	Al entregar los cambios sobre la corriente desarrollo, validar si salen conflictos
