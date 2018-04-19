@@ -1,0 +1,18 @@
+=================
+Subir formularios
+=================
+1.	Convertir al ENCODING adecuado antes de subir el formulario
+2.	Subir con el formulario 01-0002
+
+======================
+Desactivar un elemento
+======================
+c.$('f1_ckestado', 0).setDisabled(true);
+
+=========
+Substring
+=========
+c.$('f1_ctiporep', 0).value = '1234567890';
+c.$('f1_ctiporep', 0).value.substr(0, 8)
+El resultado sera:
+12345678
