@@ -1,1 +1,291 @@
+======================
+Comparar dos programas
+======================
 
+opcion 54 + ENTER
+
+-------------------------------------------------------------------------------
+                      Trabajar con Miembros utilizando PDM            BANCOMQA 
+                                                                               
+Archivo . . . . .   QRPGSRC                                                    
+  Biblioteca  . .     WKRALARCON           Situar en  . . . . . .              
+                                                                               
+Teclee opciones, pulse Intro.                                                  
+ 2=Editar  3=Copiar  4=Suprimir  5=Visualizar  6=Imprimir  7=Redenominar       
+ 8=Ver descripción  9=Salvar  13=Cambiar texto  14=Compilar  15=Crear módulo...
+                                                                               
+Opc  Miembro     Tipo        Texto                                             
+54   R6101758    RPGLE       AR15200 BK ORIGINAL                               
+     R6101758A   RPGLE       AR15200 BK ORIGINAL                               
+     R6101758BK  RPG         AR15200 BK Mod Lista cuentas aperturadas en el dia
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                         Final 
+Parámetros o mandato                                                           
+===>                                                                           
+F3=Salir         F4=Solicitud            F5=Renovar          F6=Crear          
+F9=Recuperar     F10=Entrada mandatos    F23=Más opciones    F24=Más teclas    
+-------------------------------------------------------------------------------
+
+Editar las opciones:
+* Archivo viejo
+* Biblioteca
+* Miembro viejo
+
+-------------------------------------------------------------------------------
+                      Comparar Miembro Arch Físico (CMPPFM)                   
+                                                                              
+ Teclee elecciones, pulse Intro.                                              
+                                                                              
+ Archivo nuevo  . . . . . . . . . > QRPGSRC       Nombre                      
+   Biblioteca . . . . . . . . . . >   WKRALARCON  *LIBL, name, *CURLIB        
+ Miembro nuevo  . . . . . . . . . > R6101758      *FIRST, name, generic*, *ALL
+ Archivo viejo  . . . . . . . . .   *NEWFILE      *NEWFILE, name              
+   Biblioteca . . . . . . . . . .     *LIBL       *LIBL, name, *CURLIB        
+ Miembro viejo  . . . . . . . . .   *NEWMBR       *NEWMBR, name, *FIRST       
+               + para más valores                                             
+ Tipo de comparación  . . . . . .   *LINE         *LINE, *FILE, *WORD         
+ Tipo de informe  . . . . . . . .   *DIFF         *DIFF, *SUMMARY, *CHANGE... 
+ Salida . . . . . . . . . . . . .   *             *, *PRINT, *OUTFILE         
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                         Final
+ F3=Salir   F4=Solicitud   F5=Renovar   F10=Parámetros adicionales            
+ F12=Cancelar              F13=Cómo utilizar esta pantalla   F24=Más teclas   
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+                     Comparar Miembro Arch Físico (CMPPFM)                   
+                                                                             
+Teclee elecciones, pulse Intro.                                              
+                                                                             
+Archivo nuevo  . . . . . . . . . > QRPGSRC       Nombre                      
+  Biblioteca . . . . . . . . . . >   WKRALARCON  *LIBL, name, *CURLIB        
+Miembro nuevo  . . . . . . . . . > R6101758      *FIRST, name, generic*, *ALL
+Archivo viejo  . . . . . . . . .   QRPGSRC       *NEWFILE, name              
+  Biblioteca . . . . . . . . . .     WKRALARCON  *LIBL, name, *CURLIB        
+Miembro viejo  . . . . . . . . .   R6101758bk    *NEWMBR, name, *FIRST       
+              + para más valores                                             
+Tipo de comparación  . . . . . .   *LINE         *LINE, *FILE, *WORD         
+Tipo de informe  . . . . . . . .   *DIFF         *DIFF, *SUMMARY, *CHANGE... 
+Salida . . . . . . . . . . . . .   *             *, *PRINT, *OUTFILE         
+                                                                             
+                                                                             
+                                                                             
+                                                                             
+                                                                             
+                                                                             
+                                                                        Final
+F3=Salir   F4=Solicitud   F5=Renovar   F10=Parámetros adicionales            
+F12=Cancelar              F13=Cómo utilizar esta pantalla   F24=Más teclas   
+-------------------------------------------------------------------------------
+
+ENTER
+
+-------------------------------------------------------------------------------
+                           Visualizar archivo en spool                        
+Archivo . . . . :   QUEPRT                         Página/Línea  9/16         
+Control . . . . .                                    Columnas    1 - 78       
+Buscar. . . . . .                                                             
+*...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+...
+RO-LEE  C           KF6107    KLIST                                           
+RN-     C                   KFLD                    SERVIC                    
+RO-     C                     KFLD           SERVIC                           
+RN-     C                   KFLD                    MONEDA                    
+RO-     C                     KFLD           MONEDA                           
+RN-     C                   KFLD                    CUENTA                    
+RO-     C                     KFLD           CUENTA                           
+RN-     C     KL2405        KLIST                                             
+RO-     C           KL2405    KLIST                                           
+RN-     C                   KFLD                    SERVIC                    
+RO-     C                     KFLD           SERVIC                           
+RN-     C                   KFLD                    MONEDA                    
+RO-     C                     KFLD           MONEDA                           
+RN-     C                   KFLD                    CUENTA                    
+RO-     C                     KFLD           CUENTA                           
+RN-     C                   KFLD                    TRANSA                    
+                                                                        Más...
+-------------------------------------------------------------------------------
+
+========================
+Partir la ventana en dos
+========================
+
+-------------------------------------------------------------------------------
+                      Trabajar con Miembros utilizando PDM            BANCOMQA 
+                                                                               
+Archivo . . . . .   QRPGSRC                                                    
+  Biblioteca  . .     WKRALARCON           Situar en  . . . . . .              
+                                                                               
+Teclee opciones, pulse Intro.                                                  
+ 2=Editar  3=Copiar  4=Suprimir  5=Visualizar  6=Imprimir  7=Redenominar       
+ 8=Ver descripción  9=Salvar  13=Cambiar texto  14=Compilar  15=Crear módulo...
+                                                                               
+Opc  Miembro     Tipo        Texto                                             
+     R6101758    RPGLE                                                         
+     R6101758A   RPGLE       AR15200 BK ORIGINAL                               
+     R6101758BK  RPG         AR15200 BK Mod Lista cuentas aperturadas en el dia
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                         Final 
+Parámetros o mandato                                                           
+===>                                                                           
+F3=Salir         F4=Solicitud            F5=Renovar          F6=Crear          
+F9=Recuperar     F10=Entrada mandatos    F23=Más opciones    F24=Más teclas    
+-------------------------------------------------------------------------------
+
+escribir la opcion para editar o visualizar
+
+-------------------------------------------------------------------------------
+                      Trabajar con Miembros utilizando PDM            BANCOMQA 
+                                                                               
+Archivo . . . . .   QRPGSRC                                                    
+  Biblioteca  . .     WKRALARCON           Situar en  . . . . . .              
+                                                                               
+Teclee opciones, pulse Intro.                                                  
+ 2=Editar  3=Copiar  4=Suprimir  5=Visualizar  6=Imprimir  7=Redenominar       
+ 8=Ver descripción  9=Salvar  13=Cambiar texto  14=Compilar  15=Crear módulo...
+                                                                               
+Opc  Miembro     Tipo        Texto                                             
+2    R6101758    RPGLE                                                         
+     R6101758A   RPGLE       AR15200 BK ORIGINAL                               
+     R6101758BK  RPG         AR15200 BK Mod Lista cuentas aperturadas en el dia
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                         Final 
+Parámetros o mandato                                                           
+===>                                                                           
+F3=Salir         F4=Solicitud            F5=Renovar          F6=Crear          
+F9=Recuperar     F10=Entrada mandatos    F23=Más opciones    F24=Más teclas    
+-------------------------------------------------------------------------------
+
+2 + ENTER
+
+-------------------------------------------------------------------------------
+ Columnas  . . :    6  76           Edición                  WKRALARCON/QRPGSRC
+ SEU==>                                                                R6101758
+        *************** Principio de datos ************************************
+0001.00 H DATEDIT(*DMY)                                                        
+0002.00 F*--------------------------------------------------------------*      
+0003.00 F*-    SISTEMA   :  *********  CUENTAS           *********     -*      
+0004.00 F*-    APLICACION:  LISTADO DE CUENTAS APERTURADAS EN EL DIA   -*      
+0005.00 F*-                 CTAS CTES, AHORROS, DEP. A PLAZO, CBME     -*      
+0006.00 F*-    AUTOR     :  MARIO MIRANDA SOTA                         -*      
+0007.00 F*-    FECHA     :  20/08/97                                   -*      
+0008.00 F*--------------------------------------------------------------*      
+0009.00 FW610101   IP   E           K DISK                                     
+0010.00 FF0712     IF   E           K DISK                                     
+0011.00 FF0901     IF   E           K DISK                                     
+0012.00 FF0708     IF   E           K DISK                                     
+0013.00 FF5101     IF   E           K DISK                                     
+0014.00 FF2202     IF   E           K DISK                                     
+0015.00 FFMIG01    IF   E           K DISK    PREFIX(FC_)                      
+0016.00 FF6107     IF   E           K DISK                                     
+0017.00 FL240590   IF   E           K DISK                                     
+0018.00 FL240590H  IF   E           K DISK                                     
+0019.00 FREPOR220  O    F  220        PRINTER OFLIND(*IN90)                    
+0020.00 D                 DS                                                   
+                                         (C) COPYRIGHT IBM CORP. 1981, 2007.   
+-------------------------------------------------------------------------------
+
+SHIFT + F3
+
+-------------------------------------------------------------------------------
+                          Opciones de Examen/Copia                       
+                                                                         
+Teclee elecciones, pulse Intro.                                          
+                                                                         
+  Selección . . . . . . . . . . .   1              1=Miembro             
+                                                   2=Archivo spool       
+                                                   3=Cola salida         
+  Copiar todos los registros  . .   N              Y=Sí, N=No            
+  Examinar/copiar miembro . . . .   R6101758       Nombre, F4 para lista 
+    Archivo . . . . . . . . . . .     QRPGSRC      Nombre, F4 para lista 
+      Biblioteca  . . . . . . . .       WKRALARCON Nombre, *CURLIB, *LIBL
+                                                                         
+  Examinar/copiar archivo spool .   R6101758       Nombre, F4 para lista 
+    Trabajo . . . . . . . . . . .     R6101758     Nombre                
+      Usuario . . . . . . . . . .       SI90353    Nombre, F4 para lista 
+      Número trabajo  . . . . . .       *LAST      Número, *LAST         
+    Número spool  . . . . . . . .     *LAST        Número, *LAST, *ONLY  
+                                                                         
+  Visualizar cola de salida . . .   QPRINT         Nombre, *ALL          
+    Biblioteca  . . . . . . . . .     *LIBL        Nombre, *CURLIB, *LIBL
+                                                                         
+F3=Salir            F4=Solicitud        F5=Renovar        F12=Cancelar   
+F13=Cambiar valores omisión de sesión   F14=Opciones Búsqueda/Cambio     
+-------------------------------------------------------------------------------
+
+Editar los campos:
+* Examinar/copiar miembro
+* Archivo
+* Biblioteca
+
+ENTER
+
+-------------------------------------------------------------------------------
+                          Opciones de Examen/Copia                       
+                                                                         
+Teclee elecciones, pulse Intro.                                          
+                                                                         
+  Selección . . . . . . . . . . .   1              1=Miembro             
+                                                   2=Archivo spool       
+                                                   3=Cola salida         
+  Copiar todos los registros  . .   N              Y=Sí, N=No            
+  Examinar/copiar miembro . . . .   R6101758a      Nombre, F4 para lista 
+    Archivo . . . . . . . . . . .     QRPGSRC      Nombre, F4 para lista 
+      Biblioteca  . . . . . . . .       WKRALARCON Nombre, *CURLIB, *LIBL
+                                                                         
+  Examinar/copiar archivo spool .   R6101758       Nombre, F4 para lista 
+    Trabajo . . . . . . . . . . .     R6101758     Nombre                
+      Usuario . . . . . . . . . .       SI90353    Nombre, F4 para lista 
+      Número trabajo  . . . . . .       *LAST      Número, *LAST         
+    Número spool  . . . . . . . .     *LAST        Número, *LAST, *ONLY  
+                                                                         
+  Visualizar cola de salida . . .   QPRINT         Nombre, *ALL          
+    Biblioteca  . . . . . . . . .     *LIBL        Nombre, *CURLIB, *LIBL
+                                                                         
+F3=Salir            F4=Solicitud        F5=Renovar        F12=Cancelar   
+F13=Cambiar valores omisión de sesión   F14=Opciones Búsqueda/Cambio     
+-------------------------------------------------------------------------------
+
+Se puede editar el elemento superior, el elemento inferior es solamente de lectura
+
+-------------------------------------------------------------------------------
+ Columnas  . . :    6  76           Edición                  WKRALARCON/QRPGSRC 
+ SEU==>                                                                R6101758 
+        *************** Principio de datos ************************************ 
+0001.00 H DATEDIT(*DMY)                                                         
+0002.00 F*--------------------------------------------------------------*       
+0003.00 F*-    SISTEMA   :  *********  CUENTAS           *********     -*       
+0004.00 F*-    APLICACION:  LISTADO DE CUENTAS APERTURADAS EN EL DIA   -*       
+0005.00 F*-                 CTAS CTES, AHORROS, DEP. A PLAZO, CBME     -*       
+0006.00 F*-    AUTOR     :  MARIO MIRANDA SOTA                         -*       
+0007.00 F*-    FECHA     :  20/08/97                                   -*       
+0008.00 F*--------------------------------------------------------------*       
+                                                                                
+ Columnas  . . :    6  76           Examen                   WKRALARCON/QRPGSRC 
+ SEU==>                                                               R6101758A 
+        *************** Principio de datos ************************************ 
+0001.00 H DATEDIT(*DMY)                                                         
+0002.00 F*--------------------------------------------------------------*       
+0003.00 F*-    SISTEMA   :  *********  CUENTAS           *********     -*       
+0004.00 F*-    APLICACION:  LISTADO DE CUENTAS APERTURADAS EN EL DIA   -*       
+0005.00 F*-                 CTAS CTES, AHORROS, DEP. A PLAZO, CBME     -*       
+0006.00 F*-    AUTOR     :  MARIO MIRANDA SOTA                         -*       
+0007.00 F*-    FECHA     :  20/08/97                                   -*       
+0008.00 F*--------------------------------------------------------------*       
+-------------------------------------------------------------------------------
