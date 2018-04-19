@@ -1,3 +1,83 @@
+=================================
+Crear un nuevo espacio de trabajo
+=================================
+1.	Perspectiva “Elementos de trabajo”
+2.	Vista “Artefactos de equipo”
+3.	Seleccionar la rama
+4.	Expandir “Control de código fuente”
+5.	Clic derecho
+6.	Buscar
+7.	Corrientes …
+8.	Escribir el nombre de la corriente
+9.	Buscar
+10.	Vista “Buscar”
+11.	Seleccionar la corriente
+12.	Clic derecho
+13.	Nuevo
+14.	Espacio de trabajo de repositorio…
+15.	Siguiente
+16.	Siguiente
+17.	Publico
+18.	Siguiente
+19.	Anular selecciones
+20.	Seleccionar el componente
+21.	Finalizar
+
+=========================
+Crear un nuevo componente
+=========================
+1.	Perspectiva “Elementos de trabajo”
+2.	Vista “Artefactos de equipo”
+3.	Expandir “Mis espacios de trabajo de repositorio”
+4.	Seleccionar el espacio de trabajo
+4.1.	Clic derecho
+4.2.	Nuevo
+4.3.	Componente…
+4.4.	Escribe nombre del componente
+4.5.	Aceptar
+4.6.	Doble clic en el nuevo componente
+4.7.	Cargar…
+4.8.	Buscar y cargar proyectos de Eclipse
+4.9.	Siguiente
+4.10.	Seleccionar todo
+4.11.	Finalizar
+5.	Vista “Recurso”
+6.	Perspectiva “Cambios pendientes”
+7.	Seleccionar el nuevo componente
+8.	Clic derecho
+9.	Entregar
+10.	Seleccionar el nuevo componente
+11.	Clic derecho
+12.	Cargar
+13.	Buscar y cargar proyectos de Eclipse
+14.	Siguiente
+15.	Seleccionar todo
+16.	Finalizar
+17.	Perspectiva “Recurso”
+18.	Vista “Explorador de proyectos”
+18.1.	Clic derecho
+18.2.	Nuevo
+18.3.	Proyecto …
+18.4.	General/Proyecto
+18.5.	Siguiente
+18.6.	Nombre de proyecto:
+18.7.	Siguiente
+18.8.	Finalizar
+19.	Seleccionar el proyecto
+19.1.	Clic derecho
+19.2.	Equipo
+19.3.	Compartir proyecto…
+19.4.	Jazz Source Control
+19.5.	Siguiente
+19.6.	Seleccionar el componente creado anteriormente
+19.7.	Siguiente
+19.8.	Siguiente
+19.9.	Finalizar
+20.	Vista “Cambios pendientes”
+21.	Seleccionar el componente
+22.	Clic derecho
+23.	Entregar
+
 =================
 Subir los cambios
 =================
