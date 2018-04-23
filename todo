@@ -5,4 +5,10 @@
 005. java generador file 312/302
 006. programa buscar en la descripcion de todos los programas de system i
 batch java para ejecutar la transaccion 04-6114
-batch java para descargar archivos de los
+batch java para descargar archivos de log
+proceso batch para lanzar tramas desde el core y que sea configurable mediante un *.xlsx
+proceso para automatizar los pases y ejecuciones con jenkins
+robot validador de 01-9812, 15-2002, 15-2000
+documentacion de abono masivo
+micro-servicio de lavado de activos
+micro-servicio de hiper-firmas web
