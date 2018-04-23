@@ -1,0 +1,6 @@
+============================
+Enviar respuesta en la trama
+============================
+
+pDetail.setResponse(new GeneralResponse(GeneralResponse.OK, "LOTE INICIADO"));
+
