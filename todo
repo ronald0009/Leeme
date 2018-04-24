@@ -12,3 +12,4 @@ robot validador de 01-9812, 15-2002, 15-2000
 documentacion de abono masivo
 micro-servicio de lavado de activos
 micro-servicio de hiper-firmas web
+una clase java que ejecute el comando de compilacion sobre un proyecto, terminada la compilacion retire los *.class y los copie al archivo jar para quemar la clase, suba la clase y finalmente reinicie el servidor
