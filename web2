@@ -1,0 +1,56 @@
+PLATAFORMA	15	2000	Procesamiento de Lotes Genéricos
+
+=========================
+Como probar el formulario
+=========================
+Subir archivos 01-9812
+Cargar archivos 15-2002
+Procesar archivo 15-2000
+
+=========
+substring
+=========
+
+qdf.F2creporte.value.substring(0, 10)
+
+para la cadena 'R0400480101' debe retornar 'R0400480101'
+
+==================
+formulario 20-1007
+==================
+
+-----------------------------
+obtener el nombre del reporte
+-----------------------------
+
+qdf.F2creporte.value
+
+-------------------------------------
+configurar los parametros del reporte
+-------------------------------------
+
+1. Editar el metodo onclick del boton "GenerarReporte"
+
+2. Si los parametros visibles del reporte son:
+
+MONEDA
+CSUCURSAL
+COFICINA
+FECHA
+
+3. Y el nombre del reporte es:
+
+R0400480101
+
+4. Configurar los parametros del reporte de la siguiente manera:
+
+if(qdf.F2creporte.value.substring(0, 10) == 'R040048010') {
+qdf.R_MONEDA.value = qdf.F6valorsugerido[0].value;
+qdf.R_CSUCURSAL.value = qdf.F6valorsugerido[1].value;
+qdf.R_COFICINA.value = qdf.F6valorsugerido[2].value;
+qdf.R_FECHA.value = qdf.F6valorsugerido[3].value;
+}
+
+5. Mantener al final del metodo la siguiente sentencia:
+
+reporte();
