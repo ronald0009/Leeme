@@ -1,0 +1,68 @@
+Tipos de procesos
+1.	Interactivo
+1.1.	Puntual
+1.2.	Masivo
+2.	BATCH
+2.1.	Masivo
+
+
+
+Agregar lista de valores sucursal/oficina en el filtro de búsqueda
+1.	Agregar los siguientes elementos al filtro de búsqueda
+Datos F1csucursal 
+Datos F1dsucursal
+Botón LVF1csucursal
+Datos F1coficina
+Datos F1doficina
+Botón LVF1coficina
+2.	Agregar el código JavaScript al botón sucursal
+qdf.F1dsucursal.value = '';
+qdf.F1coficina.value = '';
+qdf.F1doficina.value = '';
+
+if(qdf.F1csucursal.value != '') {
+  flag['LVName'] = 'FBSLV1';
+  flag['LVWidth'] = 1;
+  flag['LVHeight'] = 1;
+}
+ListaValores('F1csucursal,F1dsucursal', '262003,262006');
+3.	Agregar el código JavaScript al botón oficina
+qdf.F1doficina.value = '';
+
+if(qdf.F1coficina.value != '') {
+  flag['LVName'] = 'FBSLV1';
+  flag['LVWidth'] = 1;
+  flag['LVHeight'] = 1;
+}
+ListaValores('F1coficina,F1doficina,F1csucursal', '2531001:1:2531003-0,2529005:1:2531001-0,2531003:C');
+
+
+
+Agregar lista de valores sucursal/oficina en la grilla
+1.	Agregar los siguientes elementos al filtro de búsqueda
+Datos F4csucursal 
+Datos F4dsucursal
+Botón LVF4csucursal
+Datos F4coficina
+Datos F4doficina
+Botón LVF4coficina
+2.	Agregar el código JavaScript al botón sucursal
+qdf.F4csucursal[$d].value = '';
+qdf.F4coficina[$d].value = '';
+qdf.F4dsucursal[$d].value = '';
+
+if(qdf.F4csucursal[$d].value != '') {
+  flag['LVName'] = 'FBSLV1';
+  flag['LVWidth'] = 1;
+  flag['LVHeight'] = 1;
+}
+ListaValores('F4csucursal[$d],F4dsucursal[$d]', '262003,262006');
+3.	Agregar el código JavaScript al botón oficina
+qdf.F4doficina[$d].value = '';
+
+if(qdf.F4coficina[$d].value != '') {
+  flag['LVName'] = 'FBSLV1';
+  flag['LVWidth'] = 1;
+  flag['LVHeight'] = 1;
+}
+ListaValores('F4coficina[$d],F4doficina[$d],F4csucursal[$d]', '2531001:1:2531003-0,2529005:1:2531001-0,2531003:C');
