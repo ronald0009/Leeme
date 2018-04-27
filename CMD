@@ -1,0 +1,5 @@
+=========
+COPY FILE
+=========
+
+COPY "SRC_FILE" "DESTINY" /Y
