@@ -51,3 +51,11 @@ C                     MOVE OPEREC    CANTI2
 mover izquierda
 ---------------
 C                     MOVELDATA      REG05
+
+---------------
+ultimo registro
+---------------
+In a program that contains a primary file, the last record indicator (LR) is set on after the last record from a primary/secondary file has been processed, or it can be set on by the programmer.
+
+C                     SETON                     LR
+
