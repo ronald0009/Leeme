@@ -3,3 +3,28 @@ Get the Code
 ============
 
 git clone https://github.com/....git
+
+====================
+Crear en repositorio
+====================
+
+crear el repositorio remoto en github
+mkdir C:\~\repo001
+cd C:\~\repo001
+echo "# repo001" >> README.md
+git init
+git config user.email "useremail@email.com"
+git config user.name gituser
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gituser/repo001.git
+git push -u origin master
+
+===============
+Agregar cambios
+===============
+
+crear el archivo pom.xml
+git add pom.xml
+git commit -m "pom.xml"
+git push -u origin master
