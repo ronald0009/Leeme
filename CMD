@@ -3,3 +3,24 @@ COPY FILE
 =========
 
 COPY "SRC_FILE" "DESTINY" /Y
+
+================================================================================
+Detener el servicio SERVICE_NAME y mandar el log de ejecucion al archivo OUT_LOG
+================================================================================
+
+net stop "SERVICE_NAME" > "OUT_LOG"
+
+=========================================================================================================================================
+Ejemplo de uso de los comandos MQSC
+1. adiciona al archivo de salida el mensaje de inicio
+2. adiciona al archivo de salida la fecha
+3. adiciona al archivo de salida la hora
+4. ejecuta el programa MQSC pasando como parametro el nombre del gestor de colas MQMA. Este programa ejecuta los comandos indicados en el 
+archivo mqsc.in y adiciona el log de ejecucion en el archivo de salida
+=========================================================================================================================================
+
+echo inicio mqsc >> mqsc.out
+date /t >> mqsc.out
+time /t >> mqsc.out
+runmqsc MQMA < mqmasc.in >> mqsc.out
+
