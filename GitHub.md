@@ -1,6 +1,6 @@
 # Crear un proyecto eclipse sincronizado en GitHub
 - crear el repositorio remoto
-- c:\~\workspace
+- c:\\~\workspace
 - git clone https://github.com/ronald0009/jsfhello.git
 - cd jsfhello
 - crear el proyecto desde eclipse, el IDE resuelve automaticamente
