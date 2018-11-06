@@ -1,3 +1,12 @@
+## rutina de inicio rpgle
+
+C     *INZSR        BEGSR
+ *
+C     *ENTRY        PLIST
+C                   PARM                    TEMP1          5000
+ *
+C                   ENDSR
+
 rutina de entrada en RPG
 C           *ENTRY    PLIST
  *
