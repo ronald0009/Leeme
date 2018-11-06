@@ -13,5 +13,7 @@ C                     MOVE *BLANKS   CHARVAR
  *
 C                     MOVE *ZEROS    NUMVAR
  *
+## Mandar tramas como parámetro
 
-[Readme.md basic writing](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+1. Call qcmd
+2. F11
