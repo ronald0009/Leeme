@@ -1,4 +1,4 @@
-## Poner espacios en blanco en una variable
+###### Poner espacios en blanco en una variable
 
 C                     MOVE *BLANKS   NUMVAR
 
