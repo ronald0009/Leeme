@@ -1,3 +1,9 @@
+rutina de entrada en RPG
+C           *ENTRY    PLIST
+ *
+C                     PARM           TEMP0 256
+ *
+C                     ENDSR
 ## Rutina principal
  *
 C                     MOVE '1'       *INLR
