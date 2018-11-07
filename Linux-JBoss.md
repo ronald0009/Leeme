@@ -10,4 +10,4 @@ sudo kill -9 13563
 sudo /~/serviceName start
 
 tail -f /~/logFile
-```shell
+```
