@@ -4,6 +4,7 @@
  *
 C                   SETON                                        LR
 C                   RETURN
+ *
 ```
 
 ### Rutina Inicial
@@ -12,7 +13,7 @@ C                   RETURN
  *
 C     *INZSR        BEGSR
 C     *ENTRY        PLIST
-C                   PARM                    TEMP1          5000
+C                   PARM                    PARM1          5000
 C                   ENDSR
  *
 ```
