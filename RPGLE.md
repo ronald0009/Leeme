@@ -27,7 +27,7 @@ C                   ENDSR
 5. Para ver el contenido del SPOOL escribir 8 y ENTER
 
 ```cobol
-* 
+ * 
 C                   DUMP
  *
 ```
