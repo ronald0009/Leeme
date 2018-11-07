@@ -1,6 +1,6 @@
 ### Rutina Principal
 
-```
+```cobol
  *
 C                   SETON                                        LR
 C                   RETURN
@@ -9,7 +9,7 @@ C                   RETURN
 
 ### Rutina Inicial
 
-```
+```cobol
  *
 C     *INZSR        BEGSR
 C     *ENTRY        PLIST
