@@ -1,6 +1,6 @@
 ### Comandos para administrar el servicio
 
-```shellscript
+```
 history
 
 ps aux | grep java
