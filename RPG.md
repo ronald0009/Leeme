@@ -12,7 +12,6 @@ C                     RETRN
 ```cobol
  *
 C           *ENTRY    PLIST
- *
 C                     PARM           PARM1 256
  *
 C                     ENDSR
