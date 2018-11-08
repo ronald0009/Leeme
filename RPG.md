@@ -1,3 +1,15 @@
+### Escribir en una tabla el valor de NEWVAL
+
+```cobol
+ *
+FTABL0   O   E           K        DISK
+ *
+C                     MOVE *BLANKS   COL1
+C                     MOVELNEWVAL    COL1
+C                     WRITETABL0R
+ *
+```
+
 ### Rutina Principal
 
 ```cobol
