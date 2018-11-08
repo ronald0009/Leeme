@@ -1,11 +1,19 @@
-# Crear un proyecto eclipse sincronizado en GitHub
-1. crear el repositorio remoto
-2. c:\\~\workspace
-3. git clone https://github.com/ronald0009/jsfhello.git
-4. cd jsfhello
-5. crear el proyecto desde eclipse, el IDE resuelve automaticamente
-6. git add pom.xml
-7. git commit -m ":)"
-8. git push -u origin master
+### Crear un proyecto eclipse sincronizado en GitHub
 
-[Readme.md basic writing](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+1. Crear el repositorio remoto
+2. Abrir la consola y ejecutar
+
+```
+cd c:\\~\workspace
+git clone https://github.com/ronald0009/jsfhello.git
+cd jsfhello
+```
+
+3. Crear el proyecto desde eclipse, el IDE resuelve automaticamente
+4. En la consola ejecutar
+
+```
+git add pom.xml
+git commit -m ":)"
+git push -u origin master
+```
