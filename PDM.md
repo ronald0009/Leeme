@@ -8,6 +8,7 @@ DLTSPLF FILE(*SELECT)
 
 1. call qcmd
 2. F11
+3. Copiar y pegar a partir de la segunda linea
 
 ### Hacer debug a un programa RPGLE
 
