@@ -18,6 +18,19 @@ C                   ENDSR
  *
 ```
 
+### Operadores especiales
+
+```cobol
+ * Año en formato YYYY
+ C                   MOVE      *YEAR         VARAÑO
+ * Mes en formato MM
+ C                   MOVE      *MONTH        VARMES
+ * Dia en formato DD
+ C                   MOVE      *DAY          VARDIA
+ * Hora en formato HHMMSS
+ C                   TIME                    VARHOR
+```
+
 ### DUMP
 
 1. Agregar la sentencia DUMP
