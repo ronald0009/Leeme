@@ -22,7 +22,7 @@ F11
 *SOURCE
 ```
 
-2. CL
+2. RPG, CL
 
 ```cobol
 *SRCDEBUG
