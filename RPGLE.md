@@ -22,13 +22,14 @@ C                   ENDSR
 
 ```cobol
  * Año en formato YYYY
- C                   MOVE      *YEAR         VARAÑO
+C                   MOVE      *YEAR         VARAÑO
  * Mes en formato MM
- C                   MOVE      *MONTH        VARMES
+C                   MOVE      *MONTH        VARMES
  * Dia en formato DD
- C                   MOVE      *DAY          VARDIA
+C                   MOVE      *DAY          VARDIA
  * Hora en formato HHMMSS
- C                   TIME                    VARHOR
+C                   TIME                    VARHOR
+ *
 ```
 
 ### DUMP
