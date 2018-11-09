@@ -18,6 +18,18 @@ C                   ENDSR
  *
 ```
 
+### Buscar un registro usando una columna
+
+```cobol
+ *
+C     KEYVAR1       CHAIN     TABL1 
+C                   IF        %FOUND
+ *
+C     KEYVAR1       CHAIN     TABL1
+C                   IF        NOT %FOUND
+ *
+```
+
 ### Operadores especiales
 
 ```cobol
