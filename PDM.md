@@ -10,9 +10,21 @@ DLTSPLF FILE(*SELECT)
 2. F11
 3. Copiar y pegar a partir de la segunda linea
 
-### Hacer debug a un programa RPGLE
+### Hacer debug a un programa
 
 1. Compilar en modo debug
+1.1. RPGLE
+
+```cobol
+*SOURCE
+```
+
+1.2. CL
+
+```cobol
+*SRCDEBUG
+```
+
 2. Ejecutar el comando para inicar el modo debug
 
 ```cobol
