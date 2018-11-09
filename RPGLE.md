@@ -31,6 +31,7 @@ C                   MOVE      *DAY          VARDIA
 C                   TIME                    VARHOR
  * Iniciar una variable numerica en 0
 C                   Z-ADD     *ZEROS        VARNUM
+C                   MOVE      *ZEROS        VARNUM
  * Copiar el valor de una variable numerica a otra
 C                   Z-ADD     VARNU1        VARNU2
  *
