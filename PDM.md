@@ -6,9 +6,14 @@ DLTSPLF FILE(*SELECT)
 
 ### Mandar tramas como parámetro
 
-1. call qcmd
-2. F11
-3. Copiar y pegar a partir de la segunda linea
+1. Ejecutar los comandos
+
+```cobol
+call qcmd
+F11
+```
+
+2. Copiar y pegar la sentencia CALL a partir de la segunda linea
 
 ### Compilar en modo debug
 1. RGPLE
@@ -42,7 +47,13 @@ CALL MYLIB/MYRPGLEPRG PARM('PARAM1' 'PARAM2' 'PARAM3' 'PARAM4')
 
 6. Ejecutar linea por linea con F10
 7. Ejecutar hasta el siguiente punto de parada con F12
-8. Finalizar el modo debug
+8. Ver el contenido de la variable con F11 ubicando el cursor sobre la variable o escribiendo:
+
+```cobol
+eval MYVAR
+```
+
+9. Finalizar el modo debug
 
 ```cobol
 ENDDBG
