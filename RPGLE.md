@@ -29,6 +29,10 @@ C                   MOVE      *MONTH        VARMES
 C                   MOVE      *DAY          VARDIA
  * Hora en formato HHMMSS
 C                   TIME                    VARHOR
+ * Iniciar una variable numerica en 0
+C                   Z-ADD     *ZEROS        VARNUM
+ * Copiar el valor de una variable numerica a otra
+C                   Z-ADD     VARNU1        VARNU2
  *
 ```
 
