@@ -17,7 +17,14 @@
 - Puerto: 400
 - Dejar seleccionado la opcion "Use PC name as device"
 
+### Combinaciones de teclas
+
+- F11 para moverse al extremo izquierdo o derecho de la pantalla
+- SHIFT + F7 para moverse a la izquierda
+- SHIFT + F8 para moverse a la derecha
+
 ### DTAQ
+
 Data queues are a type of system object (*DTAQ) that you can create and maintain usign system commands and APIs.
 
 They provide a means of fast asynchronous communication between two jobs, or within the same job.
