@@ -1,6 +1,14 @@
-### Download 5250 terminal emulator
+### 5250 terminal emulator
+
+#### Download link
 
 [Download tn5250j](http://tn5250j.sourceforge.net/)
+
+#### TCP/IP configuracion
+
+- IP/DNS Host: pub400.com
+- Puerto: 400
+- Dejar seleccionado la opcion "Use PC name as device"
 
 ### DTAQ
 Data queues are a type of system object (*DTAQ) that you can create and maintain usign system commands and APIs.
