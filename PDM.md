@@ -1,3 +1,9 @@
+### Tipos de "File"
+
+- QDDSSRC
+- QRPGLESRC
+- QRPGSRC
+
 ### 5250 terminal emulator
 
 #### Download link
