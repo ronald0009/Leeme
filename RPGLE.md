@@ -1,8 +1,12 @@
+### Ejemplos
+
+- [ROAB0001](https://github.com/ronald0009/Leeme/blob/master/ROAB0001.md): Jugando con data queues
+
 ### Secciones del programa
 
 ```cobol
  * Field definitions
-d Len             s             05  0
+DCOUNT            S              4  0
  *
 ```
 
