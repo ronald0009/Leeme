@@ -1,3 +1,14 @@
+### 5250 terminal emulator
+
+### DTAQ
+Data queues are a type of system object (*DTAQ) that you can create and maintain usign system commands and APIs.
+
+They provide a means of fast asynchronous communication between two jobs, or within the same job.
+
+High level languages can send data to a data queue using the QSNDDTAQ API and receive data using the QRCVDTAQ API.
+
+Data queues can be read in FIFO sequence, LIFO sequence, or in keyed sequence.
+
 ### Borrar los archivos del SPOOL
 
 ```
