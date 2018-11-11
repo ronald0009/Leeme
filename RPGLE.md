@@ -1,3 +1,11 @@
+### Secciones del programa
+
+```cobol
+ * Field definitions
+d Len             s             05  0
+ *
+```
+
 ### Rutina Principal
 
 ```cobol
