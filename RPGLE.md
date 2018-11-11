@@ -6,6 +6,14 @@ d Len             s             05  0
  *
 ```
 
+### Programa vacio
+
+```cobol
+ *
+C                   EVAL      *INLR = *ON
+ *
+```
+
 ### Rutina Principal
 
 ```cobol
