@@ -1,3 +1,9 @@
+### Encontrar bloqueos en tablas
+
+1. Escribir el comando wa
+2. Opcion 7 para visualizar
+3. En el detalle del bloqueo opcion C para cancelar
+
 ### Tipos de "File"
 
 - QCLESRC
