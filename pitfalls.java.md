@@ -1,5 +1,5 @@
-### Convertir java.util.Date a java.sql.Date
+### Convertir java.util.Date hacia java.sql.Date
 
 ```java
-new Date(new java.util.Date().getTime())
+new java.sql.Date(new java.util.Date().getTime())
 ```
