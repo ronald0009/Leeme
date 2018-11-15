@@ -11,3 +11,9 @@ sudo /~/serviceName start
 
 tail -f /~/logFile
 ```
+
+### Buscar el archivo por nombre
+
+```shell
+# find . -name FILE_NAME
+```
