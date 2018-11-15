@@ -14,6 +14,18 @@ tail -f /~/logFile
 
 ### Buscar el archivo por nombre
 
-```shell
-# find . -name FILE_NAME
+```
+find . -name FILE_NAME
+```
+
+### Listar procesos Java
+
+```
+ps aux | grep java
+```
+
+### Buscar texto
+
+```
+grep -rnw . -e 'fit.bpm.repository'
 ```
