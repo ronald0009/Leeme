@@ -22,14 +22,6 @@ Change file permises
 
 # chmod 777 FILE_NAME
 
-List java process
-
-# ps aux | grep java
-
-Find strings
-
-# grep -rnw . -e 'fit.bpm.repository'
-
 List running process
 
 # top
