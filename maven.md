@@ -1,3 +1,7 @@
+### Errores conocidos
+
+- [Using platform encoding (Cp1252 actually)](https://github.com/ronald0009/Leeme/edit/master/Maven.md)
+
 ### Tipos de empaquetamiento
 
 - jar
