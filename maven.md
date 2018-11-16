@@ -1,6 +1,7 @@
 ### Errores conocidos
 
-- [Using platform encoding (Cp1252 actually)](https://github.com/ronald0009/Leeme/blob/master/maven0001.xml)
+- [Using platform encoding (Cp1252 actually) UTF-8](https://github.com/ronald0009/Leeme/blob/master/maven0001.xml)
+- [Using platform encoding (Cp1252 actually) ISO-8859-1](https://github.com/ronald0009/Leeme/blob/master/maven0002.xml)
 
 ### Tipos de empaquetamiento
 
