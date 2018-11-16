@@ -1,3 +1,12 @@
+### Tipos de empaquetamiento
+
+- jar
+- war
+- ejb
+- ear
+- pom
+- maven-plugin
+
 ### Comandos de compilacion
 
 ```
