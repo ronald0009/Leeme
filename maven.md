@@ -1,6 +1,6 @@
 ### Errores conocidos
 
-- [Using platform encoding (Cp1252 actually)](https://github.com/ronald0009/Leeme/edit/master/Maven.md)
+- [Using platform encoding (Cp1252 actually)](https://github.com/ronald0009/Leeme/blob/master/maven0001.xml)
 
 ### Tipos de empaquetamiento
 
