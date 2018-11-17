@@ -8,9 +8,7 @@
 
 Descripcion:
 
-```
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project general: Fatal error compiling: tools.jar not found: C:\Program Files\Java\jre1.8.0_144\..\lib\tools.jar -> [Help 1]
-```
 
 Solucion:
 
