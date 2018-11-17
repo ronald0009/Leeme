@@ -1,10 +1,16 @@
-### Errores conocidos
+## Errores conocidos
 
 - [Using platform encoding (Cp1252 actually) UTF-8](https://github.com/ronald0009/Leeme/blob/master/maven0001.xml)
 - [Using platform encoding (Cp1252 actually) ISO-8859-1](https://github.com/ronald0009/Leeme/blob/master/maven0002.xml)
 - [Instalar un Jar en el repositorio local](https://github.com/ronald0009/Leeme/blob/master/maven0001.bat)
 
-#### tools.jar not found
+### The method ~ of type ~ must override a superclass method
+
+```
+Window > Preferences > Java > Compiler > 1.6
+```
+
+### tools.jar not found
 
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project general: Fatal error compiling: tools.jar not found: C:\Program Files\Java\jre1.8.0_144\..\lib\tools.jar -> [Help 1]
 
