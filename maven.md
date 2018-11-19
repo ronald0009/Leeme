@@ -29,9 +29,16 @@ Window > Preferences > Java > Installed JREs > Add > C:\Program Files\Java\jdk1.
 
 ### Comandos de compilacion
 
+Online
+
+```
+mvn install -Dmaven.test.skip=true
+```
+
+Offline
+
 ```
 mvn clean install -o -Dmaven.test.skip=true
 mvn eclipse:clean -o
 mvn eclipse:eclipse -o
-mvn install -Dmaven.test.skip=true
 ```
