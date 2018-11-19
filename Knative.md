@@ -5,3 +5,4 @@ In this webinar, we’ll review Knative, which provides new building blocks and 
 
 - [OpenShift Cloud Functions](https://github.com/openshift-cloud-functions/Documentation)
 - [Knative tutorial](https://redhat-developer-demos.github.io/knative-tutorial/knative-tutorial/0.0.1/index.html)
+- [Certificaciones de Google Cloud](https://cloud.google.com/certification/)
