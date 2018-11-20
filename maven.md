@@ -18,6 +18,12 @@ Window > Preferences > Java > Compiler > 1.6
 Window > Preferences > Java > Installed JREs > Add > C:\Program Files\Java\jdk1.8.0_131
 ```
 
+### Actualizar la configuracion de Manven
+
+```
+Window > Preferences > Maven > User Settings > ... > Apply > OK
+```
+
 ### Tipos de empaquetamiento
 
 - jar
