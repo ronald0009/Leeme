@@ -27,6 +27,17 @@ Window > Preferences > Java > Installed JREs > Add > C:\Program Files\Java\jdk1.
 - pom
 - maven-plugin
 
+### Orden de compilacion
+
+```
+cd %WORKSPACE%\herramientas
+cd %WORKSPACE%\persistencia
+cd %WORKSPACE%\bus
+cd %WORKSPACE%\core
+cd %WORKSPACE%\bpm
+cd %WORKSPACE%\negocio
+```
+
 ### Comandos de compilacion
 
 Otros
