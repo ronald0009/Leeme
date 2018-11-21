@@ -1,0 +1,3 @@
+- [Mostrar mensaje en la barra de estado mientras se procesa](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0001.js)
+- [Terminar el procesamiento de validacion con error/exito](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0002.js)
+- [Usar ventana de confirmacion SI/NO](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0003.js)
