@@ -11,3 +11,4 @@
 - [Usar substring](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0011.js)
 - [Usar bucle for](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0012.js)
 - [Validar si un elemento tiene el check activado](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0013.js)
+- [Generar un numero aleatorio entre 0 y 9](https://github.com/ronald0009/fb/blob/master/0001.js)
