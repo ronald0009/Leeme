@@ -16,6 +16,8 @@
 - [Calcular la edad](https://github.com/ronald0009/fb/blob/master/0003.js)
 - [Convertir una cadena a fecha](https://github.com/ronald0009/fb/blob/master/0004.js)
 - [Convertir cadena a entero](https://github.com/ronald0009/fb/blob/master/0005.js)
+- [Validar menores de edad](https://github.com/ronald0009/fb/blob/master/0006.js)
+- [Uso de array](https://github.com/ronald0009/fb/blob/master/0007.js)
 
 ### Caracteres especiales JavaScript
 
