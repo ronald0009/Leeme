@@ -12,9 +12,16 @@
 - [Usar bucle for](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0012.js)
 - [Validar si un elemento tiene el check activado](https://github.com/ronald0009/Leeme/blob/master/fbw2javascript0013.js)
 - [Generar un numero aleatorio entre 0 y 9](https://github.com/ronald0009/fb/blob/master/0001.js)
+- [Consultar un parametro de tipo texto](https://github.com/ronald0009/fb/blob/master/0002.js)
+- [Calcular la edad](https://github.com/ronald0009/fb/blob/master/0003.js)
+- [Convertir una cadena a fecha](https://github.com/ronald0009/fb/blob/master/0004.js)
+- [Convertir cadena a entero](https://github.com/ronald0009/fb/blob/master/0005.js)
 
-### Consultar un parametro del sistema
+### Caracteres especiales JavaScript
 
-1. Buscar la clave en el repositorio UGMWKEY
-2. Buscar la descripcion en el repositorio UGMW
-3. 
+- [Referencia](https://lefunes.wordpress.com/2007/11/14/caracteres-especiales-en-javascript)
+
+```
+\u00F3 o con tilde
+\u00BF signo de interrogacion
+```
