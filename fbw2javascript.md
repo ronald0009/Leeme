@@ -20,7 +20,3 @@
 - [Uso de array](https://github.com/ronald0009/fb/blob/master/0007.js)
 - [Caracteres especiales](https://github.com/ronald0009/fb/blob/master/js0008.js)
 - [Referencia de caracteres especiales](https://lefunes.wordpress.com/2007/11/14/caracteres-especiales-en-javascript)
-
-```
-\u00BF signo de interrogacion
-```
