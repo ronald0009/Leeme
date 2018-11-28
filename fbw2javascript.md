@@ -18,12 +18,9 @@
 - [Convertir cadena a entero](https://github.com/ronald0009/fb/blob/master/0005.js)
 - [Validar menores de edad](https://github.com/ronald0009/fb/blob/master/0006.js)
 - [Uso de array](https://github.com/ronald0009/fb/blob/master/0007.js)
-
-### Caracteres especiales JavaScript
-
-- [Referencia](https://lefunes.wordpress.com/2007/11/14/caracteres-especiales-en-javascript)
+- [Caracteres especiales](https://github.com/ronald0009/fb/blob/master/js0008.js)
+- [Referencia de caracteres especiales](https://lefunes.wordpress.com/2007/11/14/caracteres-especiales-en-javascript)
 
 ```
-\u00F3 o con tilde
 \u00BF signo de interrogacion
 ```
