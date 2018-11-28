@@ -22,3 +22,4 @@
 - [Caracteres especiales (referencia)](https://lefunes.wordpress.com/2007/11/14/caracteres-especiales-en-javascript)
 - [Algoritmo calcular edad](https://github.com/ronald0009/fb/blob/master/js0009.js)
 - [Reemplazar caracteres](https://github.com/ronald0009/fb/blob/master/js0010.js)
+- [Trim](https://github.com/ronald0009/fb/blob/master/js0011.js)
