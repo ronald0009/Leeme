@@ -24,3 +24,4 @@
 - [Reemplazar caracteres](https://github.com/ronald0009/fb/blob/master/js0010.js)
 - [Trim](https://github.com/ronald0009/fb/blob/master/js0011.js)
 - [Length](https://github.com/ronald0009/fb/blob/master/js0012.js)
+- [Validar caracteres permitidos](https://github.com/ronald0009/fb/blob/master/js0013.js)
