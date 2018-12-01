@@ -2,7 +2,7 @@
 
 Buscar los tokens siguientes:
 
-´´´
+```
 <tex>F6Mail</tex>
 validaEmail
-´´´
+```
