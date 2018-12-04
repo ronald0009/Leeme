@@ -26,3 +26,4 @@
 - [Length](https://github.com/ronald0009/fb/blob/master/js0012.js)
 - [Validar caracteres permitidos](https://github.com/ronald0009/fb/blob/master/js0013.js)
 - [Validar formato de email/correo](https://github.com/ronald0009/fb/blob/master/js0014.js)
+- [Validar solo letras](https://github.com/ronald0009/fb/blob/master/js0015.js)
