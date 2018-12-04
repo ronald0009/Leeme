@@ -19,7 +19,7 @@
 - [Validar menores de edad](https://github.com/ronald0009/fb/blob/master/0006.js)
 - [Uso de array](https://github.com/ronald0009/fb/blob/master/0007.js)
 - [Caracteres especiales](https://github.com/ronald0009/fb/blob/master/js0008.js)
-- [Caracteres especiales (referencia)](https://lefunes.wordpress.com/2007/11/14/caracteres-especiales-en-javascript)
+- [Caracteres especiales (referencia)](https://unicode-table.com/es/)
 - [Algoritmo calcular edad](https://github.com/ronald0009/fb/blob/master/js0009.js)
 - [Reemplazar caracteres](https://github.com/ronald0009/fb/blob/master/js0010.js)
 - [Trim](https://github.com/ronald0009/fb/blob/master/js0011.js)
