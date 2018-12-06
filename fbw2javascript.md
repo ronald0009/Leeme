@@ -29,3 +29,4 @@
 - [Validar solo letras](https://github.com/ronald0009/fb/blob/master/js0015.js)
 - [Validar formato de fecha](https://github.com/ronald0009/fb/blob/master/js0016.js)
 - [Validar un año bisiesto](https://github.com/ronald0009/fb/blob/master/js0017.js)
+- [Validar si un caracterer es un digito númerico](https://github.com/ronald0009/fb/blob/master/js0018.js)
