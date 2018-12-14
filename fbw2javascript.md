@@ -36,4 +36,5 @@
 - [Rutina para forzar el ingreso de sólo números](https://github.com/ronald0009/fb/blob/master/js0022.js)
 - [Código númerico de las teclas](https://github.com/ronald0009/fb/blob/master/js0023.js)
 - [Obtener el código númerico de las teclas](https://github.com/ronald0009/fb/blob/master/js0024.js)
-- [Controlar formularios tipo fb2](https://github.com/ronald0009/fb/blob/master/js0025.js)
+- [Controlador de formularios tipo fb2](https://github.com/ronald0009/fb/blob/master/js0025.js)
+- [Ejecutar función javascript al cargar (onload) la página](https://github.com/ronald0009/fb/blob/master/js0026.js)
