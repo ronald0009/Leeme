@@ -22,7 +22,7 @@
 - [Caracteres especiales (referencia)](https://unicode-table.com/es/)
 - [Algoritmo calcular edad](https://github.com/ronald0009/fb/blob/master/js0009.js)
 - [Reemplazar caracteres](https://github.com/ronald0009/fb/blob/master/js0010.js)
-- [Trim](https://github.com/ronald0009/fb/blob/master/js0011.js)
+- [Quitar espacios en blanco usando trim](https://github.com/ronald0009/fb/blob/master/js0011.js)
 - [Length](https://github.com/ronald0009/fb/blob/master/js0012.js)
 - [Validar caracteres permitidos](https://github.com/ronald0009/fb/blob/master/js0013.js)
 - [Validar formato de email/correo](https://github.com/ronald0009/fb/blob/master/js0014.js)
