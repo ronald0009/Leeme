@@ -29,3 +29,5 @@ ps aux | grep java
 ```
 grep -rnw . -e 'fit.bpm.repository'
 ```
+
+- [Mirar el archivo log en forma interactiva desde la consola linux](https://github.com/ronald0009/fb/blob/master/shell0001.sh)
