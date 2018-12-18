@@ -1,2 +1,3 @@
 - [Ejecutar un archivo jar con una version especifica de JDK](https://github.com/ronald0009/fb/blob/master/fbcmd0001.bat)
 - [Convertir java.util.Date hacia java.sql.Date](https://github.com/ronald0009/fb/blob/master/fbjava0001.java)
+- [Helper para formatear fechas](https://github.com/ronald0009/fb/blob/master/fbjava0002.java)
