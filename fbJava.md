@@ -1,5 +1,2 @@
-### Convertir java.util.Date hacia java.sql.Date
-
-```java
-new java.sql.Date(new java.util.Date().getTime())
-```
+- [Ejecutar un archivo jar con una version especifica de JDK](https://github.com/ronald0009/fb/blob/master/fbcmd0001.bat)
+- [Convertir java.util.Date hacia java.sql.Date](https://github.com/ronald0009/fb/blob/master/fbjava0001.java)
