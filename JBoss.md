@@ -1,3 +1,5 @@
+- [Reiniciar los servicios por consola](https://github.com/ronald0009/fb/blob/master/shell0002.sh)
+
 ### Desplegar una aplicacion web en una instancia del servidor desde la terminal de Linux
 
 1. Copiar el archivo war en el directorio:
