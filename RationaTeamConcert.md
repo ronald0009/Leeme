@@ -4,15 +4,10 @@
 
 ### Crear un nuevo espacio de trabajo
 
-1. Perspectiva 'Work Items'
-1.1. Vista 'Team Artifacts'
-1.2. Clic 'Create a Repository Connection'
-4. Llenar los datos de conexión y clic en 'Finish'
-3. Expandir 'Repository Connections'
-4. Seleccionar la conexión / clic derecho / Manage Connected Project Areas / seleccionar la conexión y clic 'Finish'
-5. Expandir la conexión / expandir 'Source Control' / Seleccionar el flujo
-5. Expandir el nodo 'My Repository Workspaces'
-6. Seleccionar la rama y 
+1. Perspectiva 'Work Items' / Vista 'Team Artifacts' / Clic 'Create a Repository Connection' / Llenar los datos de conexión y clic en 'Finish'
+2. Expandir 'Repository Connections' / Seleccionar la conexión / Clic derecho / Clic 'Manage Connected Project Areas' / Seleccionar la conexión y clic 'Finish'
+3. Expandir la conexión / Expandir 'Source Control' / Seleccionar el flujo / Clic derecho / New / Repository Workspace / Next / Next / Seleccionar la opción 'Public' y 'Next' / Finish / Next / Finish
+4. Expandir el nodo 'My Repository Workspaces' / Buscar el nuevo workspace recien creado
 
 ### Bloquear un recurso
 
