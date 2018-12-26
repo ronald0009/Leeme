@@ -2,6 +2,18 @@
 
 - [Rational Team Concert Documentation](https://jazz.net/help-dev/clm/index.jsp?re=1&topic=/com.ibm.rational.clm.doc/helpindex_clm.html&scope=null)
 
+### Crear un nuevo espacio de trabajo
+
+1. Perspectiva 'Work Items'
+1.1. Vista 'Team Artifacts'
+1.2. Clic 'Create a Repository Connection'
+4. Llenar los datos de conexión y clic en 'Finish'
+3. Expandir 'Repository Connections'
+4. Seleccionar la conexión / clic derecho / Manage Connected Project Areas / seleccionar la conexión y clic 'Finish'
+5. Expandir la conexión / expandir 'Source Control' / Seleccionar el flujo
+5. Expandir el nodo 'My Repository Workspaces'
+6. Seleccionar la rama y 
+
 ### Bloquear un recurso
 
 1. Perspectiva Recurso
