@@ -2,3 +2,4 @@
 - [Convertir java.util.Date hacia java.sql.Date](https://github.com/ronald0009/fb/blob/master/fbjava0001.java)
 - [Helper para formatear fechas](https://github.com/ronald0009/fb/blob/master/fbjava0002.java)
 - [Formatear un numero con separador de miles y decimales](https://github.com/ronald0009/fb/blob/master/fbjava0003.java)
+- [Cargar un archivo de propiedades](https://github.com/ronald0009/fb/blob/master/fbjava0004.java)
