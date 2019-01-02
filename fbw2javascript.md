@@ -39,3 +39,4 @@
 - [Controlador de formularios tipo fb2](https://github.com/ronald0009/fb/blob/master/js0025.js)
 - [Ejecutar función javascript al cargar (onload) la página](https://github.com/ronald0009/fb/blob/master/js0026.js)
 - [Ejecutar request con AJAX, JSON y Jquery](https://github.com/ronald0009/fb/blob/master/js0027.js)
+- [Convertir a cadena a número de punto flotante](https://github.com/ronald0009/fb/blob/master/js0028.js)
