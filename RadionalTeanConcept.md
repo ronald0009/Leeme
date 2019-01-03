@@ -1,6 +1,6 @@
 ### Dirección de la documentación oficial
 
-- [Rational Team Concert Documentation](https://jazz.net/help-dev/clm/index.jsp?re=1&topic=/com.ibm.rational.clm.doc/helpindex_clm.html&scope=null)
+- [Official Documentation](https://jazz.net/help-dev/clm/index.jsp?re=1&topic=/com.ibm.rational.clm.doc/helpindex_clm.html&scope=null)
 
 ### Crear un nuevo espacio de trabajo
 
