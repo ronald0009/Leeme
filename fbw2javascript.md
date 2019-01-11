@@ -42,3 +42,4 @@
 - [Convertir a cadena a número de punto flotante](https://github.com/ronald0009/fb/blob/master/js0028.js)
 - [Responder a la pulsación de una tecla](https://github.com/ronald0009/fb/blob/master/js0029.js)
 - [Creación automática de variables globales](https://github.com/ronald0009/fb/blob/master/js0030.js)
+- [Escape de caracteres especiales en la URL](https://github.com/ronald0009/fb/blob/master/js0031.js)
