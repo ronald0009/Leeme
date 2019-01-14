@@ -1,3 +1,8 @@
+### Checklist documentos
+
+1. Contrato de credito vehicular
+2. Poliza de serguro vehicular
+
 ### Checklist para recoger auto nuevo
 
 1. Funcionamiento del aire acondicionado
