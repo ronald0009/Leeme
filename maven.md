@@ -37,12 +37,12 @@ Window > Preferences > Maven > User Settings > ... > Apply > OK
 ### Orden de compilacion
 
 ```
-cd %WORKSPACE%\herramientas
-cd %WORKSPACE%\persistencia
-cd %WORKSPACE%\bus
-cd %WORKSPACE%\core
-cd %WORKSPACE%\bpm
-cd %WORKSPACE%\negocio
+cd %herramientas%
+cd %persistence%
+cd %bus%
+cd %core%
+cd %bpm%
+cd %negocio%
 ```
 
 ### Comandos de compilacion
