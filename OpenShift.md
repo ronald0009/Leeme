@@ -25,11 +25,15 @@ It's a visualization of the Kubernetes namespace based on the developer access c
 2. Log in
 3. Create Project
 4. Fill in the Name field as
+```
 myproject
+```
 5. Clic on ‘Create’
 6. Select ‘Deploy Image’ / clic on ‘Image Name’
 7. Fill the name:
+```
 openshiftroadshow/parksmap-katacoda:1.0.0
+````
 8. Clic on the glass icon
 9. Clic on ‘Create’
 10. Clic on link ‘Continue to overview’
