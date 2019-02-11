@@ -5,3 +5,4 @@
 [Creating and highlighting code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 
 [Grammar index](https://github.com/github/linguist/blob/master/vendor/README.md)
+[Generador web2](https://github.com/github/linguist/blob/master/vendor/README.md)
