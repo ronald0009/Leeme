@@ -1,3 +1,8 @@
+# Campo origen de base de datos relación padre hijo
+La siguiente combinación es una relación padre hijo donde el número 16 debe coincidir con el valor de la columna B (bloque)
+```
+666009:1:666001-16
+```
 # Buscar elementos por notepad++
 Agregar los siguientes sufijos al nombre:
 1. Signo menor que
