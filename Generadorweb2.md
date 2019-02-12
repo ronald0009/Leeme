@@ -1,5 +1,11 @@
 # Buscar elementos por notepad++
 Agregar los siguientes sufijos al nombre:
+1. Signo menor que
+2. Punto
+3. Coma
+4. Espacio en blanco
+5. Comilla simple
+6. Cierre de paréntesis
 ```
 {<., ')}
 ```
