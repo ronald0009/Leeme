@@ -5,3 +5,4 @@
 5. [RHEL](https://github.com/ronald0009/Leeme/blob/master/resources/rhel.md)
 6. [do092](https://github.com/ronald0009/Leeme/blob/master/resources/do092.md)
 7. [Android Studio](https://github.com/ronald0009/Leeme/blob/master/resources/androidstudio001.md)
+8. [Quartz web scheduler](https://github.com/ronald0009/qwscheduler)
