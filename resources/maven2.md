@@ -1,6 +1,6 @@
 # Errors
 
-- [Using platform encoding (Cp1252 actually) UTF-8](https://github.com/ronald0009/Leeme/blob/master/maven0001.xml)
+- [Using platform encoding (Cp1252 actually) UTF-8](https://github.com/ronald0009/Leeme/blob/master/resources/pom0001.xml)
 - [Using platform encoding (Cp1252 actually) ISO-8859-1](https://github.com/ronald0009/Leeme/blob/master/maven0002.xml)
 - [Instalar un Jar en el repositorio local](https://github.com/ronald0009/Leeme/blob/master/maven0001.bat)
 - [Instalar un Jar en el repositorio local alternando el repositorio destino](https://github.com/ronald0009/Leeme/blob/master/maven0002.bat)
