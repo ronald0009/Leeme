@@ -45,27 +45,3 @@ cd %core%
 cd %bpm%
 cd %negocio%
 ```
-
-### Comandos de compilacion
-
-Otros
-
-```
-mvn install -Dmaven.test.skip=true
-```
-
-Online
-
-```
-mvn clean install -Dmaven.test.skip=true
-mvn eclipse:clean
-mvn eclipse:eclipse
-```
-
-Offline
-
-```
-mvn clean install -o -Dmaven.test.skip=true
-mvn eclipse:clean -o
-mvn eclipse:eclipse -o
-```
