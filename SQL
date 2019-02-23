@@ -1,34 +1,3 @@
-===============================================
-Desactivar auto-commit en DbVisualizer para DB2
-===============================================
-
-set schema SCHEMA_NAME;
-@set autocommit off;
-INSERT_SQL_STATEMENT;
-
-===============
-Configure alias
-===============
-
-DROP ALIAS SCHEMA_NAME_1.TABLE_NAME;
-CREATE ALIAS SCHEMA_NAME_1.TABLE_NAME FOR SCHEMA_NAME_2.TABLE_NAME;
-
-============
-select dummy
-============
-
-SELECT 1
-FROM SYSIBM.SYSDUMMY1
-;
-
-=============
-export to SQL
-=============
-
-@EXPORT ON;
-@EXPORT SET FILENAME="C:\FILE_NAME.sql" FORMAT="SQL";
-SELECT * FROM TABLE;
-
 ============
 replace text
 ============
