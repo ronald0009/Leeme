@@ -1,2 +1,0 @@
-- [Copiar un directorio y su contenido recursivamente](https://github.com/ronald0009/Leeme/blob/master/cmd001.bat)
-- [Configurar variables de la sesion de consola](https://github.com/ronald0009/Leeme/blob/master/cmd002.bat)
