@@ -7,21 +7,22 @@
   - Press n times until 'Developer model' is enabled
   - Ajustes / Acerca del teléfono / Opciones del desarrollador / Enable
   - Depuración del USB / Enable
-
-Open 'App Inspector'
-- Click 'Google Play Películas'
-- Package name
+- Open 'App Inspector'
+  - Click 'Google Play Películas'
+  - Find 'Package name'
+```
 com.google.android.videos
-com.android.email
-com.google.android.apps.tachyon
-
-Run 'platform-tools'
+```
+- Run 'platform-tools'
+```shell
 cd C:\Users\~\platform-tools
 adb devices
 adb shell
+```
 - Clic ok on confirm dialog in the Smarthpone
+```shell
+adb shell
 pm list packages | grep u
-
 package:com.google.android.youtube
 package:com.google.android.googlequicksearchbox
 package:com.mediatek.fwk.plugin
@@ -56,13 +57,17 @@ package:com.android.systemui
 package:com.android.bluetoothmidiservice
 package:com.android.bluetooth
 package:com.google.android.inputmethod.latin
-shell@mlv3:/ $
-
+```
+- Run uninstall command
+```shell
 pm uninstall -k --user 0 'com.google.android.music'
 pm uninstall -k --user 0 'com.google.android.youtube'
 pm uninstall -k --user 0 'com.google.android.videos'
 pm uninstall -k --user 0 'com.android.email'
 pm uninstall -k --user 0 'com.google.android.apps.tachyon'
 pm uninstall -k --user 0 'com.gameloft.android.gdc'
-
+```
+- Exit
+```shell
 exit
+```
