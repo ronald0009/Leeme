@@ -1,0 +1,1 @@
+- [Uninstall pre installed apps](https://github.com/ronald0009/Leeme/blob/master/resources/android1.md)
