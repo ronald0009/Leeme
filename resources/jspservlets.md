@@ -10,7 +10,7 @@
 - [Create annotated Servlet](https://github.com/ronald0009/demo2/tree/master/demo21)
 # JSPs and Servlets - Servlet XML Configuration
 - [Create xml configured Servlet](https://github.com/ronald0009/demo2/tree/master/demo21)
-# JSPs and Servlets - The POST Method and Passing Parameters
+# JSPs and Servlets - Passing Parameters
 - [Passing parameters from a Form to a Servlet](https://github.com/ronald0009/demo2/tree/master/demo22)
 # JSPs and Servlets Tutorial 06 - Passing More Parameters
 - [Next](https://www.youtube.com/watch?v=MnUJl3NYRRc&list=PLE0F6C1917A427E96&index=6)
