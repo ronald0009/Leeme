@@ -13,4 +13,11 @@
 # JSPs and Servlets - Passing Parameters
 - [Passing parameters from a Form to a Servlet](https://github.com/ronald0009/demo2/tree/master/demo22)
 # JSPs and Servlets - GET and POST
-- [Next](https://www.youtube.com/watch?v=0WPfqrSCb6c&list=PLE0F6C1917A427E96&index=7)
+## GET
+- Parameters in the URL
+- Secure refresh
+## POST
+- No parameters in the URL
+- Prevent refresh
+# JSPs and Servlets - 
+- [Next](#)
