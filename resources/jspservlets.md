@@ -22,5 +22,5 @@
 # JSPs and Servlets - Request, Session and Context
 - Tomcat creates and destroys Servlets
 - Request and Response objects are created per access
-- 
+- Servlet objects are not created per access. Every request have different Servlet threads, not instances
 - [Next](https://www.youtube.com/watch?v=GbvuAIhLUZU&list=PLE0F6C1917A427E96&index=9)
