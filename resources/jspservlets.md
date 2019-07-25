@@ -26,5 +26,6 @@
 - Tomcat creates and destroys Servlets
 - Request and Response objects are created per access
 - Servlet objects are not created per access. Every request have different Servlet threads, not instances
-- [First session demo](https://github.com/ronald0009/demo2/tree/master/demo23)
+- [First session demo](https://github.com/ronald0009/demo3/tree/master/demo33)
+- Open [localhost](http://localhost:8080/demo33/)
 - [Next](https://www.youtube.com/watch?v=sHpUrCJmCWs&list=PLE0F6C1917A427E96&index=10)
