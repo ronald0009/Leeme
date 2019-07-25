@@ -7,7 +7,8 @@
 - Create Dynamic web project
 - Config tomcat and check generate web.xml descriptor
 # JSPs and Servlets - First Servlet Part 2
-- [Create annotated Servlet](https://github.com/ronald0009/demo2/tree/master/demo21)
+- [Create annotated Servlet](https://github.com/ronald0009/demo3/tree/master/demo30)
+- Open [localhost](http://localhost:8080/demo30/annotationcfgservletpath)
 # JSPs and Servlets - Servlet XML Configuration
 - [Create xml configured Servlet](https://github.com/ronald0009/demo2/tree/master/demo21)
 # JSPs and Servlets - Passing Parameters
