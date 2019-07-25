@@ -10,7 +10,8 @@
 - [Create annotated Servlet](https://github.com/ronald0009/demo3/tree/master/demo30)
 - Open [localhost](http://localhost:8080/demo30/annotationcfgservletpath)
 # JSPs and Servlets - Servlet XML Configuration
-- [Create xml configured Servlet](https://github.com/ronald0009/demo2/tree/master/demo21)
+- [Create xml configured Servlet](https://github.com/ronald0009/demo3/tree/master/demo31)
+- Open [localhost](http://localhost:8080/demo31/xmlcfgservletpath)
 # JSPs and Servlets - Passing Parameters
 - [Passing parameters from a Form to a Servlet](https://github.com/ronald0009/demo2/tree/master/demo22)
 # JSPs and Servlets - GET and POST
