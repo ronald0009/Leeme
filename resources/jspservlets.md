@@ -14,6 +14,7 @@
 - Open [localhost](http://localhost:8080/demo31/xmlcfgservletpath)
 # JSPs and Servlets - Passing Parameters
 - [Passing parameters from a Form to a Servlet](https://github.com/ronald0009/demo2/tree/master/demo22)
+- Open [localhost](http://localhost:8080/demo32/)
 # JSPs and Servlets - GET and POST
 ## GET
 - Parameters in the URL
