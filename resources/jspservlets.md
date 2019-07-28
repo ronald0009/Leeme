@@ -28,4 +28,8 @@
 - Servlet objects are not created per access. Every request have different Servlet threads, not instances
 - [First session demo](https://github.com/ronald0009/demo3/tree/master/demo33)
 - Open [localhost](http://localhost:8080/demo33/)
+##  Session object
+- One per user/machine
+- Objects available across requests
+- Perfect for login sessions and shopping carts
 - [Next](https://www.youtube.com/watch?v=sHpUrCJmCWs&list=PLE0F6C1917A427E96&index=10)
