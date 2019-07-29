@@ -39,6 +39,9 @@
 - [Context demo](https://github.com/ronald0009/demo3/tree/master/demo34)
 - Open [localhost](http://localhost:8080/demo34/)
 ## JSP Demo
+- [JSP demo](https://github.com/ronald0009/demo3/tree/master/demo35)
 - Open [localhost](http://localhost:8080/demo35/)
-## JSP Page Directives
-- [Next](https://www.youtube.com/watch?v=qLpm1Zxytsg&list=PLE0F6C1917A427E96&index=16)
+## JSP Directives
+- [Directives demo](https://github.com/ronald0009/demo3/tree/master/demo36)
+- Open [localhost](http://localhost:8080/demo36/)
+- [Next](https://www.youtube.com/watch?v=W0JQ0TaeXAY&list=PLE0F6C1917A427E96&index=17)
