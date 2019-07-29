@@ -41,10 +41,10 @@
 ## JSP Demo
 - [JSP demo](https://github.com/ronald0009/demo3/tree/master/demo35)
 - Open [localhost](http://localhost:8080/demo35/)
-## JSP Directives
+# JSP Directives
 - [Directives demo](https://github.com/ronald0009/demo3/tree/master/demo36)
 - Open [localhost](http://localhost:8080/demo36/)
-# Scopes
+## Scopes
 - [localhost](http://localhost:8080/demo36/scopes.jsp?user=Test)
 # Init value
 - [Initial value demo](https://github.com/ronald0009/demo3/tree/master/demo37)
