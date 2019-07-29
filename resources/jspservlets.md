@@ -44,4 +44,9 @@
 ## JSP Directives
 - [Directives demo](https://github.com/ronald0009/demo3/tree/master/demo36)
 - Open [localhost](http://localhost:8080/demo36/)
-- [Next](https://www.youtube.com/watch?v=W0JQ0TaeXAY&list=PLE0F6C1917A427E96&index=17)
+# Scopes
+- [localhost](http://localhost:8080/demo36/scopes.jsp?user=Test)
+# Init value
+- [Initial value demo](https://github.com/ronald0009/demo3/tree/master/demo37)
+- Open [localhost](http://localhost:8080/demo37/)
+# [Next](https://www.youtube.com/watch?v=zk_zEp-mtvQ&list=PLE0F6C1917A427E96&index=19)
