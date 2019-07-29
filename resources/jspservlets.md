@@ -38,4 +38,7 @@
 - Initialization code/Common bulletin board
 - [Context demo](https://github.com/ronald0009/demo3/tree/master/demo34)
 - Open [localhost](http://localhost:8080/demo34/)
-- [Next](https://www.youtube.com/watch?v=ji_N8pspwn0&list=PLE0F6C1917A427E96&index=11)
+## JSP Demo
+- Open [localhost](http://localhost:8080/demo35/)
+## JSP Page Directives
+- [Next](https://www.youtube.com/watch?v=qLpm1Zxytsg&list=PLE0F6C1917A427E96&index=16)
