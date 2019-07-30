@@ -49,4 +49,8 @@
 # Init value
 - [Initial value demo](https://github.com/ronald0009/demo3/tree/master/demo37)
 - Open [localhost](http://localhost:8080/demo37/)
-# [Next](https://www.youtube.com/watch?v=zk_zEp-mtvQ&list=PLE0F6C1917A427E96&index=19)
+# MVC Pattern
+- Servlet is the controller
+- Bean implements the business logic
+- JSP renders the view
+# [Next](https://www.youtube.com/watch?v=QOUIVsBN82Q&list=PLE0F6C1917A427E96&index=20)
