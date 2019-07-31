@@ -54,3 +54,4 @@
 - Bean implements the business logic
 - JSP renders the view
 # [Next](https://www.youtube.com/watch?v=QOUIVsBN82Q&list=PLE0F6C1917A427E96&index=20)
+- 1:07
