@@ -58,6 +58,6 @@
 - Business Service
 - Model
 - View
-- [Initial value demo](https://github.com/ronald0009/demo3/tree/master/demo38)
+- [MVC demo](https://github.com/ronald0009/demo3/tree/master/demo38)
 - Open [localhost](http://localhost:8080/demo38/)
 # [Next](https://www.youtube.com/watch?v=WxeY-LxMIbE&list=PLE0F6C1917A427E96&index=22)
