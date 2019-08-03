@@ -64,4 +64,8 @@
 - If you don't need to create a second request for the next jsp page in the flow of control, use Request Dispatcher.
 - [Request Dispatcher demo](https://github.com/ronald0009/demo3/tree/master/demo39)
 - Open [localhost](http://localhost:8080/demo39/)
-# [Next](https://www.youtube.com/watch?v=-mjYAf0ILZs&list=PLE0F6C1917A427E96&index=24)
+## JSTL and the useBean tag
+- [JSTL demo](https://github.com/ronald0009/demo3/tree/master/demo39)
+- Open [localhost](http://localhost:8080/demo39/)
+- Open [localhost default value](http://localhost:8080/demo39/success.jsp)
+# [Next](https://www.youtube.com/watch?v=4GAJ5pxQ-3c&list=PLE0F6C1917A427E96&index=25)
