@@ -1,3 +1,4 @@
+- [REST](./resources/rest.md)
 - [JSPs and Servlets](https://github.com/ronald0009/Leeme/blob/master/resources/jspservlets.md)
 - [Android](https://github.com/ronald0009/Leeme/blob/master/resources/android.md)
 - [do092](https://github.com/ronald0009/Leeme/blob/master/resources/do092.md)
