@@ -68,4 +68,6 @@
 - [JSTL demo](https://github.com/ronald0009/demo3/tree/master/demo39)
 - Open [localhost](http://localhost:8080/demo39/)
 - Open [localhost default value](http://localhost:8080/demo39/success.jsp)
-# [Next](https://www.youtube.com/watch?v=4GAJ5pxQ-3c&list=PLE0F6C1917A427E96&index=25)
+## Request Parameters with the setProperty tag
+- [Set property demo](https://github.com/ronald0009/demo3/tree/master/demo390)
+- Open [localhost](http://localhost:8080/demo390/)
