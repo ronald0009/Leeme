@@ -41,4 +41,4 @@ There are two kinds of Web Services: SOAP and REST.
 ### Nonidempotent
 - Cannot be repeated safely
 - POST
-# [Next](https://www.youtube.com/watch?v=gYKJqUZXuBw)
+# [Next](https://www.youtube.com/watch?v=ZyuPCYB-n5o&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=7)
