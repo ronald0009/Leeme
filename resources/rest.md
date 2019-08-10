@@ -26,4 +26,19 @@ There are two kinds of Web Services: SOAP and REST.
 ## Resource URIs
 - Resource relations
 - Designing RESTFUL URIs
+## Two types of resource URIs
+- Instance resource URIs
+- Collection resource URIs 
+## HTTP Methods 
+- post -> create
+- delete -> delete 
+- put -> update
+- get -> select
+## Method idempotence 
+### Idempotent
+- Safely repeatable
+- GET, PUT, DELETE
+### Nonidempotent
+- Cannot be repeated safely
+- POST
 # [Next](https://www.youtube.com/watch?v=gYKJqUZXuBw)
