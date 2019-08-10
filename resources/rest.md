@@ -12,4 +12,18 @@ There are two kinds of Web Services: SOAP and REST.
 - REST actually stands for REpresentational State Transfer.
 - REST is an architecture style, so REST is a set of guidelines used to guide you in your application architecture.
 - We can have kinds of REST Web Services: Not fully RESTful and Completely RESTful.
-# [Next](https://www.youtube.com/watch?v=NjpKwiRORI4)
+## REST and HTTP
+- Resource based URIs
+- HTTP Methods
+- HTTP Status codes
+- Message headers
+### HTTP Methods
+- GET, POST, PUT, DELETE
+### HTTP Status codes
+- 200 - Success
+- 500 - Server error
+- 404 - Not found
+## Resource URIs
+- Resource relations
+- Designing RESTFUL URIs
+# [Next](https://www.youtube.com/watch?v=gYKJqUZXuBw)
