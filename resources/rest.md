@@ -68,4 +68,17 @@ There are two kinds of Web Services: SOAP and REST.
 - Of
 - Application
 - State
-# [Next](https://www.youtube.com/watch?v=qHbTE3qvUsQ&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=9)
+## The Richardson Maturity Model 
+- Is this API fully RESTful?
+- Leonard Richardson
+- Level 3 
+  - HATEOAS
+  - Responses have links that the clients can use 
+- Level 2 
+  - HTTP Methods 
+  - Uses the right HTTP methods, status codes 
+- Level 1 
+  - Individual URIs for each resource 
+- Level 0 
+  - Swamp of XML 
+# [Next](https://www.youtube.com/watch?v=BuYivu9ZjDw&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=10)
