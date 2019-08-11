@@ -41,4 +41,23 @@ There are two kinds of Web Services: SOAP and REST.
 ### Nonidempotent
 - Cannot be repeated safely
 - POST
-# [Next](https://www.youtube.com/watch?v=ZyuPCYB-n5o&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=7)
+## Responses
+### Resource Representations
+- XML
+- JSON
+### Status Codes
+- 1XX Informational
+- 2XX Success
+- 3XX Redirection
+  - 302 Found
+  - 304 Not Modified
+  - 307 Temporary 
+- 4XX Client Error
+  - 400 Bad Request
+  - 401 Unauthorized
+  - 403 Forbidden
+  - 404 Not Found 
+  - 415 Unsupported Media Type 
+- 5XX Serve Error 
+  - 500 Internal Server Error 
+# [Next](https://www.youtube.com/watch?v=NK3HNEwDXUk&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=8)
