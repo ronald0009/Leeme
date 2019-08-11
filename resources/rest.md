@@ -87,4 +87,20 @@ There are two kinds of Web Services: SOAP and REST.
 - RESTEasy *
   - * Implements JAX-RS
 - Apache Livy
-# [Next](https://www.youtube.com/watch?v=skltzZH7i4w&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=11)
+## First JAX-RS demo
+- ALT + SHIFT + N
+- Maven Project
+- Next
+- Filter: jer...   (X)
+- Add Archetype... (/)
+  - Archetype Group Id: org.glassfish.jersey.archetypes
+  - Archetype Artifact Id: jersey-quickstart-webapp
+  - Archetype Version: 2.29
+- OK
+- Next
+  - Group Id: com.rab.demo
+  - Artifact Id: demo100
+  - Version: 0.0.1-SNAPSHOT
+  - Package: com.rab.demo.demo100 
+- Finish
+# [Next](https://www.youtube.com/watch?v=rKSnB3Bl12w&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=12)
