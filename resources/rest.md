@@ -81,4 +81,10 @@ There are two kinds of Web Services: SOAP and REST.
   - Individual URIs for each resource 
 - Level 0 
   - Swamp of XML 
-# [Next](https://www.youtube.com/watch?v=BuYivu9ZjDw&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=10)
+## Libraries
+- JAX-RS
+- Jersey *
+- RESTEasy *
+  - * Implements JAX-RS
+- Apache Livy
+# [Next](https://www.youtube.com/watch?v=skltzZH7i4w&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=11)
