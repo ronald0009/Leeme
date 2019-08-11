@@ -60,4 +60,12 @@ There are two kinds of Web Services: SOAP and REST.
   - 415 Unsupported Media Type 
 - 5XX Serve Error 
   - 500 Internal Server Error 
-# [Next](https://www.youtube.com/watch?v=NK3HNEwDXUk&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=8)
+## HATEOAS
+- Hypermedia
+- As
+- The
+- Engine
+- Of
+- Application
+- State
+# [Next](https://www.youtube.com/watch?v=qHbTE3qvUsQ&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=9)
