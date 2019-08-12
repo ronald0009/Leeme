@@ -103,4 +103,11 @@ There are two kinds of Web Services: SOAP and REST.
   - Version: 0.0.1-SNAPSHOT
   - Package: com.rab.demo.demo100 
 - Finish
-# [Next](https://www.youtube.com/watch?v=rKSnB3Bl12w&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=12)
+## Creating a Resource
+- Create a new Java class 
+- Add a method that returns the response
+- Make sure your class is in the package configured in Jersey servlet's init-param
+- Annotate class with @Path annotation 
+- Annotate method with the right HTTP method annotation 
+- Annotate method with the @Produces specifying response format 
+# [Next](https://www.youtube.com/watch?v=BaZdlJSts5A&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=14)
