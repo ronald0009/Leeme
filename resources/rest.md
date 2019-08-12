@@ -110,4 +110,5 @@ There are two kinds of Web Services: SOAP and REST.
 - Annotate class with @Path annotation 
 - Annotate method with the right HTTP method annotation 
 - Annotate method with the @Produces specifying response format 
+- (Hello)[http://localhost:8080/demo101/webapi/message]
 # [Next](https://www.youtube.com/watch?v=BaZdlJSts5A&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=14)
