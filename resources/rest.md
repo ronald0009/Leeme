@@ -111,4 +111,11 @@ There are two kinds of Web Services: SOAP and REST.
 - Annotate method with the right HTTP method annotation 
 - Annotate method with the @Produces specifying response format 
 - [Hello](http://localhost:8080/demo101/webapi/message)
-# [Next](https://www.youtube.com/watch?v=BaZdlJSts5A&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=14)
+## Returning XML Response
+- Create the necessary model and service classes
+- Ensure the model class has a no-argument constructor
+- Call the service from MessageResource and return response
+- Use the @Produces annotation with XML format
+- Annotate model class with @XmlRootElement 
+- [XML hello](http://localhost:8080/demo101/webapi/xmlmessage)
+# [Next](https://www.youtube.com/watch?v=vbP1ZCDfIfw&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=15)
