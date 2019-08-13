@@ -120,4 +120,6 @@ There are two kinds of Web Services: SOAP and REST.
 - [XML hello](http://localhost:8080/demo101/webapi/xmlmessage)
 ## Installing a REST API client
 - Install Postman
-# [Next](https://www.youtube.com/watch?v=U4tOw0LxQW4&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=17)
+# Accessing Path params
+- [Sample](http://localhost:8080/demo101/webapi/xmlmessage/1)
+# [Next](https://www.youtube.com/watch?v=5KLFUwcIKkw&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=18)
