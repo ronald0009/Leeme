@@ -85,7 +85,7 @@ There are two kinds of Web Services: SOAP and REST.
 - JAX-RS
 - Jersey *
 - RESTEasy *
-  - * Implements JAX-RS
+  - (\*) Implements JAX-RS
 - Apache Livy
 ## JAX-RS REST demo made easy and fast!
 - ALT + SHIFT + N
