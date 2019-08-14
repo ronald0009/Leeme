@@ -124,4 +124,7 @@ There are two kinds of Web Services: SOAP and REST.
 - [XML sample](http://localhost:8080/demo101/webapi/xmlmessage/1)
 ## Returning JSON Response
 - [JSON sample](http://localhost:8080/demo102/webapi/jsonmessage)
-# [Next](https://www.youtube.com/watch?v=6HWUrp6buqQ&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=19)
+## Implementing POST Method
+- [POST sample](http://localhost:8080/demo102/webapi/jsonmessage)
+## Implementing Update and Delete
+# [Next](https://www.youtube.com/watch?v=HePAArH5BrU&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=20)
