@@ -130,5 +130,7 @@ There are two kinds of Web Services: SOAP and REST.
 - [PUT & DELETE samples](http://localhost:8080/demo102/webapi/jsonmessage/1)
 ## Simplified
 - [GET, POST, PUT & DELETE samples](http://localhost:8080/demo103/webapi/jsonmessage)
-# [Next](https://www.youtube.com/watch?v=WC6wy3Kg5pk&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=22)
-- 4:36
+## Pagination and Filtering
+- [URL for All](http://localhost:8080/demo104/webapi/jsonmessage)
+- [URL for All with query](http://localhost:8080/demo104/webapi/jsonmessage?author=guesta)
+# [Next](https://www.youtube.com/watch?v=Mqpgca6654Q&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=23)
