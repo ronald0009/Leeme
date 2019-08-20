@@ -134,3 +134,4 @@ There are two kinds of Web Services: SOAP and REST.
 - [URL for All](http://localhost:8080/demo104/webapi/jsonmessage)
 - [URL for All with query](http://localhost:8080/demo104/webapi/jsonmessage?author=guesta)
 # [Next](https://www.youtube.com/watch?v=Mqpgca6654Q&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=23)
+- []()
