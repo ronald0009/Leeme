@@ -147,4 +147,7 @@ Path: /demo104/webapi/annotationservice
 Domain name: localhost
 ```
 - [URL of demo](http://localhost:8080/demo104/webapi/annotationservice/annotation;mParam=testMParam)
-# [Next](https://www.youtube.com/watch?v=4nZUT1oBI1g&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=24)
+# Using Context and BeanParam annotations
+- [Context demo](http://localhost:8080/demo104/webapi/annotationservice/context)
+- [Bean filter demo](http://localhost:8080/demo105/webapi/jsonmessage?author=guesta)
+# [Next](https://www.youtube.com/watch?v=O4dAxOCYAUg&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=25)
