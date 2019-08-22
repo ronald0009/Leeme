@@ -158,5 +158,5 @@ Domain name: localhost
 - [Get comment by ID](http://localhost:8080/demo105/webapi/jsonmessage/1/comment/2)
 ## Sending Status Codes and Location Headers
 - [Create a message and get a status code](http://localhost:8080/demo106/webapi/jsonmessage)
-## [Next](https://www.youtube.com/watch?v=HEabElNrfbo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=26)
+## [Next 26](https://www.youtube.com/watch?v=HEabElNrfbo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=26)
 - 14:21
