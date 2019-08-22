@@ -147,7 +147,13 @@ Path: /demo104/webapi/annotationservice
 Domain name: localhost
 ```
 - [URL of demo](http://localhost:8080/demo104/webapi/annotationservice/annotation;mParam=testMParam)
-# Using Context and BeanParam annotations
+## Using Context and BeanParam annotations
 - [Context demo](http://localhost:8080/demo104/webapi/annotationservice/context)
 - [Bean filter demo](http://localhost:8080/demo105/webapi/jsonmessage?author=guesta)
-# [Next](https://www.youtube.com/watch?v=O4dAxOCYAUg&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=25)
+## Implementing Subresources
+```
+/messages/{messageId}/comments/{commentId}
+```
+- [Get all comments](http://localhost:8080/demo105/webapi/jsonmessage/1/comment)
+- [Get comment by ID](http://localhost:8080/demo105/webapi/jsonmessage/1/comment/2)
+## [Next](https://www.youtube.com/watch?v=HEabElNrfbo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=26)
