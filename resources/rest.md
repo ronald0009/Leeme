@@ -30,11 +30,7 @@ There are two kinds of Web Services: SOAP and REST.
     - text/xml
     - application/json
   - Content Negotiation
-## REST and HTTP
-- Resource based URIs
-- HTTP Methods
-- HTTP Status codes
-- Message headers
+## [Next 3](https://www.youtube.com/watch?v=NjpKwiRORI4&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=3)
 ### HTTP Methods
 - GET, POST, PUT, DELETE
 ### HTTP Status codes
