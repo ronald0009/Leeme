@@ -30,31 +30,42 @@ There are two kinds of Web Services: SOAP and REST.
     - text/xml
     - application/json
   - Content Negotiation
-## [Next 3](https://www.youtube.com/watch?v=NjpKwiRORI4&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=3)
-### HTTP Methods
-- GET, POST, PUT, DELETE
-### HTTP Status codes
-- 200 - Success
-- 500 - Server error
-- 404 - Not found
 ## Resource URIs
+- Resource based URIs
+- Every entity has an unique URI 
+- Contains nouns, not verbs
+- It contains plural nouns to get multiple resources or entities
+- Doesn't not depends on frameworks
 - Resource relations
-- Designing RESTFUL URIs
+- RESTful URIs are resource based 
 ## Two types of resource URIs
 - Instance resource URIs
 - Collection resource URIs 
+- We can implement query parameters for pagination and filtering collection URIs
 ## HTTP Methods 
-- post -> create
-- delete -> delete 
-- put -> update
-- get -> select
+- With HTTP methods, the same URI can perform different operations 
+- You make POST/DELETE/PUT/GET requests
+- POST -> create
+- DELETE -> delete 
+- PUT -> update
+- GET -> select
+- HEAD 
+- OPTIONS 
+- On post request, the response will contain the entity ID
 ## Method idempotence 
-### Idempotent
+- What is the difference between PUT and POST?
+### Read only methods 
+- GET 
+### Write methods 
+- POST, PUT, DELETE 
+### Idempotent 
 - Safely repeatable
 - GET, PUT, DELETE
 ### Nonidempotent
 - Cannot be repeated safely
 - POST
+# [Next](https://www.youtube.com/watch?v=rhTkRK53XdQ&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=6)
+- 4:53
 ## Responses
 ### Resource Representations
 - XML
