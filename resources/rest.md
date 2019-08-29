@@ -64,23 +64,29 @@ There are two kinds of Web Services: SOAP and REST.
 ### Nonidempotent
 - Cannot be repeated safely
 - POST
-# [Next](https://www.youtube.com/watch?v=rhTkRK53XdQ&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=6)
-- 4:53
-## Responses
+## REST Response
+- Headers
+  - Message length
+  - Date
+  - Content Type 
+- Message Body
 ### Resource Representations
 - XML
 - JSON
-### Status Codes
-- 1XX Informational
-- 2XX Success
-- 3XX Redirection
-  - 302 Found
-  - 304 Not Modified
-  - 307 Temporary 
-- 4XX Client Error
-  - 400 Bad Request
-  - 401 Unauthorized
-  - 403 Forbidden
+### Status Codes 
+- 1XX Informational 
+- 2XX Success 
+  - 200 OK 
+  - 201 Created 
+  - 204 No Content 
+- 3XX Redirection 
+  - 302 Found 
+  - 304 Not Modified 
+  - 307 Temporary Redirect 
+- 4XX Client Error 
+  - 400 Bad Request 
+  - 401 Unauthorized 
+  - 403 Forbidden 
   - 404 Not Found 
   - 415 Unsupported Media Type 
 - 5XX Serve Error 
@@ -93,6 +99,8 @@ There are two kinds of Web Services: SOAP and REST.
 - Of
 - Application
 - State
+- HATEOAS is a way to provide links to resources in the responses so the client doesn't have to deal with the URL construction and the business flow
+# [Next](https://www.youtube.com/watch?v=qHbTE3qvUsQ&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=9)
 ## The Richardson Maturity Model 
 - Is this API fully RESTful?
 - Leonard Richardson
