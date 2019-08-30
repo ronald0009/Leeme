@@ -119,8 +119,18 @@ There are two kinds of Web Services: SOAP and REST.
   - (\*) Implements JAX-RS
 - RESTEasy *
 - Apache Livy
-# [Next](https://www.youtube.com/watch?v=skltzZH7i4w&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=11)
 ## JAX-RS REST demo made easy and fast!
+- Create module
+```
+cd %WORKSPACE%
+git clone https://github.com/ronald0009/demo200.git
+cd demo200
+```
+- Packages
+```
+Module Group Id: com.rab.demo
+Project Group Id: com.rab.demo.demo200
+```
 - ALT + SHIFT + N
 - Maven Project
 - Next
@@ -131,26 +141,28 @@ There are two kinds of Web Services: SOAP and REST.
   - Archetype Version: 2.29
 - OK
 - Next
-  - Group Id: com.rab.demo
-  - Artifact Id: demo100
+  - Group Id: com.rab.demo.demo200
+  - Artifact Id: demo201
   - Version: 0.0.1-SNAPSHOT
-  - Package: com.rab.demo.demo100 
+  - Package: com.rab.demo.demo200
 - Finish
-## Creating a Resource
+- [My resource](http://localhost:8080/demo201/webapi/myresource)
+## Creating a Resource 
 - Create a new Java class 
 - Add a method that returns the response
 - Make sure your class is in the package configured in Jersey servlet's init-param
 - Annotate class with @Path annotation 
 - Annotate method with the right HTTP method annotation 
 - Annotate method with the @Produces specifying response format 
-- [Hello](http://localhost:8080/demo101/webapi/message)
+- [Hello resource](http://localhost:8080/demo202/webapi/helloresource)
 ## Returning XML Response
 - Create the necessary model and service classes
 - Ensure the model class has a no-argument constructor
 - Call the service from MessageResource and return response
 - Use the @Produces annotation with XML format
 - Annotate model class with @XmlRootElement 
-- [XML hello](http://localhost:8080/demo101/webapi/xmlmessage)
+- [XML messages list](http://localhost:8080/demo203/webapi/messageresource)
+# [Next](https://www.youtube.com/watch?v=vbP1ZCDfIfw&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=15)
 ## Installing a REST API client
 - Install Postman
 ## Accessing Path params
