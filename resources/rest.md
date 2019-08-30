@@ -100,7 +100,6 @@ There are two kinds of Web Services: SOAP and REST.
 - Application
 - State
 - HATEOAS is a way to provide links to resources in the responses so the client doesn't have to deal with the URL construction and the business flow
-# [Next](https://www.youtube.com/watch?v=qHbTE3qvUsQ&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=9)
 ## The Richardson Maturity Model 
 - Is this API fully RESTful?
 - Leonard Richardson
@@ -117,9 +116,10 @@ There are two kinds of Web Services: SOAP and REST.
 ## Libraries
 - JAX-RS
 - Jersey *
-- RESTEasy *
   - (\*) Implements JAX-RS
+- RESTEasy *
 - Apache Livy
+# [Next](https://www.youtube.com/watch?v=skltzZH7i4w&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=11)
 ## JAX-RS REST demo made easy and fast!
 - ALT + SHIFT + N
 - Maven Project
