@@ -162,9 +162,11 @@ Project Group Id: com.rab.demo.demo200
 - Use the @Produces annotation with XML format
 - Annotate model class with @XmlRootElement 
 - [XML messages list](http://localhost:8080/demo203/webapi/messageresource)
-# [Next](https://www.youtube.com/watch?v=vbP1ZCDfIfw&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=15)
 ## Installing a REST API client
 - Install Postman
+## Creating the service stub
+- [XML messages list stub](http://localhost:8080/demo204/webapi/messageresource)
+# [Next](https://www.youtube.com/watch?v=U4tOw0LxQW4&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=17)
 ## Accessing Path params
 - [XML sample](http://localhost:8080/demo101/webapi/xmlmessage/1)
 ## Returning JSON Response
