@@ -166,17 +166,57 @@ Project Group Id: com.rab.demo.demo200
 - Install Postman
 ## Creating the service stub
 - [XML messages list stub](http://localhost:8080/demo204/webapi/messageresource)
-# [Next](https://www.youtube.com/watch?v=U4tOw0LxQW4&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=17)
 ## Accessing Path params
-- [XML sample](http://localhost:8080/demo101/webapi/xmlmessage/1)
+- [XML bean by ID](http://localhost:8080/demo205/webapi/messageresource/1)
 ## Returning JSON Response
-- [JSON sample](http://localhost:8080/demo102/webapi/jsonmessage)
+- [JSON bean by ID](http://localhost:8080/demo206/webapi/messageresource/1)
 ## Implementing POST Method
-- [POST sample](http://localhost:8080/demo102/webapi/jsonmessage)
+- Clic on +
+- Body/raw/JSON(application/json)
+- Add JSON bean to request body
+```
+{
+    "author": "Pierre",
+    "created": "2019-09-01T12:18:32.015-05:00",
+    "message": "Bonjour"
+}
+```
+- [Add bean with POST request](http://localhost:8080/demo207/webapi/messageresource)
+- [JSON beans with GET request](http://localhost:8080/demo207/webapi/messageresource)
 ## Implementing Update and Delete
-- [PUT & DELETE samples](http://localhost:8080/demo102/webapi/jsonmessage/1)
+1. Add JSON bean to request body
+```
+{
+    "author": "Ronaldo",
+    "created": "2019-09-01T12:18:32.015-05:00",
+    "message": "Ola"
+}
+```
+2. [Add bean with POST request](http://localhost:8080/demo208/webapi/messageresource)
+3. [Get all messages with GET request](http://localhost:8080/demo208/webapi/messageresource)
+4. Config PUT request 
+- Clic on +
+- Select PUT 
+- Body/raw/JSON 
+- Add JSON bean to request body 
+```
+{
+    "id": 3,
+	"author": "Ronaldo",
+    "created": "2019-09-01T12:18:32.015-05:00",
+    "message": "Orale"
+}
+```
+4. [Update bean with PUT request](http://localhost:8080/demo208/webapi/messageresource/3)
+5. [Get all messages with GET request](http://localhost:8080/demo208/webapi/messageresource)
+6. Config DELETE request
+- Clic on +
+- Select DELETE 
+7. [Delete bean with DELETE request](http://localhost:8080/demo208/webapi/messageresource/3)
+8. [Get all messages with GET request](http://localhost:8080/demo208/webapi/messageresource)
 ## Simplified
-- [GET, POST, PUT & DELETE samples](http://localhost:8080/demo103/webapi/jsonmessage)
+- [Get all messages with GET request](http://localhost:8080/demo209/webapi/messageresource)
+# [Next](https://www.youtube.com/watch?v=Ik7jv3d-1qY&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=21)
 ## Pagination and Filtering
 - [URL for All](http://localhost:8080/demo104/webapi/jsonmessage)
 - [URL for All with query](http://localhost:8080/demo104/webapi/jsonmessage?author=guesta)
