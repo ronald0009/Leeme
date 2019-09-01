@@ -251,10 +251,11 @@ Project Group Id: com.rab.demo.demo200
 ```
 9. [PUT request](http://localhost:8080/demo210/webapi/profiles/3)
 10. [GET all request](http://localhost:8080/demo210/webapi/profiles)
-# [Next](https://www.youtube.com/watch?v=WC6wy3Kg5pk&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=22)
 ## Pagination and Filtering
-- [URL for All](http://localhost:8080/demo104/webapi/jsonmessage)
-- [URL for All with query](http://localhost:8080/demo104/webapi/jsonmessage?author=guesta)
+- [GET messages](http://localhost:8080/demo211/webapi/messages)
+- [GET messages 4 year](http://localhost:8080/demo211/webapi/messages?year=2019)
+- [GET messages paginated](http://localhost:8080/demo211/webapi/messages?start=1&size=2)
+# [Next](https://www.youtube.com/watch?v=Mqpgca6654Q&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=23)
 ## The Param Annotations
 - Set header
 ```
