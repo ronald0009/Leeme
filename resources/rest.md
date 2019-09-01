@@ -169,6 +169,13 @@ Project Group Id: com.rab.demo.demo200
 ## Accessing Path params
 - [XML bean by ID](http://localhost:8080/demo205/webapi/messageresource/1)
 ## Returning JSON Response
+- Add JSON maven dependency
+```xml 
+<dependency>
+	<groupId>org.glassfish.jersey.media</groupId>
+	<artifactId>jersey-media-moxy</artifactId>
+</dependency>
+```
 - [JSON bean by ID](http://localhost:8080/demo206/webapi/messageresource/1)
 ## Implementing POST Method
 - Clic on +
@@ -216,7 +223,35 @@ Project Group Id: com.rab.demo.demo200
 8. [Get all messages with GET request](http://localhost:8080/demo208/webapi/messageresource)
 ## Simplified
 - [Get all messages with GET request](http://localhost:8080/demo209/webapi/messageresource)
-# [Next](https://www.youtube.com/watch?v=Ik7jv3d-1qY&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=21)
+## Implementing another resource
+1. [GET profiles](http://localhost:8080/demo210/webapi/profiles)
+2. [GET profile by name](http://localhost:8080/demo210/webapi/profiles/pancho)
+3. Config POST request 
+4. Add JSON bean to request body 
+```json
+{
+    "author": "Ronaldo",
+    "created": "2019-09-01T17:59:08.234-05:00",
+    "key": "ron",
+    "message": "Ola"
+}
+```
+5. [POST request](http://localhost:8080/demo210/webapi/profiles)
+6. [GET all request](http://localhost:8080/demo210/webapi/profiles)
+7. Config PUT request 
+8. Add JSON bean to request body
+```json
+{
+    "author": "Ronaldo",
+    "created": "2019-09-01T17:59:08.234-05:00",
+    "id": 3,
+    "key": "ron",
+    "message": "Orale"
+}
+```
+9. [PUT request](http://localhost:8080/demo210/webapi/profiles/3)
+10. [GET all request](http://localhost:8080/demo210/webapi/profiles)
+# [Next](https://www.youtube.com/watch?v=WC6wy3Kg5pk&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=22)
 ## Pagination and Filtering
 - [URL for All](http://localhost:8080/demo104/webapi/jsonmessage)
 - [URL for All with query](http://localhost:8080/demo104/webapi/jsonmessage?author=guesta)
