@@ -271,8 +271,8 @@ Domain name: localhost
 - [Injected annotated GET request](http://localhost:8080/demo211/webapi/inject/annotation;mParam=testMParam)
 ## Using Context and BeanParam annotations
 - [Context demo](http://localhost:8080/demo211/webapi/inject/context)
-# [Next 6:16](https://www.youtube.com/watch?v=4nZUT1oBI1g&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=24)
-- [Bean filter demo](http://localhost:8080/demo105/webapi/jsonmessage?author=guesta)
+- [Bean filter demo](http://localhost:8080/demo212/webapi/messages?start=1&size=2)
+# [Next](https://www.youtube.com/watch?v=O4dAxOCYAUg&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=25)
 ## Implementing Subresources
 ```
 /messages/{messageId}/comments/{commentId}
