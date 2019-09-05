@@ -209,7 +209,7 @@ Project Group Id: com.rab.demo.demo200
 ```
 {
     "id": 3,
-	"author": "Ronaldo",
+    "author": "Ronaldo",
     "created": "2019-09-01T12:18:32.015-05:00",
     "message": "Orale"
 }
@@ -272,11 +272,12 @@ Domain name: localhost
 ## Using Context and BeanParam annotations
 - [Context demo](http://localhost:8080/demo211/webapi/inject/context)
 - [Bean filter demo](http://localhost:8080/demo212/webapi/messages?start=1&size=2)
-# [Next](https://www.youtube.com/watch?v=O4dAxOCYAUg&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=25)
+# [Next 14:50](https://www.youtube.com/watch?v=O4dAxOCYAUg&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=25)
 ## Implementing Subresources
 ```
 /messages/{messageId}/comments/{commentId}
 ```
+- @Path annotation at class level is optional for sub-resources.
 - [Get all comments](http://localhost:8080/demo105/webapi/jsonmessage/1/comment)
 - [Get comment by ID](http://localhost:8080/demo105/webapi/jsonmessage/1/comment/2)
 ## Sending Status Codes and Location Headers
