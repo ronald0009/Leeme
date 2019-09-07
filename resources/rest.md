@@ -272,15 +272,12 @@ Domain name: localhost
 ## Using Context and BeanParam annotations
 - [Context demo](http://localhost:8080/demo211/webapi/inject/context)
 - [Bean filter demo](http://localhost:8080/demo212/webapi/messages?start=1&size=2)
-# [Next 14:50](https://www.youtube.com/watch?v=O4dAxOCYAUg&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=25)
 ## Implementing Subresources
 ```
 /messages/{messageId}/comments/{commentId}
 ```
 - @Path annotation at class level is optional for sub-resources.
-- [Get all comments](http://localhost:8080/demo105/webapi/jsonmessage/1/comment)
-- [Get comment by ID](http://localhost:8080/demo105/webapi/jsonmessage/1/comment/2)
+- [sample url](??)
+# [Next 3:14](https://www.youtube.com/watch?v=HEabElNrfbo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=26)
 ## Sending Status Codes and Location Headers
 - [Create a message and get a status code](http://localhost:8080/demo106/webapi/jsonmessage)
-## [Next 26](https://www.youtube.com/watch?v=HEabElNrfbo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=26)
-- 14:21
