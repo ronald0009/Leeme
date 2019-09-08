@@ -240,7 +240,7 @@ Project Group Id: com.rab.demo.demo200
 6. [GET all request](http://localhost:8080/demo210/webapi/profiles)
 7. Config PUT request 
 8. Add JSON bean to request body
-```json
+```
 {
     "author": "Ronaldo",
     "created": "2019-09-01T17:59:08.234-05:00",
@@ -276,8 +276,17 @@ Domain name: localhost
 ```
 /messages/{messageId}/comments/{commentId}
 ```
-- @Path annotation at class level is optional for sub-resources.
-- [sample url](??)
+- @Path annotation at class level is optional for sub-resources!
+- [Bean filter test](http://localhost:8080/demo213/webapi/messages?start=1&size=2)
+- Add comment to POST request
+```
+{
+    "message": "Good example!",
+    "author": "Yol"
+}
+```
+- [Add comment POST url](http://localhost:8080/demo213/webapi/messages/1/comments?messageId=1)
+- [Get comments from message number 1](http://localhost:8080/demo213/webapi/messages/1/comments)
 # [Next 3:14](https://www.youtube.com/watch?v=HEabElNrfbo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=26)
 ## Sending Status Codes and Location Headers
 - [Create a message and get a status code](http://localhost:8080/demo106/webapi/jsonmessage)
