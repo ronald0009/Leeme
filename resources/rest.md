@@ -287,6 +287,28 @@ Domain name: localhost
 ```
 - [Add comment POST url](http://localhost:8080/demo213/webapi/messages/1/comments?messageId=1)
 - [Get comments from message number 1](http://localhost:8080/demo213/webapi/messages/1/comments)
-# [Next 3:14](https://www.youtube.com/watch?v=HEabElNrfbo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=26)
 ## Sending Status Codes and Location Headers
 - [Create a message and get a status code](http://localhost:8080/demo106/webapi/jsonmessage)
+- Add JSON bean to request body
+```
+{
+    "author": "Pierre",
+    "created": "2019-09-01T12:18:32.015-05:00",
+    "message": "Bonjour"
+}
+```
+- [Add bean with POST request](http://localhost:8080/demo214/webapi/messages)
+- See headers content
+```
+Location: http://localhost:8080/demo214/webapi/messages/5
+```
+- [JSON beans with GET request](http://localhost:8080/demo214/webapi/messages?start=3&size=2)
+## Handling Exceptions
+- [GET HTTP 500 status code with custom message](http://localhost:8080/demo215/webapi/messages/6)
+- Create ErrorMessage class and annotate it with XmlRootElement annotation because we need this class can be converted to JSON
+- We will create the class for custom exception mapping and annotate this with the Provider annotation, so JAX-RS can scan all classes annotated like this 
+- [GET HTTP 404 managed with our app server](http://localhost:8080/demo215/webapi/messages/6)
+- [GET HTTP 404 status thanks to our exception mapper](http://localhost:8080/demo216/webapi/messages/6)
+- [GET HTTP 500 status thanks to our generic exception mapper](http://localhost:8080/demo216/webapi/msg)
+# [Next](https://www.youtube.com/watch?v=Vdk_tUhcJZM&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=28)
+## Using WebApplicationException
