@@ -310,6 +310,6 @@ Location: http://localhost:8080/demo214/webapi/messages/5
 - [GET HTTP 404 managed with our app server](http://localhost:8080/demo215/webapi/messages/6)
 - [GET HTTP 404 status thanks to our exception mapper](http://localhost:8080/demo216/webapi/messages/6)
 - [GET HTTP 500 status thanks to our generic exception mapper](http://localhost:8080/demo216/webapi/msg)
-# [Next](https://www.youtube.com/watch?v=Vdk_tUhcJZM&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=28)
+# [Next 4:44](https://www.youtube.com/watch?v=Vdk_tUhcJZM&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=28)
 ## Using WebApplicationException
 - Remove Provider annotation from generic exception mapper 
