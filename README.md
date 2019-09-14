@@ -11,3 +11,4 @@
 - [Public and private keys]()
 - [Implement memory cache with java]()
 - Los comandos deben tener un patron en el nombre que facil de consultar y sirva para relacionarlos
+- El mensaje para el usuario debe estar parametrizado en BD y ser configurable por canal para dar una respuesta coherente
