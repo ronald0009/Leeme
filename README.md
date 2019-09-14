@@ -10,3 +10,4 @@
 - [Admin JBoss]()
 - [Public and private keys]()
 - [Implement memory cache with java]()
+- Los comandos deben tener un patron en el nombre que facil de consultar y sirva para relacionarlos
