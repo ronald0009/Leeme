@@ -315,4 +315,7 @@ Location: http://localhost:8080/demo214/webapi/messages/5
 - [GET 404 status](http://localhost:8080/demo217/webapi/messages/200/comments/100)
 - [GET custom message](http://localhost:8080/demo217/webapi/messages/2/comments/100)
 - [GET 404 status from not found exception handler](http://localhost:8080/demo218/webapi/messages/200/comments/100)
-# [Next](https://www.youtube.com/watch?v=Mp6LpIg7h84&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=29)
+## HATEOAS
+- We need to send link to resources in the response.
+- [GET url info](http://localhost:8080/demo219/webapi/messages/2)
+# [Next](https://www.youtube.com/watch?v=dtO5NQ8K5Wo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=30)
