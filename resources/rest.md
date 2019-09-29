@@ -329,4 +329,3 @@ Location: http://localhost:8080/demo214/webapi/messages/5
   - Add text/xml value to the variable Accept
 - Add appropiate Produces annotation to resource
 - [GET url info](http://localhost:8080/demo221/webapi/messages/2)
-# [Next](https://www.youtube.com/watch?v=vP9HU1o3zsE&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=31)
