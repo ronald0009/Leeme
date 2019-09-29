@@ -88,6 +88,7 @@ There are two kinds of Web Services: SOAP and REST.
   - 401 Unauthorized 
   - 403 Forbidden 
   - 404 Not Found 
+  - 406 Not Acceptable 
   - 415 Unsupported Media Type 
 - 5XX Serve Error 
   - 500 Internal Server Error 
@@ -318,4 +319,14 @@ Location: http://localhost:8080/demo214/webapi/messages/5
 ## HATEOAS
 - We need to send link to resources in the response.
 - [GET url info](http://localhost:8080/demo219/webapi/messages/2)
-# [Next](https://www.youtube.com/watch?v=dtO5NQ8K5Wo&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=30)
+- [GET url info: message, profile, comment](http://localhost:8080/demo220/webapi/messages/2)
+## Content Negotiation
+- Header variables
+  - Accept 
+  - Content-Type
+- Clic on Headers tab
+  - Add Accept variable to request header
+  - Add text/xml value to the variable Accept
+- Add appropiate Produces annotation to resource
+- [GET url info](http://localhost:8080/demo221/webapi/messages/2)
+# [Next](https://www.youtube.com/watch?v=vP9HU1o3zsE&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn&index=31)
