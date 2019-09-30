@@ -1,4 +1,4 @@
-- [REST](./resources/rest.md)
+- [Microservices](./resources/microservices.md)
 - [JSPs and Servlets](./resources/jspservlets.md)
 - [Best](./resources/best.md)
 - [Android](https://github.com/ronald0009/Leeme/blob/master/resources/android.md)
