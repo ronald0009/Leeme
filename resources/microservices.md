@@ -18,3 +18,10 @@
 - Deployment / architecture complexity
 - Service discovery
 - Always use the right architecture for the problem
+### Service discovery
+- How does an application know how to call another application?
+- Service discovery
+- Client side service discovery
+  - Eureka
+- Server side service discovery
+  - NGINX, AWS
