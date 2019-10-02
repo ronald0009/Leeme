@@ -25,4 +25,12 @@
   - Eureka
 - Server side service discovery
   - NGINX, AWS
-# [Next](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas)
+## Step 1. Create the services 
+```
+URL: https://start.spring.io
+Group: com.rab.demo.demo100
+Artifact: movie-catalog-service
+Java version: 11
+Dependencies: Web
+```
+## [Next](https://www.youtube.com/watch?v=sd3BaQr2nxA&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=7)
