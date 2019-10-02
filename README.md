@@ -1,4 +1,5 @@
 - [Microservices](./resources/microservices.md)
+- [Patterns](./resources/patterns.md)
 - [JSPs and Servlets](./resources/jspservlets.md)
 - [Best](./resources/best.md)
 - [Android](https://github.com/ronald0009/Leeme/blob/master/resources/android.md)
