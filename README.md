@@ -1,3 +1,4 @@
+- [Spring Boot](./resources/springboot.md)
 - [Microservices](./resources/microservices.md)
 - [Patterns](./resources/patterns.md)
 - [JSPs and Servlets](./resources/jspservlets.md)
