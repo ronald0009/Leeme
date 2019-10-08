@@ -12,7 +12,7 @@
   - Group Id: com.rab.demo
   - Artifact Id: demo100
 - Edit pom.xml
-```
+```xml
 <parent>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-parent</artifactId>
