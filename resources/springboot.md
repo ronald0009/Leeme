@@ -38,5 +38,5 @@
 ```
 # Starting Spring Boot application
 - Run the application
-- Open the URL [localhos](http://localhost:8080/)
+- Open the URL [localhost](http://localhost:8080/)
 [Next](https://javabrains.io/courses/spring_bootquickstart/lessons/Spring-Boot-startup-steps/)
