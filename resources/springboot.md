@@ -12,7 +12,7 @@
   - Group Id: com.rab.demo
   - Artifact Id: demo100
 - Edit pom.xml
-```xml
+```
 <parent>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-parent</artifactId>
@@ -28,4 +28,7 @@
 	<java.version>1.8</java.version>
 </properties>
 ```
-[Next](https://javabrains.io/courses/spring_bootquickstart/lessons/Starting-a-Spring-Boot-application/)
+# Starting Spring Boot application
+- Run the application
+- Open the URL [localhos](http://localhost:8080/)
+[Next](https://javabrains.io/courses/spring_bootquickstart/lessons/Spring-Boot-startup-steps/)
