@@ -39,4 +39,9 @@
 # Starting Spring Boot application
 - Run the application
 - Open the URL [localhost](http://localhost:8080/)
-[Next](https://javabrains.io/courses/spring_bootquickstart/lessons/Spring-Boot-startup-steps/)
+# Spring Boot startup steps
+- Sets up default configuration
+- Starts Spring application context
+- Performs class path scan 
+- Starts Tomcat server 
+[Next](https://javabrains.io/courses/spring_bootquickstart/lessons/Adding-a-REST-Controller/)
