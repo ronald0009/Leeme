@@ -44,4 +44,8 @@
 - Starts Spring application context
 - Performs class path scan 
 - Starts Tomcat server 
-[Next](https://javabrains.io/courses/spring_bootquickstart/lessons/Adding-a-REST-Controller/)
+# Adding a REST Controller
+- Open the URL [localhost](http://localhost:8080/hello)
+# Returning Objects From Controller
+- Open the URL [localhost](http://localhost:8080/topics)
+# [Next](Spring Boot Quick Start 14 - What's Happening Here: Embedded Servlet Container)
