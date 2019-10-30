@@ -48,4 +48,30 @@
 - Open the URL [localhost](http://localhost:8080/hello)
 # Returning Objects From Controller
 - Open the URL [localhost](http://localhost:8080/topics)
-# [Next](https://www.youtube.com/watch?v=FiERKHK69Nc&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=14)
+# Embedded Servlet Container
+- Convenience
+- Servlet container config is now application config
+- Standalone application
+- Useful for microservices architecture
+# Creating a business service
+- Open the URL [localhost](http://localhost:8080/topics)
+# Getting a single resource
+- Open the URL [localhost](http://localhost:8080/topics/springboot)
+# Creating a new resource using POST
+- Open Postman
+  - Clic on +
+  - Select POST 
+  - Clic on tab Body 
+  - Select raw 
+  - Select JSON
+  - Add JSON bean to request body
+```
+{
+    "id": "mongodb",
+    "name": "Mongo DB",
+    "description": "Mongo for Java Developers"
+}
+```
+- Open the URL POST [localhost](http://localhost:8080/topics)
+- Open the URL GET [localhost](http://localhost:8080/topics)
+# [Next](https://www.youtube.com/watch?v=z8XgBCrTVY0&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=20)
