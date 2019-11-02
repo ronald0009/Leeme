@@ -94,4 +94,36 @@
 - Open the URL GET [localhost](http://localhost:8080/topics/springboot)
 - Open the URL DELETE [localhost](http://localhost:8080/topics/springboot)
 - Open the URL GET [localhost](http://localhost:8080/topics)
-# [Next](https://www.youtube.com/watch?v=yGeI_WORmco&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=21)
+# Starting Spring Boot 
+- Starting a Spring Boot App
+  - [Spring Initializr](https://start.spring.io/)
+  - Spring Boot CLI 
+  - STS IDE 
+- Configuration
+# Using Spring Boot CLI
+- Download spring cli
+- cd C:\spring-2.2.0.RELEASE\bin
+- See available commands
+  - spring.bat + ENTER
+- Create groovy file
+```
+@RestController
+class AppCtrl {
+
+    @RequestMapping("/")
+    String app() {
+        "Hello world"
+    }
+}
+```
+- Save it as C:\spring-2.2.0.RELEASE\bin\app.groovy
+- Run command:
+```
+spring.bat run app.groovy
+```
+# Using application properties
+```
+application.properties
+```
+- Open the URL GET [localhost](http://localhost:8081/topics)
+# [Next](https://www.youtube.com/watch?v=du99WcQztNU&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=27)
