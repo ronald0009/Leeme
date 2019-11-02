@@ -74,4 +74,24 @@
 ```
 - Open the URL POST [localhost](http://localhost:8080/topics)
 - Open the URL GET [localhost](http://localhost:8080/topics)
-# [Next](https://www.youtube.com/watch?v=z8XgBCrTVY0&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=20)
+# Implementing Update and Delete
+- Open the URL GET [localhost](http://localhost:8080/topics)
+- Open Postman
+  - Clic on +
+  - Select PUT 
+  - Clic on tab Body 
+  - Select raw 
+  - Select JSON
+  - Add JSON bean to request body
+```
+{
+    "id": "springboot",
+    "name": "Spring Framework",
+    "description": "Spring Framework first steps V2"
+}
+```
+- Open the URL PUT [localhost](http://localhost:8080/topics/springboot)
+- Open the URL GET [localhost](http://localhost:8080/topics/springboot)
+- Open the URL DELETE [localhost](http://localhost:8080/topics/springboot)
+- Open the URL GET [localhost](http://localhost:8080/topics)
+# [Next](https://www.youtube.com/watch?v=yGeI_WORmco&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=21)
