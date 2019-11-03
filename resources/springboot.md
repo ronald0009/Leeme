@@ -156,4 +156,34 @@ application.properties
 - Open the URL DELETE [localhost](http://localhost:8080/topics/springboot)
 - Open the URL GET [localhost](http://localhost:8080/topics/springboot)
 # Adding Course APIs
-## [Next](https://www.youtube.com/watch?v=bEKt7LLEvb0&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=30)
+- Add JSON bean to request body
+```
+{
+    "id": "mongodb",
+    "name": "Mongo DB",
+    "description": "Mongo for Java Developers"
+}
+```
+- Open the URL POST [localhost](http://localhost:8080/topics)
+- Open the URL GET [localhost](http://localhost:8080/topics)
+- Create a course
+```
+{
+    "id": "mongodb4dba",
+    "name": "Mongo DB 4 DBA",
+    "description": "Mongo DB 4 DBAs"
+}
+```
+- Open the URL POST [localhost](http://localhost:8080/topics/mongodb/courses)
+- Open the URL GET [localhost](http://localhost:8080/topics/mongodb/courses)
+- Update a course
+```
+{
+    "id": "mongodb4dba",
+    "name": "Mongo DB 4 DBA",
+    "description": "Mongo DB 4 DBAs v4"
+}
+```
+- Open the URL PUT [localhost](http://localhost:8080/topics/mongodb/courses/mongodb4dba)
+- Open the URL GET [localhost](http://localhost:8080/topics/mongodb/courses)
+# [Next](https://www.youtube.com/watch?v=9mFcT2f8JJI&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=32)
