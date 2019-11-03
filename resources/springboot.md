@@ -126,4 +126,34 @@ spring.bat run app.groovy
 application.properties
 ```
 - Open the URL GET [localhost](http://localhost:8081/topics)
-# [Next](https://www.youtube.com/watch?v=du99WcQztNU&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=27)
+# Adding Spring Data JPA
+- Create couse-api-data project in Spring intlz
+- Add dependencies: jpa, web and apache derby
+- Open the URL GET [localhost](http://localhost:8081/topics)
+# Making Crud Operations with Repository
+- Open the URL GET [localhost](http://localhost:8081/topics)
+- Add JSON bean to request body
+```
+{
+    "id": "mongodb",
+    "name": "Mongo DB",
+    "description": "Mongo for Java Developers"
+}
+```
+- Open the URL POST [localhost](http://localhost:8080/topics)
+- Open the URL GET [localhost](http://localhost:8080/topics)
+- Edit JSON bean in request body
+```
+{
+    "id": "mongodb",
+    "name": "Mongo DB",
+    "description": "Mongo for Java Developers v2"
+}
+```
+- Open the URL PUT [localhost](http://localhost:8080/topics/mongodb)
+- Open the URL GET [localhost](http://localhost:8080/topics)
+- Open the URL GET [localhost](http://localhost:8080/topics/springboot)
+- Open the URL DELETE [localhost](http://localhost:8080/topics/springboot)
+- Open the URL GET [localhost](http://localhost:8080/topics/springboot)
+# Adding Course APIs
+## [Next](https://www.youtube.com/watch?v=bEKt7LLEvb0&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=30)
