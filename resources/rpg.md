@@ -21,3 +21,10 @@ C                   IF        %FOUND(F9999)
 C                   MOVE      COLUM1        VARIA1                 
 C                   ENDIF                                          
 ```
+  - ILE RPG not found
+```
+C     CLA999        CHAIN     F9999
+C                   IF        NOT %FOUND(F9999)
+C                   MOVE      COLUM1        VARIA1                 
+C                   ENDIF
+```
