@@ -1,6 +1,7 @@
 - [Spring Boot](./resources/springboot.md)
 - [Microservices](./resources/microservices.md)
 - [EMV](./resources/emv.md)
+- [RPG III, IV](./resources/rpg.md)
 - [Patterns](./resources/patterns.md)
 - [JSPs and Servlets](./resources/jspservlets.md)
 - [Best](./resources/best.md)
