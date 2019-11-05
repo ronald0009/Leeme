@@ -1,3 +1,13 @@
+- Para usar DUMP
+  - Poner DUMP en el codigo fuente
+```
+C                   DUMP
+```
+  - Identificar cual es el usuario que ejecuta el programa
+  - Ejecutar la sentencia para mostrar el spool del usuario
+```
+WRKSPLF SELECT(USR999)
+```
 - Para validar que existe un registro tenemos las siguientes opciones:
   - Al usar SQL
 ```
