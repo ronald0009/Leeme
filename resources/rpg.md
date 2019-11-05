@@ -6,6 +6,7 @@ C                   DUMP
   - Identificar cual es el usuario que ejecuta el programa
   - Ejecutar la sentencia para mostrar el spool del usuario
 ```
+WA
 WRKSPLF SELECT(USR999)
 ```
 - Para validar que existe un registro tenemos las siguientes opciones:
