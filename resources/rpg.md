@@ -3,7 +3,7 @@
 WRKOBJLCK OBJ(MYLIB/F9999) OBJTYPE(*FILE)
 ```
 - Realizar la secuencia de comandos:
-  - 5, 41, *IMMED, 1 (segundo), ENTER*2, F5
+  - 5, 41, \*IMMED, 1 (segundo), ENTER\*2, F5
 ```
 - Indicadores en \*.SQLRPGLE
 ```cobol
