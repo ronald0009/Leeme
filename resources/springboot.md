@@ -186,4 +186,28 @@ application.properties
 ```
 - Open the URL PUT [localhost](http://localhost:8080/topics/mongodb/courses/mongodb4dba)
 - Open the URL GET [localhost](http://localhost:8080/topics/mongodb/courses)
-# [Next](https://www.youtube.com/watch?v=9mFcT2f8JJI&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=32)
+# Packaging and running a Spring Boot app
+- Deploy and run as a jar executable file 
+```
+cd C:\ronald0\workspacesb\course-api-data
+mvn clean install
+java -jar target\course-api-data-0.0.1-SNAPSHOT.jar
+```
+- Deploy and run as a war file 
+- Edit pom.xml 
+```
+<packaging>war</packaging>
+```
+- Run commands
+```
+cd C:\ronald0\workspacesb\course-api-data
+mvn clean install
+```
+# Spring Boot Actuator
+- Add to pom.xml the optional production friendly actuator dependency 
+```
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+```
