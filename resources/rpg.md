@@ -2,7 +2,7 @@
 ```cobol
 C     COLUM1        CHAIN     F9999R                             31
  * FOUND -> *IN31 = 0
- * NO FOUND -> *IN31 = 1
+ * NOT FOUND -> *IN31 = 1
 C                   IF        *IN31
  * Entra cuando el indicador vale 1
 C                   ENDIF
