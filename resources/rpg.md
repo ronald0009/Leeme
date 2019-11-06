@@ -1,3 +1,7 @@
+- Llamar programa con 1 parametro
+```
+CALL PGM(MYLIB/RPG0000002) PARM('123')
+```
 - Para usar DUMP
   - Poner DUMP en el codigo fuente
 ```
