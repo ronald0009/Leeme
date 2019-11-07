@@ -1,8 +1,8 @@
 # Debug
-## Debug *.RPG
+###### \*.RPG
 1. Compile with 14 + F4
 2. F10 show options
-3. *SRCDBG
+3. \*SRCDBG
 ```
 Opciones de listado fuente . . . 
 ```
@@ -26,12 +26,16 @@ STRDBG PGM(MYLIB/RPG0000002) UPDPROD(*YES) OPMSRC(*YES)
 ```cobol
 CALL MYLIB/RPG0000002
 ```
-## Debug program \*.CL
+###### \*.CL
 1. \*SRCDBG
-## Debug program \*.SQLRPGLE
+###### \*.RPGLE
+```cobol
+STRDBG PGM(MYLIB/R9999999) UPDPROD(*YES) OPMSRC(*YES)
+```
+###### \*.SQLRPGLE
 1. 14 + F4
 2. F10
-3. *SOURCE
+3. \*SOURCE
 4. ENTER
 5. STRDBG + F4
 6. ENTER
