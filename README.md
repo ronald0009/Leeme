@@ -1,4 +1,3 @@
-- [Spring Boot](./resources/springboot.md)
 - [Microservices](./resources/microservices.md)
 - [EMV](./resources/emv.md)
 - [RPG III, IV](./resources/rpg.md)
