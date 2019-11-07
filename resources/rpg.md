@@ -1,3 +1,42 @@
+# Debug
+## Debug *.RPG
+1. Compile with 14 + F4
+2. F10 show options
+3. *SRCDBG
+```
+Opciones de listado fuente . . . 
+```
+4. Enter
+5. STRDBG + F4
+6. Fill values
+```
+Programa . . . . . . . . . . . .
+  Biblioteca . . . . . . . . . .
+Actualizar archivos producción  
+Depuración a nivel fuente OPM  .
+```
+7. Enter
+8. F6 set breakpoint
+9. F10 exit from set breakpoint option
+10. Resume
+```cobol
+STRDBG PGM(MYLIB/RPG0000002) UPDPROD(*YES) OPMSRC(*YES)
+```
+11. Call program
+```cobol
+CALL MYLIB/RPG0000002
+```
+## Debug program \*.CL
+1. \*SRCDBG
+## Debug program \*.SQLRPGLE
+1. 14 + F4
+2. F10
+3. *SOURCE
+4. ENTER
+5. STRDBG + F4
+6. ENTER
+7. F6
+8. F10
 - Liberar bloqueos
 ```cobol
 WRKOBJLCK OBJ(MYLIB/F9999) OBJTYPE(*FILE)
