@@ -17,6 +17,11 @@ C                   ENDIF
 ```
 CALL PGM(MYLIB/RPG0000002) PARM('123')
 ```
+- Llamar programa con varios parametros
+  - Escribe call + f10
+```cobol
+CALL PGM(MYLIB/RPG0000002) PARM('123' '456')
+```
 - Para usar DUMP
   - Poner DUMP en el codigo fuente
 ```
