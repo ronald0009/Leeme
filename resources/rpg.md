@@ -1,3 +1,13 @@
+# Spool
+- Eliminar spool
+```cobol
+dltsplf file(*select)
+```
+- Ver spool file del usuario
+  - Ubicarse en la opción de menú del usuario
+  - Ejecutar el programa que genera el archivo de spool
+  - Terminado el proceso presionar ESC + 2 ó SHIFT + F6
+  - F11 para ver la fecha del archivo generado
 # Debug
 ###### \*.RPG
 1. Compile with 14 + F4
