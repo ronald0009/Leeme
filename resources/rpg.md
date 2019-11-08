@@ -65,6 +65,20 @@ WRKOBJLCK OBJ(MYLIB/F9999) OBJTYPE(*FILE)
 - Realizar la secuencia de comandos:
   - 5, 41, \*IMMED, 1 (segundo), ENTER\*2, F5
 # Indicadores
+- Usar IF-ELSE con indicadores
+```cobol
+C                   SETOFF                                       40
+ *
+C     *IN40         IFEQ      *OFF
+ *
+C                   ELSE
+ *
+C                   ENDIF
+```
+- Poner el valor 1 si el indicador tiene valor 0
+```cobol
+C  N40              SETON                                        40
+```
 - Apagar indicador
 ```cobol
 C                   SETOFF                                       40
