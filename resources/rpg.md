@@ -65,6 +65,11 @@ WRKOBJLCK OBJ(MYLIB/F9999) OBJTYPE(*FILE)
 - Realizar la secuencia de comandos:
   - 5, 41, \*IMMED, 1 (segundo), ENTER\*2, F5
 # Indicadores
+- Cuando no hay match, el indicador recibe el valor 1
+```cobol
+C     CLA010        CHAIN     F999R                             30
+C     *IN30         IFEQ      *ON                                 
+```
 - Usar IF-ELSE con indicadores
 ```cobol
 C                   SETOFF                                       40
