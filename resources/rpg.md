@@ -57,12 +57,14 @@ STRDBG PGM(MYLIB/R9999999) UPDPROD(*YES) OPMSRC(*YES)
 6. ENTER
 7. F6
 8. F10
+# Bloqueos
 - Liberar bloqueos
 ```cobol
 WRKOBJLCK OBJ(MYLIB/F9999) OBJTYPE(*FILE)
 ```
 - Realizar la secuencia de comandos:
   - 5, 41, \*IMMED, 1 (segundo), ENTER\*2, F5
+# Indicadores
 - Indicadores en \*.SQLRPGLE
 ```cobol
 C     COLUM1        CHAIN     F9999R                             31
@@ -73,7 +75,7 @@ C                   IF        *IN31
 C                   ENDIF
 ```
 - Llamar programa con 1 parametro
-```
+```cobol
 CALL PGM(MYLIB/RPG0000002) PARM('123')
 ```
 - Llamar programa con varios parametros
