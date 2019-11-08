@@ -10,4 +10,4 @@
   - MasterCard credit or debit A0000000041010, etc.
 - The terminal and card each maintain a list of AIDs that they support.
   - The terminal (PINPAD) keeps a list of AIDs that it can support. Logic and configuration data specific to each AID must be added to the terminal.
-  - An Issuer loads applications and corresponding AIDs to the chip.
+  - In the card, an Issuer loads applications and corresponding AIDs to the chip.
