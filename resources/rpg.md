@@ -65,6 +65,15 @@ WRKOBJLCK OBJ(MYLIB/F9999) OBJTYPE(*FILE)
 - Realizar la secuencia de comandos:
   - 5, 41, \*IMMED, 1 (segundo), ENTER\*2, F5
 # Indicadores
+- Apagar indicador
+```cobol
+C                   SETOFF                                       40
+ * Equivale a *IN40 = 0
+```
+- Usar con IF
+```cobol
+C     *IN31         IFEQ      *OFF
+```
 - Indicadores en \*.SQLRPGLE
 ```cobol
 C     COLUM1        CHAIN     F9999R                             31
@@ -74,6 +83,7 @@ C                   IF        *IN31
  * Entra cuando el indicador vale 1
 C                   ENDIF
 ```
+# LLama programa
 - Llamar programa con 1 parametro
 ```cobol
 CALL PGM(MYLIB/RPG0000002) PARM('123')
@@ -83,9 +93,9 @@ CALL PGM(MYLIB/RPG0000002) PARM('123')
 ```cobol
 CALL PGM(MYLIB/RPG0000002) PARM('123' '456')
 ```
-- Para usar DUMP
-  - Poner DUMP en el codigo fuente
-```
+# Dump
+- Poner DUMP en el codigo fuente
+```cobol
 C                   DUMP
 ```
   - Identificar cual es el usuario que ejecuta el programa
