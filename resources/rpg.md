@@ -1,3 +1,13 @@
+# Buscar 
+- Sin clave primaria
+```cobol
+SETLL
+```
+# Fin de programa
+- SQLRPGLE
+```cobol
+C                   MOVE      *ON           *INLR
+```
 # Comment
 ```cobol
  *---------------------------------------------------*
@@ -123,8 +133,9 @@ C                   DUMP
 WA
 WRKSPLF SELECT(USR999)
 ```
+# Existe registro
 - Para validar que existe un registro tenemos las siguientes opciones:
-  - Al usar SQL
+- SQLRGPLE
 ```
 C/EXEC SQL
 C* aqui va la consulta
@@ -132,21 +143,21 @@ C/END-EXEC
 C                   IF        SQLCOD=*ZEROS
 C                   ENDIF
 ```
-  - Estilo RPG
+- RPG
 ```
 C     CLA999        CHAIN     F9999R                             31
 C     *IN31         IFEQ      *OFF                                 
 C                   MOVE      COLUM1        VARIA1                 
 C                   ENDIF                                          
 ```
-  - Estilo ILE RPG
+- ILE RPG indicadores
 ```
 C     CLA999        CHAIN     F9999
 C                   IF        %FOUND(F9999)
 C                   MOVE      COLUM1        VARIA1                 
 C                   ENDIF                                          
 ```
-  - ILE RPG not found
+- ILE RPG not found
 ```
 C     CLA999        CHAIN     F9999
 C                   IF        NOT %FOUND(F9999)
