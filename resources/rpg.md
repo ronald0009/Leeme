@@ -118,7 +118,7 @@ C                   ENDIF
 CALL PGM(MYLIB/RPG0000002) PARM('123')
 ```
 - Llamar programa con varios parametros
-  - Escribe call + f10
+  - Escribe call + f10 (+ f11 opcional)
 ```cobol
 CALL PGM(MYLIB/RPG0000002) PARM('123' '456')
 ```
