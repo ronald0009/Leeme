@@ -1,3 +1,8 @@
+# Asignar
+###### \*.SQLRPGLE
+```cobol
+C                   Z-ADD     1008          VARIABLE1
+```
 # Buscar 
 - Sin clave primaria
 ```cobol
