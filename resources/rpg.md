@@ -7,7 +7,6 @@ C                   Z-ADD     1008          VARIABLE1
 C                   MOVE      *BLANKS       VARIABLE2
  * Asignar una cadena por la izquierda
 C                   MOVEL     NEW_VAL       VARIABLE2
-MOVE      *BLANKS       F26_REFERE
 ```
 # Buscar 
 - Sin clave primaria
