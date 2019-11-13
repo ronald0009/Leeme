@@ -78,10 +78,28 @@ STRDBG PGM(MYLIB/R9999999) UPDPROD(*YES) OPMSRC(*YES)
 7. F6
 8. F10
 ###### Debug recursivo
-- Mientras se ejecuta el debug, al llegar a la linea donde se invoca otro programa usando CALL ejecutar:
-  - SHIFT + F2
-  - 1 Para añadir
-  - 5 Para ver codigo y poner punto de parada
+- SHIFT + F2. Mientras se ejecuta el debug, al llegar a la linea donde se invoca otro programa.
+```cobol
+ *
+C                   CALL      'R8888888'
+ *
+```
+- 1 + ENTER: Para añadir
+```cobol
+Opc     Progr./módulo     Biblioteca     Tipo                 
+ 1      R8888888          MYLIB          *PGM                 
+        R9999999          MYLIB          *PGM                 
+          R9999999                       *MODULE     Programas
+```
+- 5 + ENTER: Para ver codigo y poner punto de parada
+```cobol
+Opc     Progr./módulo     Biblioteca     Tipo                 
+        R8888888          MYLIB          *PGM                 
+        R8888888          MYLIB          *PGM                 
+ 5        R8888888                       *MODULE              
+        R9999999          MYLIB          *PGM                 
+          R9999999                       *MODULE     Programas
+```
 # Bloqueos
 - Liberar bloqueos
 ```cobol
