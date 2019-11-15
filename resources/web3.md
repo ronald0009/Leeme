@@ -1,3 +1,8 @@
+###### Operadores logicos
+```js
+|| // or
+&& // and
+```
 ###### If-else
 ```js
 if(c.$('myvar', 0).value != '') {
