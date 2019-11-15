@@ -1,3 +1,8 @@
+###### Combos
+- Activar, desactivar
+```js
+c.$('cboName', 0).setDisabled(false);
+```
 ###### Operadores logicos
 ```js
 || // or
