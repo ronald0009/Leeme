@@ -1,3 +1,18 @@
+###### Prefijos
+- txt, texto (oculto)
+- cbo, combo
+- chk, checkbox
+- lov, lista de valores
+###### Leer valor
+- Texto (oculto)
+```js
+var txtField = c.$('txtField', 0).value;
+```
+###### Cambia valor
+- Texto (oculto), Combo, Checkbox
+```js
+c.$('cboField', 0).changeValue('6');
+```
 ###### Combos
 - Cambiar valor
 ```js
