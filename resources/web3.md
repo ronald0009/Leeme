@@ -1,8 +1,9 @@
 ###### try catch
 ```js
 try {
+    
 } catch (err) {
-    console.log("error: " + err);
+    Estatus.mensaje(err.message, err.stack, "error");
 }
 ```
 ###### Lov
