@@ -31,10 +31,16 @@ var txtField = c.$('txtField', 0).value;
 ```js
 c.$('cboField', 0).changeValue('6');
 ```
-###### Check y uncheck
-- Checkbox
+###### Checkbox
+- Check, uncheck
 ```js
+c.$('chkField', 0).setChecked(true);
 c.$('chkField', 0).setChecked(false);
+```
+- Is checked?
+```js
+if(c.$('chkField', 0).checked){
+}
 ```
 ###### Activar o desactivar
 - Texto, Combo, Checkbox
