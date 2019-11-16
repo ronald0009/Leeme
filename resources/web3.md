@@ -15,7 +15,7 @@ callbackLov = function(lovName) {
 ```
 ###### Rango de valores
 - Combo: cadena vacia, 0, 1, ..., etc.
-- Checkbox: 0, 1
+- Checkbox: true, false
 ###### Prefijos
 - txt, texto (oculto)
 - cbo, combo
