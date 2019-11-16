@@ -17,7 +17,7 @@ var txtField = c.$('txtField', 0).value;
 c.$('cboField', 0).changeValue('6');
 ```
 ###### Activar o desactivar
-- Combo, Checkbox
+- Texto, Combo, Checkbox
 ```js
 c.$('cboName', 0).setDisabled(false);
 ```
