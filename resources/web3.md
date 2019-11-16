@@ -1,4 +1,5 @@
-###### Funciones genericas para componentes lov
+###### Lov
+- Funcion general para pre-consulta
 ```js
 preConsultaLov = function(lovName) {
   switch(lovName) {
@@ -6,6 +7,9 @@ preConsultaLov = function(lovName) {
       break;
   }
 }
+```
+- Funcion general para callback
+```js
 callbackLov = function(lovName) {
   switch(lovName) {
     case 'LOV_NAME':
@@ -13,24 +17,7 @@ callbackLov = function(lovName) {
   }
 }
 ```
-###### Rango de valores
-- Combo: cadena vacia, 0, 1, ..., etc.
-- Checkbox: true, false
-###### Prefijos
-- txt, texto (oculto)
-- cbo, combo
-- chk, checkbox
-- lov, lista de valores
-###### Leer valor
-- Texto (oculto)
-```js
-var txtField = c.$('txtField', 0).value;
-```
-###### Cambia valor
-- Texto (oculto), Combo
-```js
-c.$('cboField', 0).changeValue('6');
-```
+- Prefijo: lov
 ###### Checkbox
 - Check, uncheck
 ```js
@@ -42,11 +29,37 @@ c.$('chkField', 0).setChecked(false);
 if(c.$('chkField', 0).checked){
 }
 ```
-###### Activar o desactivar
-- Texto, Combo, Checkbox
+- Enable, disable
+```js
+c.$('chkField', 0).setDisabled(false);
+```
+- Prefijo: chk
+- Rango de valores: true, false
+###### Combo
+- Enable, disable
 ```js
 c.$('cboName', 0).setDisabled(false);
 ```
+- Cambia valor
+```js
+c.$('cboField', 0).changeValue('6');
+```
+- Prefijo: cbo
+- Rango de valores: cadena vacia, 0, 1, ..., etc.
+###### Texto
+- Enable, disable
+```js
+c.$('txtName', 0).setDisabled(false);
+```
+- Leer valor (tambien para texto oculto)
+```js
+var txtField = c.$('txtField', 0).value;
+```
+- Cambiar valor (tambien para texto oculto)
+```js
+c.$('txtField', 0).changeValue('6');
+```
+- Prefijo: txt, tambien para texto oculto
 ###### Operadores logicos
 ```js
 || // or
