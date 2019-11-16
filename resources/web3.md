@@ -34,3 +34,7 @@ if(c.$('myvar', 0).value != '') {
 myFunction = function() {
 }
 ```
+###### Llamar, invocar, etc. a una lista de valores
+```js
+c.$('lovName', 0).lv.consultar(0, {soloConsulta: true}, 'change');
+```
