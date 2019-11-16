@@ -1,3 +1,10 @@
+###### try catch
+```js
+try {
+} catch (err) {
+    console.log("error: " + err);
+}
+```
 ###### Lov
 - Funcion general para pre-consulta
 ```js
