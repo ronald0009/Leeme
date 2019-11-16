@@ -44,6 +44,11 @@ c.$('cboName', 0).setDisabled(false);
 ```js
 c.$('cboField', 0).changeValue('6');
 ```
+- Evaluar el valor
+```js
+if(c.$('cboField', 0).value == '0'){
+}
+```
 - Prefijo: cbo
 - Rango de valores: cadena vacia, 0, 1, ..., etc.
 ###### Texto
