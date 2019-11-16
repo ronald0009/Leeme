@@ -13,12 +13,8 @@ var txtField = c.$('txtField', 0).value;
 ```js
 c.$('cboField', 0).changeValue('6');
 ```
-###### Combos
-- Cambiar valor
-```js
-c.$('cboName', 0).changeValue('6');
-```
-- Activar, desactivar
+###### Activar o desactivar
+- Combo, Checkbox
 ```js
 c.$('cboName', 0).setDisabled(false);
 ```
