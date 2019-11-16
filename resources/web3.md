@@ -27,10 +27,20 @@ callbackLov = function(lovName) {
 ```
 - Prefijo: lov
 ###### Checkbox
+- Enable and check
+```js
+c.$('chkField', 0).setDisabled(false);
+c.$('chkField', 0).setChecked(true);
+```
+- Uncheck and disable
+```js
+c.$('chkField', 0).setChecked(false);
+c.$('chkField', 0).setDisabled(true);
+```
 - Check, uncheck
 ```js
+c.$('chkField', 0).setDisabled(false);
 c.$('chkField', 0).setChecked(true);
-c.$('chkField', 0).setChecked(false);
 ```
 - Is checked?
 ```js
