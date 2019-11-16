@@ -25,6 +25,15 @@ callbackLov = function(lovName) {
   }
 }
 ```
+- Funcion general para consultar
+```js
+consultarLov = function(lovName) {
+  switch(lovName) {
+    case 'LOV_NAME':
+      break;
+  }
+}
+```
 - Prefijo: lov
 ###### Checkbox
 - Enable and check
