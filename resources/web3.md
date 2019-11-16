@@ -46,11 +46,6 @@ c.$('chkField', 0).setChecked(true);
 c.$('chkField', 0).setChecked(false);
 c.$('chkField', 0).setDisabled(true);
 ```
-- Check, uncheck
-```js
-c.$('chkField', 0).setDisabled(false);
-c.$('chkField', 0).setChecked(true);
-```
 - Is checked?
 ```js
 if(c.$('chkField', 0).checked){
