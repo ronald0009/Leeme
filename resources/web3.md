@@ -12,9 +12,14 @@
 var txtField = c.$('txtField', 0).value;
 ```
 ###### Cambia valor
-- Texto (oculto), Combo, Checkbox
+- Texto (oculto), Combo
 ```js
 c.$('cboField', 0).changeValue('6');
+```
+###### Check y uncheck
+- Checkbox
+```js
+c.$('chkField', 0).setChecked(false);
 ```
 ###### Activar o desactivar
 - Texto, Combo, Checkbox
