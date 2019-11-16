@@ -1,3 +1,18 @@
+###### Funciones genericas para componentes lov
+```js
+preConsultaLov = function(lovName) {
+  switch(lovName) {
+    case 'LOV_NAME':
+      break;
+  }
+}
+callbackLov = function(lovName) {
+  switch(lovName) {
+    case 'LOV_NAME':
+      break;
+  }
+}
+```
 ###### Rango de valores
 - Combo: cadena vacia, 0, 1, ..., etc.
 - Checkbox: 0, 1
