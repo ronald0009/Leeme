@@ -1,3 +1,5 @@
+###### Rango de valores
+- Combo: cadena vacia, 0, 1, ..., etc.
 ###### Prefijos
 - txt, texto (oculto)
 - cbo, combo
