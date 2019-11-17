@@ -1,3 +1,8 @@
+###### parseFloat
+- Mejor poner al campo un NumberFormatter y obtener el valor usando la funcion que devuelve un número:
+```js
+c.$V('campo')
+```
 ###### try catch
 ```js
 try {
