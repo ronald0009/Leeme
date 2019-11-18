@@ -79,6 +79,26 @@ if(c.$('cboField', 0).value == '0'){
 - Prefijo: cbo
 - Rango de valores: cadena vacia, 0, 1, ..., etc.
 ###### Texto
+- Define metodo para validar elemento
+```js
+validaElement = function(elementName) {
+    var message = '';
+    switch (elementName) {
+        case 'ELEMENT_NAME':
+            
+            break;
+    }
+    return message;
+}
+```
+- Invocar metodo para validar elemento
+```js
+var message = validaElement('ELEMENT_NAME');
+
+if(message != '') {
+  return message;
+}
+```
 - Enable, disable
 ```js
 c.$('txtName', 0).setDisabled(false);
