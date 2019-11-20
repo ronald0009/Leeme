@@ -1,5 +1,6 @@
 - [Microservices](./resources/microservices.md)
 - [EMV](./resources/emv.md)
+- [Estandares Java](./resources/20191120112223.md)
 - [WEB3](./resources/web3.md)
 - [RPG III, IV](./resources/rpg.md)
 - [Patterns](./resources/patterns.md)
