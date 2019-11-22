@@ -35,7 +35,7 @@ callbackLov = function(lovName) {
 consultarLov = function(lovName) {
     switch (lovName) {
         case 'LOV_NAME':
-            c.$('lovName', 0).lv.consultar(0, {soloConsulta: true}, 'change');
+            c.$(lovName, 0).lv.consultar(0, {soloConsulta: true}, 'change');
             break;
     }
 }
