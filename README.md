@@ -1,3 +1,4 @@
+- [AWS Certified Cloud Practitioner](./resources/201911252152.md)
 - [Sonarqube](./resources/20191121151011.md)
 - [Microservices](./resources/microservices.md)
 - [EMV](./resources/emv.md)
