@@ -1,3 +1,4 @@
+- [Maven 3](./resources/201911290928.md)
 - [Rational Team Concert](./resources/201911281514.md)
 - [AWS Certified Cloud Practitioner](./resources/201911252152.md)
 - [Sonarqube](./resources/20191121151011.md)
