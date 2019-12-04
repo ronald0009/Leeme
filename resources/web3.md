@@ -14,6 +14,7 @@ try {
 ###### Tabs
 ```js
 Tabs.disable('tabName');
+Tabs.hide('tabName');
 ```
 ###### Lov
 - Funcion general para pre-consulta
