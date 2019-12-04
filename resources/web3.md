@@ -11,6 +11,10 @@ try {
     Estatus.mensaje(err.message, err.stack, "error");
 }
 ```
+###### Tabs
+```js
+Tabs.disable('tabName');
+```
 ###### Lov
 - Funcion general para pre-consulta
 ```js
