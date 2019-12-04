@@ -3,6 +3,11 @@
 ```js
 c.$V('campo')
 ```
+###### container
+```js
+$$('.container') [2].hide();
+$$('.container') [1].show();
+```
 ###### try catch
 ```js
 try {
