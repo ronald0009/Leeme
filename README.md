@@ -1,4 +1,5 @@
 - [iReport](./resources/20191206103334.md)
+- [DbVisualizer](./resources/20191209092829.md)
 - [Maven 3](./resources/201911290928.md)
 - [Rational Team Concert](./resources/201911281514.md)
 - [AWS Certified Cloud Practitioner](./resources/201911252152.md)
