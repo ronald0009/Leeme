@@ -4,6 +4,11 @@
   - Small services in a computing architecture.
   - Microservices architectures are often referred to as a way to "break the monolith." Where break refers to the concept of breaking (or decomposing ) a single, large program into pieces.
   - So the microservices architecture is all about creating small programs (services) as a whole. The result still needs to behave like a single entity at times, while at other times it needs to have the properties of many smaller programs.
+## Where to Use Microservices Architectures
+- A large codebase. A small code base will probably derive less benefit from being split up into logical services.
+- Enough developers to create teams devoted to individual services.
+- An operational team can support the many services in the architecture.
+- Well-defined underlying business processes.
 ## Monolithic architecture
 ### Disadvantages
 - Deployment
