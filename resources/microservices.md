@@ -1,4 +1,9 @@
 # Microservices
+## Concepts
+- What Is a Microservices Architecture?
+  - Small services in a computing architecture.
+  - Microservices architectures are often referred to as a way to "break the monolith." Where break refers to the concept of breaking (or decomposing ) a single, large program into pieces.
+  - So the microservices architecture is all about creating small programs (services) as a whole. The result still needs to behave like a single entity at times, while at other times it needs to have the properties of many smaller programs.
 ## Monolithic architecture
 ### Disadvantages
 - Deployment
