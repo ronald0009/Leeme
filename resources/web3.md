@@ -1,3 +1,7 @@
+###### F7 por codigo
+```js
+c.consultar();
+```
 ###### left join
 - Para usar left join los filtros deben ser de tipo deffered
 ###### parseFloat
@@ -24,6 +28,16 @@ Tabs.disable('tabName');
 Tabs.hide('tabName');
 ```
 ###### Lov
+- Inicializar un LOV
+```js
+resetLov = function(lovName) {
+  switch(lovName) {
+    case 'LOV_NAME':
+      c.$(lovName, 0).changeValue('');
+      break;
+  }
+}
+```
 - Funcion general para pre-consulta
 ```js
 preConsultaLov = function(lovName) {
