@@ -33,3 +33,8 @@ logFile.createNewFile();
 ```java
 connection = DriverManager.getConnection("jdbc:" 
 ```
+- Move this file to a named package.
+- Remove this unused "initialized" private field.
+```java
+private boolean initialized;
+```
