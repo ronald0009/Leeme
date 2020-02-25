@@ -50,3 +50,4 @@ Statement stmt = connection.createStatement();
 - Directly append the argument of String.valueOf().
 - Remove this assignment of "logger".
 - Static fields should not be updated in constructors.
+- Utility classes should not have public constructors.
