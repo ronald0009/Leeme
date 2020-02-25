@@ -46,3 +46,6 @@ messageText.trim();
 ```java
 Statement stmt = connection.createStatement();
 ```
+- Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+- Directly append the argument of String.valueOf().
+- Remove this assignment of "logger".
