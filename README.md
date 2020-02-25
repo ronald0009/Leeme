@@ -38,3 +38,11 @@ connection = DriverManager.getConnection("jdbc:"
 ```java
 private boolean initialized;
 ```
+- The return value of "trim" must be used.
+```java
+messageText.trim();
+```
+- Use try-with-resources or close this "Statement" in a "finally" clause.
+```java
+Statement stmt = connection.createStatement();
+```
