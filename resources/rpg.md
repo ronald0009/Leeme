@@ -1,3 +1,8 @@
+- cambiar el perfil del usuario
+```cobol
+SHIFT + F6
+CHGUSRPRF
+```
 # Asignar
 ###### \*.SQLRPGLE
 ```cobol
