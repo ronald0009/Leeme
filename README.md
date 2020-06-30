@@ -1,3 +1,7 @@
+- Move a file
+```
+move srcfile dstfile
+```
 ### SQLRPGLE
 - [Javadoc](./resources/20200626153738.java)
 - Define variables with like
