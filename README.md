@@ -1,3 +1,7 @@
+- Clone a detail
+```java
+Detail newDetail = pDetail.cloneMe();
+```
 - Move a file
 ```
 move srcfile dstfile
