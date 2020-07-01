@@ -1,17 +1,4 @@
-- Clone a detail
-```java
-Detail newDetail = pDetail.cloneMe();
-```
-- Move a file
-```
-move srcfile dstfile
-```
 ### SQLRPGLE
-- [Javadoc](./resources/20200626153738.java)
-- Define variables with like
-```
-C     *LIKE         DEFINE    OLDVAR        NEWVAR
-```
 - [iReport](./resources/20191206103334.md)
 - [DB2](./resources/20200224113132.md)
 - [DbVisualizer](./resources/20191209092829.md)
