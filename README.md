@@ -1,4 +1,9 @@
-### SQLRPGLE
+- Call between transactions with session
+```java
+RequestData.setSession(inDetail);
+RequestProcessorBySocket embedded = new RequestProcessorBySocket(inDetail);
+Detail ouDetail = embedded.process();
+```
 - [iReport](./resources/20191206103334.md)
 - [DB2](./resources/20200224113132.md)
 - [DbVisualizer](./resources/20191209092829.md)
