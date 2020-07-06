@@ -1,3 +1,14 @@
+- Pasar un parametro fecha de tipo cadena y compararlo con una columna de tipo fecha
+```xml
+<parameter name="FECHAINI" class="java.lang.String">
+	<defaultValueExpression><![CDATA["2015-05-06"]]></defaultValueExpression>
+</parameter>
+```
+```sql
+SELECT ?
+FROM ?
+WHERE CAST(COLUMNA_FECHA AS DATE) >= CAST('$P!{FECHAINI}' AS DATE)
+```
 - Jasper format Java Date
 ```java
 (new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss")).format(new Date())
