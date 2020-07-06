@@ -1,3 +1,7 @@
+- Jasper format Java Date
+```java
+(new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss")).format(new Date())
+```
 - Call between transactions with session
 ```java
 RequestData.setSession(inDetail);
