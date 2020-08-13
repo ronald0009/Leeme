@@ -38,7 +38,6 @@ Detail ouDetail = embedded.process();
 - [Fondos indexados](https://github.com/ronald0009/Leeme/blob/master/resources/fi.md)
 - [do080](https://github.com/ronald0009/Leeme/blob/master/resources/do080.md)
 - [Nateo de puertos]()
-- [Admin JBoss]()
 - [Public and private keys]()
 - [Implement memory cache with java]()
 - Los comandos deben tener un patron en el nombre que facil de consultar y sirva para relacionarlos
