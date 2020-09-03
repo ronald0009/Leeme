@@ -7,7 +7,6 @@
 - [Microservices](./resources/microservices.md)
 - [EMV](./resources/emv.md)
 - [Java](./resources/20191120112223.md)
-- [WEB3](./resources/20200123164041.md)
 - [Patterns](./resources/patterns.md)
 - [JSPs and Servlets](./resources/jspservlets.md)
 - [Best](./resources/best.md)
